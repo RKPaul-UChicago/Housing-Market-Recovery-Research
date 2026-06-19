@@ -1,0 +1,21 @@
+sector,g_k,rotemberg_alpha,beta_k
+Construction,-0.179,0.8709,-0.14
+Health care,0.0437,0.19,0.257
+Manufacturing,-0.1267,0.0758,-2.846
+Retail,-0.0607,0.0576,-2.3
+Unclassified,-1,0.0514,-0.662
+Agriculture,-0.1062,0.0412,1.368
+Admin/Support/Waste,-0.0924,0.0302,0.023
+Real estate,-0.0843,0.023,-0.686
+Education,0.053,0.0167,-2.181
+Utilities,0.0302,0.0086,-2.216
+Other services,-0.0463,0.004,0.957
+Accommodation/Food,-0.0105,0.0029,-5.682
+Wholesale,-0.023,-0.0004,-70.799
+Arts/Entertainment,0.0009,-0.0011,-0.401
+Mgmt of companies,-0.0858,-0.0096,-2.691
+Transport/Warehouse,-0.0537,-0.017,-1.041
+Finance/Insurance,-0.0577,-0.0186,-1.616
+Information,-0.0327,-0.0209,-0.867
+Prof/Sci/Tech,-0.0416,-0.027,-1.417
+Mining/Oil-Gas,-0.1373,-0.2778,-1.063

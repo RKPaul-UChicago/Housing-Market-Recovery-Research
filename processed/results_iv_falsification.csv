@@ -1,0 +1,7 @@
+test,outcome,coef,p_hc,p_clust,p_conley
+Bartik  -> COVID 2019-21 (ref),Y_1921,-0.015,0.879,0.868,0.898
+HMDA    -> COVID 2019-21 (ref),Y_1921,0.313,0.023,0.16,0.145
+Bartik  -> pre 2012-19 (uncond.),pre_1219,-1.628,0,0,0
+HMDA    -> pre 2012-19 (uncond.),pre_1219,0.213,0.518,0.716,0.673
+Bartik  -> pre 2012-19 | D,pre_1219,-1.071,0,0,0
+HMDA    -> pre 2012-19 | D,pre_1219,-0.554,0.079,0.232,0.255

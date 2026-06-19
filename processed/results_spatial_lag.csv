@@ -1,0 +1,7 @@
+term,estimate,std_error,z_value,p_value,n_obs,ols_moran_i,ols_moran_pvalue,model
+rho (spatial lag),0.8434653635082673,0.011688725953226831,NA,NA,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"
+(Intercept),-2.4930094656192052,0.33157390338007214,-7.5187143505728535,5.5289106626332796e-14,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"
+real_value_2012,-4.8265876824487e-7,4.469235536264121e-8,-10.799582262525579,0,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"
+log_med_inc,0.23904639026639066,0.028849025778714003,8.28611656074601,2.220446049250313e-16,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"
+risk_score,1.1210576808935485e-4,1.891167928658637e-4,0.5927858990759692,0.5533244457779765,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"
+sovi_score,0.0023792809172236977,3.6612964708272093e-4,6.49846560141069,8.114331428998867e-11,2310,0.6832,0,"Spatial Lag (Queen contiguity, row-std. W)"

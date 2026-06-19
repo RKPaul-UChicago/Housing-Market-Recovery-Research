@@ -1,0 +1,2379 @@
+puma_geoid,state_fips,puma_code,puma_name
+0102200,01,02200,Southwest Alabama PUMA
+0101700,01,01700,"Dallas, Bibb, Marengo, Hale, Sumter, Perry & Greene Counties PUMA"
+0101500,01,01500,Tuscaloosa (Outer) & Pickens Counties--Northport City (North & West) PUMA
+0101400,01,01400,"Walker, Marion (South & West), Fayette & Lamar Counties PUMA"
+0100100,01,00100,"Lauderdale, Colbert, Franklin & Marion (Northeast) Counties PUMA"
+0100200,01,00200,Limestone & Madison (Outer) Counties--Huntsville City (Far West & Southwest) PUMA
+0100400,01,00400,DeKalb & Jackson Counties PUMA
+0101000,01,01000,"Talladega, Cherokee, Randolph, Cleburne & Clay Counties PUMA"
+0101800,01,01800,"Chilton, Tallapoosa, Chambers & Coosa Counties PUMA"
+0101900,01,01900,Lee County--Auburn City PUMA
+0102400,01,02400,"Russell, Pike, Barbour, Macon & Bullock Counties PUMA"
+0102500,01,02500,"Houston, Dale, Geneva & Henry Counties--Dothan City PUMA"
+0102300,01,02300,"Coffee, Covington, Butler & Crenshaw Counties PUMA"
+0102600,01,02600,Baldwin County PUMA
+0102703,01,02703,"Mobile County (Outer)--Prichard City, Tillmans Corner & Saraland City PUMA"
+0100600,01,00600,Morgan & Lawrence Counties--Decatur City PUMA
+0101100,01,01100,Calhoun County PUMA
+0102701,01,02701,Mobile City (East) PUMA
+0101600,01,01600,Tuscaloosa & Northport (Southeast) Cities PUMA
+0100700,01,00700,Cullman & Winston Counties PUMA
+0100301,01,00301,Huntsville (North) & Madison (East) Cities PUMA
+0100302,01,00302,Huntsville City (Central & South) PUMA
+0100500,01,00500,Marshall & Madison (Southeast) Counties--Huntsville City (Far Southeast) PUMA
+0100900,01,00900,Etowah County PUMA
+0102702,01,02702,Mobile City (West) PUMA
+0101305,01,01305,"Jefferson County (West)--Bessemer, Hueytown & Pleasant Grove Cities PUMA"
+0102100,01,02100,"Elmore, Autauga, Montgomery (Outer) & Lowndes Counties PUMA"
+0102000,01,02000,Montgomery City & Pike Road Town (North) PUMA
+0101200,01,01200,Shelby County PUMA
+0101304,01,01304,"Jefferson County (Northeast)--Trussville, Center Point & Gardendale Cities PUMA"
+0100800,01,00800,St. Clair & Blount Counties PUMA
+0101303,01,01303,"Jefferson County (Southeast)--Hoover (North), Vestavia Hills & Homewood Cities PUMA"
+0101301,01,01301,Birmingham City (West) PUMA
+0101302,01,01302,Birmingham City (East) PUMA
+0200400,02,00400,Subsistence Alaska PUMA
+0200300,02,00300,"Greater Fairbanks, Greater Juneau, Ketchikan Gateway Borough & Road-Connected Alaska PUMA"
+0200200,02,00200,Matanuska-Susitna & Kenai Peninsula Boroughs PUMA
+0200101,02,00101,Anchorage Municipality (North) PUMA
+0200102,02,00102,Anchorage Municipality (South) PUMA
+0400127,04,00127,Maricopa County--Peoria City (South & Central) PUMA
+0400126,04,00126,Maricopa County--Glendale City (North) PUMA
+0400128,04,00128,Phoenix City (North) PUMA
+0400110,04,00110,Maricopa County--Scottsdale City (Southwest) & Paradise Valley Town PUMA
+0400109,04,00109,Maricopa County--Tempe City (North) PUMA
+0400106,04,00106,Maricopa County--Chandler City (Northeast) PUMA
+0400119,04,00119,Phoenix City (South) PUMA
+0400123,04,00123,Phoenix City--Maryvale (West) PUMA
+0400105,04,00105,Maricopa County--Gilbert Town (North) PUMA
+0400115,04,00115,Phoenix City (Northwest Central) PUMA
+0400114,04,00114,Phoenix City (Northeast Central) PUMA
+0400113,04,00113,Phoenix City (Northeast) PUMA
+0400117,04,00117,Phoenix City (East) PUMA
+0400118,04,00118,Phoenix City--Downtown & Sky Harbor International Airport PUMA
+0400103,04,00103,Maricopa County--Mesa City (West) PUMA
+0400104,04,00104,Maricopa County--Mesa City (South Central) PUMA
+0400122,04,00122,Phoenix City--Maryvale (East) PUMA
+0400116,04,00116,Phoenix City (Uptown) PUMA
+0400125,04,00125,Phoenix City (West) PUMA
+0400132,04,00132,"Maricopa County--Goodyear, Glendale (West) & Litchfield Park (Northwest) Cities PUMA"
+0400131,04,00131,Maricopa County--Surprise City (Central) PUMA
+0400130,04,00130,Maricopa County--El Mirage City & Sun City PUMA
+0400129,04,00129,Phoenix (Far North) & Peoria (Northwest) Cities PUMA
+0400111,04,00111,Maricopa County (Northeast)--Scottsdale City (Southeast) & Fountain Hills Town PUMA
+0400206,04,00206,Tucson City (Northeast) PUMA
+0400209,04,00209,Tucson City (Southeast) PUMA
+0400207,04,00207,Tucson City (Northwest) PUMA
+0400107,04,00107,Maricopa County--Chandler City (South) PUMA
+0400133,04,00133,Maricopa County--Avondale (Central) & Litchfield Park (Central) Cities PUMA
+0400112,04,00112,"Maricopa County--Scottsdale (North), Phoenix (Far Northeast) Cities & Cave Creek PUMA"
+0400102,04,00102,Maricopa County--Mesa City (North Central) PUMA
+0400101,04,00101,Maricopa County--Mesa City (East) PUMA
+0400803,04,00803,Pinal County (North)--Apache Junction City PUMA
+0400100,04,00100,Maricopa County--Gilbert (South) & Queen Creek Towns PUMA
+0400108,04,00108,Maricopa County--Tempe (South) & Chandler (Northwest) Cities PUMA
+0400120,04,00120,Phoenix City--Ahwatukee & South Mountain PUMA
+0400121,04,00121,Phoenix (Southwest) & Tolleson Cities PUMA
+0400124,04,00124,Maricopa County--Glendale City (South) PUMA
+0400700,04,00700,Yuma County--Yuma City PUMA
+0400600,04,00600,Mohave & La Paz Counties--Lake Havasu City PUMA
+0400400,04,00400,Coconino County--Flagstaff City PUMA
+0400300,04,00300,Navajo & Apache Counties PUMA
+0400800,04,00800,"Gila, Graham, Greenlee & Pinal (East) Counties PUMA"
+0400900,04,00900,Cochise & Santa Cruz Counties--Sierra Vista City PUMA
+0400201,04,00201,Pima County (West) PUMA
+0400205,04,00205,Pima County (Southeast)--Tucson City (Far Southeast) & Sahuarita Town PUMA
+0400202,04,00202,Tucson (West) & Marana Cities PUMA
+0400807,04,00807,"Pinal County (West)--Maricopa, Casa Grande & Eloy (Southeast) Cities PUMA"
+0400134,04,00134,Maricopa County (West) & Gila River Indian Community (Northwest) PUMA
+0400500,04,00500,Yavapai County PUMA
+0400204,04,00204,Pima County (Northeast) PUMA
+0400208,04,00208,Tucson City (South) PUMA
+0400805,04,00805,"Pinal County (Central)--Florence Town, Eloy (Northeast) & Coolidge Cities PUMA"
+0400203,04,00203,Pima County (North Central)--Oro Valley Town PUMA
+0500100,05,00100,Benton County PUMA
+0500300,05,00300,"Baxter, Boone, Carroll, Marion, Madison, Newton & Searcy Counties PUMA"
+0500400,05,00400,"Independence, Cleburne, Van Buren, Sharp, Izard, Stone & Fulton Counties PUMA"
+0500500,05,00500,"Craighead (West), Greene, Randolph, Lawrence & Clay Counties PUMA"
+0500600,05,00600,"Crittenden, Mississippi & Craighead (East) Counties PUMA"
+0500700,05,00700,"St. Francis, Poinsett, Phillips, Cross, Lee & Monroe Counties PUMA"
+0501800,05,01800,Southeast Arkansas PUMA
+0501900,05,01900,South Central Arkansas PUMA
+0502000,05,02000,Southwest Arkansas PUMA
+0501500,05,01500,"Logan, Polk, Franklin, Sevier, Howard & Scott Counties PUMA"
+0501400,05,01400,Sebastian & Crawford Counties PUMA
+0500200,05,00200,Washington County PUMA
+0501600,05,01600,"Garland, Hot Spring, Clark & Montgomery Counties PUMA"
+0501300,05,01300,"Pope, Johnson, Yell, Conway & Perry Counties PUMA"
+0500800,05,00800,"White, Jackson, Prairie & Woodruff Counties PUMA"
+0501700,05,01700,"Jefferson, Grant & Arkansas (Northwest) Counties PUMA"
+0501100,05,01100,Faulkner & Lonoke Counties PUMA
+0500900,05,00900,"Pulaski County (Outer)--North Little Rock, Sherwood & Jacksonville Cities PUMA"
+0501200,05,01200,Saline County PUMA
+0501000,05,01000,Pulaski County (Central)--Little Rock City PUMA
+0607105,06,07105,San Bernardino County (Southwest)--Redlands & Yucaipa Cities PUMA
+0606503,06,06503,Riverside County (Southwest)--Temecula City PUMA
+0607306,06,07306,San Diego County (Northwest)--Escondido City (East) PUMA
+0607318,06,07318,San Diego County (South)--San Diego City (Southeast/Encanto & Skyline) PUMA
+0606505,06,06505,"Riverside County (Southwest)--Menifee, Lake Elsinore & Canyon Lake Cities PUMA"
+0605912,06,05912,"Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities PUMA"
+0603763,06,03763,Los Angeles County (South Central)--Long Beach City (North) PUMA
+0603762,06,03762,Los Angeles County (South Central)--Carson City PUMA
+0603729,06,03729,Los Angeles County (West Central)--LA City (West Central/Westwood & West Los Angeles) PUMA
+0603724,06,03724,Los Angeles County (Northwest)--LA City (Northwest/Encino & Tarzana) PUMA
+0601500,06,01500,"Del Norte, Lassen, Modoc, Plumas & Siskiyou Counties PUMA"
+0603746,06,03746,Los Angeles County--LA City (Central/Univ. of Southern California & Exposition Park) PUMA
+0603721,06,03721,Los Angeles County (North)--LA City (Northeast/North Hollywood & Valley Village) PUMA
+0603737,06,03737,Los Angeles County (Central)--Monterey Park & Rosemead Cities PUMA
+0603754,06,03754,Los Angeles County (Southeast)--La Mirada & Santa Fe Springs Cities PUMA
+0603755,06,03755,Los Angeles County (Southeast)--Norwalk City PUMA
+0603752,06,03752,Los Angeles County (South)--South Gate & Lynwood Cities PUMA
+0603742,06,03742,"Los Angeles County (Central)--Huntington Park City, Florence-Graham & Walnut Park PUMA"
+0605302,06,05302,Monterey County (Northeast)--Salinas City PUMA
+0608501,06,08501,"Santa Clara County (Northwest)--Mountain View, Palo Alto & Los Altos Cities PUMA"
+0608106,06,08106,"San Mateo County (Southeast)--Menlo Park, East Palo Alto Cities & Atherton Town PUMA"
+0608105,06,08105,"San Mateo County (East Central)--Redwood City, San Carlos & Belmont Cities PUMA"
+0608103,06,08103,"San Mateo County (Central)--San Mateo (North), Burlingame & Millbrae Cities PUMA"
+0608102,06,08102,"San Mateo County (North Central)--South San Francisco, San Bruno & Brisbane Cities PUMA"
+0607504,06,07504,San Francisco County (Central)--Inner Mission & Castro PUMA
+0607502,06,07502,San Francisco County (North & East)--North Beach & Chinatown PUMA
+0604102,06,04102,"Marin County (Southeast)--San Rafael (South), Mill Valley & Sausalito Cities PUMA"
+0609702,06,09702,"Sonoma County (South)--Petaluma, Rohnert Park & Cotati Cities PUMA"
+0600701,06,00701,Butte County (Northwest)--Chico City PUMA
+0609903,06,09903,"Stanislaus County (Northeast)--Turlock, Riverbank, Oakdale & Waterford Cities PUMA"
+0604702,06,04702,Merced County (Northeast)--Merced & Atwater Cities PUMA
+0604701,06,04701,Merced County (West & South)--Los Banos & Livingston Cities PUMA
+0601902,06,01902,Fresno County (North Central)--Fresno City (North) PUMA
+0601906,06,01906,Fresno County (Central)--Clovis City PUMA
+0610701,06,10701,Tulare County (Northwest)--Visalia City PUMA
+0602902,06,02902,Kern County (Central)--Bakersfield City (West) PUMA
+0605908,06,05908,"Orange County (Northwest)--Buena Park, Cypress & Seal Beach Cities PUMA"
+0603765,06,03765,Los Angeles County (Southeast)--Long Beach City (East) PUMA
+0603769,06,03769,Los Angeles County (Southeast)--Long Beach (Central) & Signal Hill Cities PUMA
+0603766,06,03766,Los Angeles County (South)--Long Beach City (Southwest & Port) PUMA
+0603767,06,03767,Los Angeles County (South)--LA City (South/San Pedro) PUMA
+0603748,06,03748,Los Angeles County--LA (Southwest/Marina del Rey & Westchester) & Culver City Cities PUMA
+0603728,06,03728,Los Angeles County (Southwest)--Santa Monica City PUMA
+0603727,06,03727,Los Angeles County (Central)--LA City (Central/Pacific Palisades) PUMA
+0611103,06,11103,Ventura County (Southwest)--Oxnard & Port Hueneme Cities PUMA
+0611104,06,11104,Ventura County (Southwest)--San Buenaventura (Ventura) City PUMA
+0611105,06,11105,"Ventura County (North)--Santa Paula, Fillmore & Ojai Cities PUMA"
+0608302,06,08302,"Santa Barbara County (North)--Lompoc, Guadalupe, Solvang & Buellton Cities PUMA"
+0605301,06,05301,"Monterey County (North Central)--Seaside, Monterey, Marina & Pacific Grove Cities PUMA"
+0608701,06,08701,Santa Cruz County (North)--Watsonville & Scotts Valley Cities PUMA
+0608101,06,08101,"San Mateo County (North Central)--Daly City, Pacifica Cities & Colma Town PUMA"
+0607506,06,07506,San Francisco County (South Central)--Sunset District (South) PUMA
+0607901,06,07901,San Luis Obispo County (West)--Coastal Region PUMA
+0605303,06,05303,Monterey (South & East) & San Benito Counties PUMA
+0608702,06,08702,Santa Cruz County (South & Coastal)--Santa Cruz City PUMA
+0608104,06,08104,San Mateo County (South & West)--San Mateo (South) & Half Moon Bay Cities PUMA
+0607501,06,07501,San Francisco County (North & West)--Richmond District PUMA
+0604101,06,04101,Marin County (North & West)--Novato & San Rafael (North) Cities PUMA
+0609701,06,09701,"Sonoma County (North)--Windsor Town, Healdsburg & Sonoma Cities PUMA"
+0603300,06,03300,Lake & Mendocino Counties PUMA
+0602300,06,02300,Humboldt County PUMA
+0608900,06,08900,Shasta County--Redding City PUMA
+0610100,06,10100,Sutter & Yuba Counties--Yuba City PUMA
+0603900,06,03900,Madera County--Madera City PUMA
+0601907,06,01907,"Fresno County (East)--Sanger, Reedley & Parlier Cities PUMA"
+0610703,06,10703,"Tulare County (Outside Visalia, Tulare & Porterville Cities) PUMA"
+0602905,06,02905,"Kern County (East)--Ridgecrest, Arvin, Tehachapi & California City Cities PUMA"
+0606515,06,06515,"Riverside County--Palm Desert, La Quinta (West) & Desert Hot Springs Cities PUMA"
+0607307,06,07307,"San Diego County (Central)--Lakeside, Winter Gardens & Ramona PUMA"
+0607505,06,07505,San Francisco County (Central)--Sunset District (North) PUMA
+0606711,06,06711,"Sacramento County (South)--Galt, Isleton Cities & Delta Region PUMA"
+0607704,06,07704,"San Joaquin County (North)--Lodi, Ripon & Escalon Cities PUMA"
+0609901,06,09901,"Stanislaus County (Southwest)--Ceres, Patterson & Newman Cities PUMA"
+0601904,06,01904,Fresno County (Central)--Fresno City (Southwest) PUMA
+0601903,06,01903,Fresno County (Central)--Fresno City (East Central) PUMA
+0601905,06,01905,Fresno County (Central)--Fresno City (Southeast) PUMA
+0608512,06,08512,Santa Clara County (Central)--San Jose City (Southwest/Almaden Valley) PUMA
+0608502,06,08502,Santa Clara County (Northwest)--Sunnyvale & San Jose (North) Cities PUMA
+0600108,06,00108,"Alameda County (Southwest)--Union City, Newark & Fremont (West) Cities PUMA"
+0600107,06,00107,Alameda County (Central)--Hayward City PUMA
+0600101,06,00101,Alameda County (North)--Berkeley & Albany Cities PUMA
+0601301,06,01301,Contra Costa County (Far Southwest)--Richmond (Southwest) & San Pablo Cities PUMA
+0601303,06,01303,"Contra Costa County (Northwest)--Concord (West), Martinez & Pleasant Hill Cities PUMA"
+0609501,06,09501,Solano County (Southwest)--Vallejo & Benicia Cities PUMA
+0605500,06,05500,Napa County--Napa City PUMA
+0611300,06,11300,"Yolo County--Davis, Woodland & West Sacramento Cities PUMA"
+0606705,06,06705,Sacramento County (Northwest)--Sacramento City (Northwest/Natomas) PUMA
+0606706,06,06706,"Sacramento County (North)--Sacramento City (North), Antelope & Rio Linda PUMA"
+0603725,06,03725,"Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills) PUMA"
+0608506,06,08506,"Santa Clara County (East)--Gilroy, Morgan Hill & San Jose (South) Cities PUMA"
+0608507,06,08507,"Santa Clara County (Southwest)--Cupertino, Saratoga Cities & Los Gatos Town PUMA"
+0607507,06,07507,San Francisco County (South Central)--Bayview & Hunters Point PUMA
+0607320,06,07320,San Diego County (Southwest)--Sweetwater Region--Chula Vista City (East) PUMA
+0607316,06,07316,San Diego County (South Central)--San Diego City (Central/Centre City & Balboa Park) PUMA
+0607309,06,07309,San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities PUMA
+0607304,06,07304,San Diego County (Northwest)--Carlsbad City PUMA
+0607301,06,07301,San Diego County (Northwest)--Oceanside City & Camp Pendleton PUMA
+0605901,06,05901,"Orange County (Southwest)--San Clemente, Laguna Niguel & San Juan Capistrano Cities PUMA"
+0605903,06,05903,"Orange County (West Central)--Newport Beach, Aliso Viejo & Laguna Hills Cities PUMA"
+0605918,06,05918,Orange County (Central)--Costa Mesa & Fountain Valley Cities PUMA
+0607112,06,07112,San Bernardino County (Southwest)--Upland & Montclair Cities PUMA
+0607111,06,07111,San Bernardino County (Southwest)--Rancho Cucamonga City PUMA
+0607115,06,07115,San Bernardino County (Southwest)--Fontana City (West) PUMA
+0607108,06,07108,San Bernardino County (Southwest)--San Bernardino City (West) PUMA
+0607106,06,07106,"San Bernardino County (Southwest)--Colton, Loma Linda & Grand Terrace Cities PUMA"
+0606508,06,06508,Riverside County (Northwest)--Moreno Valley City PUMA
+0606512,06,06512,"Riverside County (West Central)--Corona City (South), Woodcrest & Home Gardens PUMA"
+0605917,06,05917,Orange County (Central)--Santa Ana City (East) PUMA
+0605916,06,05916,Orange County (Central)--Santa Ana City (West) PUMA
+0603757,06,03757,Los Angeles County (South Central)--Compton City & West Rancho Dominguez PUMA
+0603750,06,03750,Los Angeles County (South Central)--LA City (South Central/Westmont) PUMA
+0603747,06,03747,Los Angeles County (Central)--LA City (Central/West Adams & Baldwin Hills) PUMA
+0611101,06,11101,Ventura County (Southeast)--Simi Valley City PUMA
+0603705,06,03705,Los Angeles County (North)--LA City (Northwest/Chatsworth & Porter Ranch) PUMA
+0603706,06,03706,Los Angeles County (North)--LA City (North Central/Granada Hills & Sylmar) PUMA
+0603707,06,03707,Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities PUMA
+0602901,06,02901,"Kern County (West)--Delano, Wasco & Shafter Cities PUMA"
+0602903,06,02903,Kern County (Central)--Bakersfield City (Northeast) PUMA
+0603701,06,03701,Los Angeles County (North/Unincorporated)--Castaic PUMA
+0607102,06,07102,San Bernardino County (West Central)--Victorville & Adelanto Cities PUMA
+0607103,06,07103,San Bernardino County (West Central)--Hesperia City & Apple Valley Town PUMA
+0603745,06,03745,Los Angeles County (Central)--LA City (Southeast/East Vernon) PUMA
+0603732,06,03732,Los Angeles County (Central)--LA City (East Central/Hollywood) PUMA
+0603739,06,03739,Los Angeles County (Southeast)--Whittier City & Hacienda Heights PUMA
+0603753,06,03753,Los Angeles County (South)--Downey City PUMA
+0603734,06,03734,"Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake) PUMA"
+0601100,06,01100,"Colusa, Glenn, Tehama & Trinity Counties PUMA"
+0600702,06,00702,Butte County (Southeast)--Oroville City & Paradise Town PUMA
+0610702,06,10702,Tulare County (West Central)--Tulare & Porterville Cities PUMA
+0605700,06,05700,Nevada & Sierra Counties PUMA
+0606103,06,06103,Placer County (East/High Country Region)--Auburn & Colfax Cities PUMA
+0601700,06,01700,El Dorado County--El Dorado Hills PUMA
+0600300,06,00300,"Alpine, Amador, Calaveras, Inyo, Mariposa, Mono & Tuolumne Counties PUMA"
+0607101,06,07101,San Bernardino County (Northeast)--Twentynine Palms & Barstow Cities PUMA
+0606501,06,06501,"Riverside County (East)--Indio, Coachella, Blythe & La Quinta (East) Cities PUMA"
+0602500,06,02500,Imperial County--El Centro City PUMA
+0607302,06,07302,"San Diego County (North & East)--Fallbrook, Alpine & Valley Center PUMA"
+0607319,06,07319,"San Diego County (South Central)--Lemon Grove City, La Presa & Spring Valley PUMA"
+0607322,06,07322,San Diego County (South)--San Diego City (South/Otay Mesa & South Bay) PUMA
+0607310,06,07310,San Diego County (West)--San Diego City (Southwest/Central Coastal) PUMA
+0605914,06,05914,Orange County (Northwest)--Huntington Beach City PUMA
+0603768,06,03768,Los Angeles County (Southwest)--Palos Verdes Peninsula PUMA
+0603760,06,03760,"Los Angeles County--Redondo Beach, Manhattan Beach & Hermosa Beach Cities PUMA"
+0603726,06,03726,"Los Angeles County--Calabasas, Agoura Hills, Malibu & Westlake Village Cities PUMA"
+0611106,06,11106,Ventura County (South Central)--Camarillo & Moorpark Cities PUMA
+0608303,06,08303,Santa Barbara County--South Coast Region PUMA
+0603733,06,03733,Los Angeles County (Central)--LA City (Central/Koreatown) PUMA
+0603740,06,03740,Los Angeles County (Central)--Pico Rivera & Montebello Cities PUMA
+0603744,06,03744,Los Angeles County (Central)--LA City (East Central/Central City & Boyle Heights) PUMA
+0603741,06,03741,"Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities PUMA"
+0603743,06,03743,Los Angeles County (Central)--East Los Angeles PUMA
+0603703,06,03703,Los Angeles County (North Central)--Lancaster City PUMA
+0603713,06,03713,Los Angeles County (East Central)--Covina & Walnut Cities PUMA
+0603712,06,03712,Los Angeles County (East Central)--Pomona City PUMA
+0607110,06,07110,San Bernardino County (Southwest)--Fontana City (East) PUMA
+0606511,06,06511,Riverside County (Northwest)--Riverside City (West) PUMA
+0607114,06,07114,San Bernardino County (Southwest)--Chino & Chino Hills Cities PUMA
+0605913,06,05913,Orange County (Northwest)--Garden Grove City (East) PUMA
+0603735,06,03735,"Los Angeles County--LA City (Mount Washington, Highland Park & Glassell Park) PUMA"
+0603716,06,03716,Los Angeles County (East Central)--La Puente & Industry Cities PUMA
+0607113,06,07113,San Bernardino County (Southwest)--Ontario City PUMA
+0603756,06,03756,Los Angeles County (Southeast)--Bellflower & Paramount Cities PUMA
+0603751,06,03751,Los Angeles County (South Central)--LA City (South Central/Watts) PUMA
+0603730,06,03730,Los Angeles County (West Central)--LA City (Central/Hancock Park & Mid-Wilshire) PUMA
+0601305,06,01305,Contra Costa County (South)--San Ramon City & Danville Town PUMA
+0608514,06,08514,Santa Clara County (Central)--San Jose City (East Central/East Valley) PUMA
+0608511,06,08511,Santa Clara County (Central)--San Jose City (South Central/Branham) & Cambrian Park PUMA
+0608503,06,08503,Santa Clara County (Northwest)--San Jose (Northwest) & Santa Clara Cities PUMA
+0608510,06,08510,Santa Clara County (Central)--San Jose City (Central) PUMA
+0608509,06,08509,Santa Clara County (Central)--San Jose City (Northwest) PUMA
+0600103,06,00103,Alameda County (Northeast)--Oakland (East) & Piedmont Cities PUMA
+0609503,06,09503,Solano County (Northeast)--Vacaville & Dixon Cities PUMA
+0606709,06,06709,"Sacramento County--Sacramento City (Southwest/Pocket, Meadowview & North Laguna) PUMA"
+0606707,06,06707,Sacramento County (West)--Sacramento City (Central/Downtown & Midtown) PUMA
+0606701,06,06701,Sacramento County (North Central)--Citrus Heights City PUMA
+0601308,06,01308,Contra Costa County (Northeast)--Antioch City PUMA
+0601306,06,01306,"Contra Costa County (Central)--Concord (South), Walnut Creek (East) & Clayton Cities PUMA"
+0601304,06,01304,"Contra Costa County--Walnut Creek (West), Lafayette, Orinda Cities & Moraga Town PUMA"
+0609502,06,09502,Solano County (Central)--Fairfield & Suisun City Cities PUMA
+0601307,06,01307,Contra Costa County (North Central)--Pittsburg & Concord (North & East) Cities PUMA
+0606703,06,06703,"Sacramento County (North Central)--Arden-Arcade, Carmichael & Fair Oaks (West) PUMA"
+0602904,06,02904,Kern County (Central)--Bakersfield City (Southeast) PUMA
+0607503,06,07503,San Francisco County (Central)--South of Market & Potrero PUMA
+0600105,06,00105,"Alameda County (West)--San Leandro, Alameda & Oakland (Southwest) Cities PUMA"
+0600102,06,00102,Alameda County (Northwest)--Oakland (Northwest) & Emeryville Cities PUMA
+0601302,06,01302,"Contra Costa County (Far Northwest)--Richmond (North), Hercules & El Cerrito Cites PUMA"
+0609703,06,09703,Sonoma County (Central)--Santa Rosa City PUMA
+0606101,06,06101,Placer County (Southwest)--Roseville City PUMA
+0606102,06,06102,"Placer County (Central)--Rocklin, Lincoln Cities & Loomis Town PUMA"
+0606712,06,06712,"Sacramento County (Northeast)--Folsom City, Orangevale & Fair Oaks (East) PUMA"
+0603708,06,03708,"Los Angeles County (North)--LA City (Northeast/Sunland, Sun Valley & Tujunga) PUMA"
+0603719,06,03719,Los Angeles County (Central)--Glendale City PUMA
+0603717,06,03717,"Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities PUMA"
+0607109,06,07109,San Bernardino County (Southwest)--Rialto City PUMA
+0606510,06,06510,Riverside County (Northwest)--Riverside City (East) PUMA
+0606513,06,06513,Riverside County (West Central)--Corona (Northwest) & Norco Cities PUMA
+0606514,06,06514,Riverside County (Northwest)--Jurupa Valley & Eastvale Cities PUMA
+0605906,06,05906,"Orange County (North)--Yorba Linda, La Habra & Brea Cities PUMA"
+0605910,06,05910,Orange County (North Central)--Anaheim City (East) PUMA
+0605911,06,05911,Orange County (Central)--Orange & Villa Park Cities PUMA
+0606702,06,06702,Sacramento County (Central)--Rancho Cordova City PUMA
+0606708,06,06708,"Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park) PUMA"
+0607701,06,07701,San Joaquin County (Central)--Stockton City (North) PUMA
+0609904,06,09904,Stanislaus County (Central)--Modesto City (East) PUMA
+0600110,06,00110,"Alameda County (East)--Livermore, Pleasanton & Dublin Cities PUMA"
+0608504,06,08504,Santa Clara County (North Central)--Milpitas & San Jose (Northeast) Cities PUMA
+0608505,06,08505,Santa Clara County (North Central)--San Jose City (East Central) & Alum Rock PUMA
+0608513,06,08513,Santa Clara County (Central)--San Jose City (Southeast/Evergreen) PUMA
+0608508,06,08508,Santa Clara County (Central)--San Jose (West Central) & Campbell Cities PUMA
+0600109,06,00109,Alameda County (South Central)--Fremont City (East) PUMA
+0600106,06,00106,"Alameda County (North Central)--Castro Valley, San Lorenzo & Ashland PUMA"
+0600104,06,00104,Alameda County (North Central)--Oakland City (South Central) PUMA
+0606704,06,06704,"Sacramento County (North Central)--North Highlands, Foothill Farms & McClellan Park PUMA"
+0606710,06,06710,Sacramento County (Central)--Elk Grove City PUMA
+0607702,06,07702,San Joaquin County (Central)--Stockton City (South) PUMA
+0607703,06,07703,"San Joaquin County (South)--Tracy, Manteca & Lathrop Cities PUMA"
+0609902,06,09902,Stanislaus County (Central)--Modesto City (West) PUMA
+0601309,06,01309,Contra Costa County (East)--Brentwood & Oakley Cities PUMA
+0603704,06,03704,Los Angeles County (North Central)--Palmdale City PUMA
+0607107,06,07107,San Bernardino County (Southwest)--San Bernardino City (East) PUMA
+0606506,06,06506,Riverside County (Southwest)--Hemet City & East Hemet PUMA
+0607308,06,07308,San Diego County (Central)--San Diego (Northeast/Rancho Bernardo) & Poway Cities PUMA
+0607314,06,07314,San Diego County (Central)--San Diego (East Central/Navajo) & La Mesa Cities PUMA
+0607317,06,07317,San Diego County (South Central)--San Diego City (Central/Mid-City) PUMA
+0607305,06,07305,San Diego County (Northwest)--San Marcos & Escondido (West) Cities PUMA
+0607303,06,07303,San Diego County (Northwest)--Vista City PUMA
+0606504,06,06504,Riverside County (Southwest)--Murrieta & Wildomar Cities PUMA
+0606509,06,06509,"Riverside County (West Central)--Perris City, Temescal Valley & Mead Valley PUMA"
+0605905,06,05905,"Orange County (Northeast)--Lake Forest, Irvine (North) Cities & Silverado PUMA"
+0605902,06,05902,Orange County (South Central)--Mission Viejo & Rancho Santa Margarita (West) Cities PUMA
+0603758,06,03758,"Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens PUMA"
+0603702,06,03702,Los Angeles County (Northwest)--Santa Clarita City PUMA
+0603709,06,03709,Los Angeles County (Central)--San Gabriel Valley Region (North) PUMA
+0603710,06,03710,"Los Angeles County--Baldwin Park, Azusa, Duarte & Irwindale Cities PUMA"
+0603711,06,03711,"Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities PUMA"
+0603723,06,03723,Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City) PUMA
+0603720,06,03720,Los Angeles County (Central)--Burbank City PUMA
+0603736,06,03736,Los Angeles County (Central)--Alhambra & South Pasadena Cities PUMA
+0603714,06,03714,"Los Angeles County--Diamond Bar, La Habra Heights (East) Cities & Rowland Heights PUMA"
+0605907,06,05907,Orange County (North Central)--Fullerton & Placentia Cities PUMA
+0607104,06,07104,"San Bernardino County (Southwest)--Phelan, Lake Arrowhead & Big Bear City PUMA"
+0606507,06,06507,"Riverside County (North Central)--San Jacinto, Beaumont, Banning & Calimesa Cities PUMA"
+0606502,06,06502,"Riverside County (Central)--Cathedral City, Palm Springs & Rancho Mirage Cities PUMA"
+0607313,06,07313,San Diego County (Central)--El Cajon & Santee Cities PUMA
+0607321,06,07321,San Diego County (Southwest)--Chula Vista (West) & National City Cities PUMA
+0607315,06,07315,San Diego County (West Central)--San Diego City (Central/Clairemont & Kearny Mesa) PUMA
+0607312,06,07312,San Diego County (Central)--San Diego City (Central/Mira Mesa & University Heights) PUMA
+0607311,06,07311,San Diego County (West Central)--San Diego City (Northwest/Del Mar Mesa) PUMA
+0605915,06,05915,Orange County (Southeast)--Rancho Santa Margarita City (East) & Ladera Ranch PUMA
+0605904,06,05904,Orange County (Central)--Irvine City (Central) PUMA
+0603761,06,03761,Los Angeles County (South Central)--Torrance City PUMA
+0603759,06,03759,Los Angeles County (South Central)--Hawthorne City PUMA
+0603749,06,03749,Los Angeles County (Central)--Inglewood City PUMA
+0611102,06,11102,Ventura County (Southeast)--Thousand Oaks City PUMA
+0608301,06,08301,Santa Barbara County (Northwest)--Santa Maria City & Orcutt PUMA
+0607902,06,07902,San Luis Obispo County (East)--Inland Region PUMA
+0603100,06,03100,Kings County--Hanford City PUMA
+0601901,06,01901,"Fresno County (West)--Selma, Kerman & Coalinga Cities PUMA"
+0605909,06,05909,Orange County (North Central)--Anaheim City (West) PUMA
+0603764,06,03764,"Los Angeles County (South)--Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities PUMA"
+0603731,06,03731,Los Angeles County (Central)--West Hollywood & Beverly Hills Cities PUMA
+0603722,06,03722,Los Angeles County (Northwest)--LA City (North Central/Van Nuys & North Sherman Oaks) PUMA
+0603718,06,03718,Los Angeles County (Central)--Pasadena City PUMA
+0603738,06,03738,Los Angeles County (Central)--El Monte & South El Monte Cities PUMA
+0603715,06,03715,Los Angeles County (East Central)--West Covina City PUMA
+0800810,08,00810,Arapahoe (Northwest) & Adams (Southwest) Counties--Aurora City (Northwest) PUMA
+0800809,08,00809,Arapahoe (West) & Adams (South Central) Counties--Aurora City (North Central) PUMA
+0800808,08,00808,Arapahoe County (West)--Aurora (Southwest) & Centennial (East) Cities PUMA
+0800820,08,00820,"Arapahoe (West) & Jefferson (East) Counties--Littleton, Englewood Cities & Columbine PUMA"
+0800813,08,00813,Denver City (Northwest) PUMA
+0800815,08,00815,Denver City (Southeast) PUMA
+0804103,08,04103,El Paso County (Central)--Colorado Springs City (Central) PUMA
+0804101,08,04101,El Paso (Outside Colorado Springs City) & Teller Counties--Fountain City PUMA
+0804102,08,04102,El Paso County (West Central)--Colorado Springs City (West) PUMA
+0800811,08,00811,Arapahoe County (Southwest)--Centennial (West & Central) & Greenwood Village Cities PUMA
+0800816,08,00816,Denver City (Southwest) PUMA
+0800814,08,00814,Denver City (South Central) PUMA
+0801002,08,01002,"Mesa (Outside Grand Junction City), Montrose, Delta, San Miguel & Ouray Counties PUMA"
+0800200,08,00200,"Northwest Colorado--Garfield, Routt, Moffat & Rio Blanco Counties PUMA"
+0800400,08,00400,"Eagle, Summit, Grand & Jackson Counties PUMA"
+0800103,08,00103,Larimer County (North)--Fort Collins City PUMA
+0800100,08,00100,Northeast Colorado--Eastern Plains Region PUMA
+0800800,08,00800,Southeast Colorado PUMA
+0800900,08,00900,"La Plata, Montezuma, Gunnison, Archuleta, Dolores, Hinsdale & San Juan Counties PUMA"
+0801001,08,01001,Mesa County (Central)--Greater Grand Junction & Fruita Cities PUMA
+0800102,08,00102,Larimer County (South)--Loveland City PUMA
+0800300,08,00300,"Weld County (South Central)--Greeley, Windsor & Evans Cities PUMA"
+0800824,08,00824,DRCOG East Plains--Arapahoe (East) & Adams (East) Counties--Aurora City (Northeast) PUMA
+0800600,08,00600,"Fremont, Chaffee, Park, Lake, Huerfano, Pueblo (Southwest) & Custer Counties PUMA"
+0800801,08,00801,"DRCOG Mountains--Jefferson (West), Boulder (West), Clear Creek & Gilpin Counties PUMA"
+0800807,08,00807,Adams County (West Central)--Commerce City & Brighton Cities PUMA
+0800700,08,00700,Pueblo County (North)--Pueblo City & Pueblo West PUMA
+0800803,08,00803,Boulder County (Central)--Boulder City PUMA
+0800802,08,00802,Boulder (Northeast) & Weld (Southwest) Counties--Longmont City & Erie Town PUMA
+0800812,08,00812,Denver City (Northeast) PUMA
+0800818,08,00818,"Jefferson County (East Central)--Lakewood (North), Wheat Ridge & Golden Cities PUMA"
+0800817,08,00817,Jefferson County (Northeast)--Arvada City PUMA
+0800804,08,00804,"Broomfield, Jefferson (Northeast), Adams (Northwest) & Boulder (Southeast) Counties PUMA"
+0800806,08,00806,Adams County (West Central)--Thornton & Federal Heights Cities PUMA
+0800823,08,00823,Douglas (Northeast) & Elbert (West) Counties--Parker Town & The Pinery PUMA
+0804106,08,04106,El Paso County (North Central)--Colorado Springs City (North) & Monument Town PUMA
+0804104,08,04104,El Paso County (Central)--Colorado Springs City (East) & Cimarron Hills PUMA
+0804105,08,04105,El Paso County (Central)--Colorado Springs City (South) & Security-Widefield PUMA
+0800822,08,00822,Douglas County (South)--Castle Rock Town PUMA
+0800821,08,00821,Douglas (West) & Jefferson (Southeast) Counties--Highlands Ranch & Chatfield Park PUMA
+0800819,08,00819,Jefferson County (East Central)--Lakewood City (South) & Dakota Ridge PUMA
+0800805,08,00805,Adams (West) & Jefferson (Far Northeast) Counties--Westminster & Northglenn Cities PUMA
+0900904,09,00904,"West Haven, Milford & Orange Towns PUMA"
+0900105,09,00105,"Stratford, Shelton, Trumbull, Newtown & Monroe Towns PUMA"
+0900104,09,00104,Bridgeport Town PUMA
+0900900,09,00900,New Haven County (Northwest) PUMA
+0900304,09,00304,"Bristol, Southington & Burlington Towns PUMA"
+0900901,09,00901,Waterbury Town PUMA
+0900302,09,00302,Hartford Town PUMA
+0900301,09,00301,Manchester & East Hartford Towns PUMA
+0900306,09,00306,"Glastonbury, Newington, Wethersfield, Rocky Hill & Marlborough Towns PUMA"
+0900902,09,00902,"Meriden, Wallingford & North Haven Towns PUMA"
+0900903,09,00903,"Hamden, Ansonia, Seymour, Derby, Woodbridge & Bethany Towns PUMA"
+0900305,09,00305,"New Britain, Berlin & Plainville Towns PUMA"
+0900102,09,00102,Stamford & Greenwich Towns PUMA
+0900101,09,00101,"Fairfield, New Canaan, Wilton, Weston & Easton Towns PUMA"
+0900100,09,00100,"Danbury, Ridgefield, Bethel, Brookfield, New Fairfield, Redding & Sherman Towns PUMA"
+0900500,09,00500,Litchfield County PUMA
+0900300,09,00300,Hartford County (North) PUMA
+0901300,09,01300,Tolland County PUMA
+0901500,09,01500,Windham County PUMA
+0901100,09,01100,New London County (North) PUMA
+0901101,09,01101,New London County (South) PUMA
+0900700,09,00700,Middlesex County PUMA
+0900906,09,00906,"East Haven, Branford, Guilford, Madison & North Branford Towns PUMA"
+0900103,09,00103,"Norwalk, Westport & Darien Towns PUMA"
+0900303,09,00303,"West Hartford, Farmington, Simsbury, Bloomfield, Avon & Canton Towns PUMA"
+0900905,09,00905,New Haven Town PUMA
+1000103,10,00103,New Castle County (West Central)--Newark City & Brookside PUMA
+1000102,10,00102,New Castle County (North)--Hockessin PUMA
+1000104,10,00104,"New Castle County (South)--Middletown Town, Bear & Glasgow PUMA"
+1000200,10,00200,Kent County--Dover City PUMA
+1000300,10,00300,Sussex County PUMA
+1000101,10,00101,New Castle County (East Central)--Wilmington City PUMA
+1100101,11,00101,District of Columbia (West) PUMA
+1100102,11,00102,District of Columbia (North) PUMA
+1100103,11,00103,District of Columbia (Northeast) PUMA
+1100104,11,00104,District of Columbia (East) PUMA
+1100105,11,00105,District of Columbia (Central) PUMA
+1208102,12,08102,Manatee County (West Central) PUMA
+1205708,12,05708,Hillsborough County (South County) PUMA
+1210301,12,10301,Pinellas County (North) PUMA
+1210103,12,10103,Pasco County (Gulf Coast) PUMA
+1205301,12,05301,Hernando County PUMA
+1203301,12,03301,Escambia County (North) PUMA
+1211300,12,11300,Santa Rosa County PUMA
+1209100,12,09100,Okaloosa County PUMA
+1200500,12,00500,"Walton, Washington, Holmes & Bay Counties PUMA"
+1206300,12,06300,Apalachee Region (Outside Leon County) PUMA
+1207300,12,07300,Leon County (Outer) PUMA
+1212100,12,12100,"Suwannee, Taylor, Madison, Hamilton & Lafayette Counties PUMA"
+1202300,12,02300,"Columbia, Levy, Bradford, Gilchrist, Dixie & Union Counties PUMA"
+1208900,12,08900,Nassau & Baker Counties PUMA
+1203101,12,03101,Duval County (Outer)--Jacksonville City (North & West) PUMA
+1210900,12,10900,St. Johns County (North) PUMA
+1203500,12,03500,Flagler & Volusia (North Central) Counties PUMA
+1212703,12,12703,"Volusia County--Port Orange, Edgewater, New Smyrna Beach (East) & Oak Hill Cities PUMA"
+1200902,12,00902,Brevard County (East)--Beaches & Merritt Island PUMA
+1206100,12,06100,Indian River County PUMA
+1211101,12,11101,St. Lucie County (North) PUMA
+1208500,12,08500,Martin County PUMA
+1209902,12,09902,Palm Beach County (Northeast)--Palm Beach Gardens & Riviera Beach Cities PUMA
+1201109,12,01109,Broward County (Southeast)--Hollywood (North) & Dania Beach (South) Cities PUMA
+1208700,12,08700,Miami-Dade (South/Outside Urban Development Boundary) & Monroe Counties PUMA
+1202102,12,02102,Collier County (Southwest) PUMA
+1207101,12,07101,Lee County (South & West)--Barrier Islands Region PUMA
+1201500,12,01500,Charlotte County PUMA
+1211502,12,11502,Sarasota County (Central & Gulf Coast) PUMA
+1209906,12,09906,Palm Beach County (East Central)--Greater Boynton Beach City (North) PUMA
+1209907,12,09907,Palm Beach County (Southeast)--Greater Delray Beach City PUMA
+1209908,12,09908,Palm Beach County (Southeast)--Boca Raton City & Highland Beach Town PUMA
+1201103,12,01103,"Broward County--Deerfield, Pompano Beach (North) & Lighthouse Point Cities PUMA"
+1201104,12,01104,Broward County--Pompano Beach (South) & Fort Lauderdale (Northeast) Cities PUMA
+1201108,12,01108,Broward County (East Central)--Fort Lauderdale City (Central) PUMA
+1201113,12,01113,Broward County (Southeast)--Hollywood (South) & Pembroke Pines (East) Cities PUMA
+1201114,12,01114,"Broward County (Southeast)--Miramar (East), Hallandale Beach & West Park Cities PUMA"
+1208604,12,08604,Miami-Dade County (Northeast)--Aventura City & Surfside Town PUMA
+1208612,12,08612,Miami-Dade County (Northeast)--Miami Beach City & Miami Shores Village PUMA
+1201701,12,01701,Citrus County PUMA
+1203302,12,03302,Escambia County (South) PUMA
+1203104,12,03104,Duval County (East)--Jacksonville City (Beaches) PUMA
+1210700,12,10700,Putnam & St. Johns (South) Counties PUMA
+1212702,12,12702,"Volusia County (Northeast)--Daytona Beach, Ormond Beach & Holly Hill Cities PUMA"
+1209901,12,09901,Palm Beach County (Northeast) PUMA
+1209903,12,09903,Palm Beach County (East)--West Palm Beach City (Southeast) & Palm Beach Town PUMA
+1209905,12,09905,"Palm Beach County (East Central)--Lake Worth City, Lantana Town & Atlantis City PUMA"
+1208614,12,08614,Miami-Dade County (East)--Miami City (East) & Key Biscayne Village PUMA
+1208616,12,08616,"Miami-Dade County (East)--Coral Gables City, Pinecrest Village & Kendall (South) PUMA"
+1208623,12,08623,Miami-Dade County (Southeast)--Cutler Bay Town & Palmetto Bay Village PUMA
+1210308,12,10308,Pinellas County (South Central)--St. Petersburg City (West) PUMA
+1210305,12,10305,Pinellas County (West Central)--Greater Seminole City PUMA
+1210303,12,10303,Pinellas County (Central)--Clearwater City (South & Central) PUMA
+1210302,12,10302,Pinellas County (North Central) PUMA
+1207301,12,07301,Leon County (Central)--Tallahassee City (Central) PUMA
+1201900,12,01900,Clay County PUMA
+1203102,12,03102,Duval County (Northwest Central)--Jacksonville City (Northwest) PUMA
+1203103,12,03103,Duval County (North Central)--Jacksonville City (Arlington) PUMA
+1203105,12,03105,Duval County (Southeast)--Jacksonville City (Southeast) PUMA
+1200901,12,00901,"Brevard County (Northwest)--Titusville, Rockledge & Cocoa Cities PUMA"
+1201107,12,01107,Broward County (Central)--Lauderhill & Lauderdale Lakes Cities PUMA
+1201102,12,01102,Broward County (North Central)--Margate & Coconut Creek Cities PUMA
+1209910,12,09910,Palm Beach County (Central)--Wellington Village & Agricultural Reserve PUMA
+1208606,12,08606,"Miami-Dade County (Northeast)--Opa-Locka City, West Little River & Westview PUMA"
+1208610,12,08610,Miami-Dade County (Central)--Miami Springs City & Miami International Airport PUMA
+1208609,12,08609,Miami-Dade County (Northeast)--Hialeah City (South Central) PUMA
+1208607,12,08607,Miami-Dade County (Northeast)--Hialeah City (North Central) PUMA
+1208602,12,08602,Miami-Dade County (North Central)--Miami Gardens City (North & West) PUMA
+1210104,12,10104,Pasco County (South) PUMA
+1206902,12,06902,Sumter (North) & Lake (North) Counties PUMA
+1208302,12,08302,Marion County (Central)--Ocala City PUMA
+1209508,12,09508,Orange County (North Central)--Orlando City (Univ. of Central Florida) & Union Park PUMA
+1210504,12,10504,Polk County (South) PUMA
+1205701,12,05701,Hillsborough County (Central)--Tampa City (Central) PUMA
+1205704,12,05704,Hillsborough County (North Central) PUMA
+1210101,12,10101,Pasco County (East Central) PUMA
+1206903,12,06903,Lake (South) & Sumter (South) Counties PUMA
+1206901,12,06901,Lake County (North) PUMA
+1209300,12,09300,"Southeast Heartland--Highlands (South & East), Okeechobee, Hendry & Glades Counties PUMA"
+1207104,12,07104,Lee County (Central)--Greater Fort Myers City PUMA
+1202700,12,02700,"Southwest Heartland--Highlands (Northwest), DeSoto & Hardee Counties PUMA"
+1205707,12,05707,Hillsborough County (Central) PUMA
+1205703,12,05703,Hillsborough County (Northwest) PUMA
+1210306,12,10306,Pinellas County (Central)--Greater Pinellas Park City PUMA
+1208303,12,08303,Marion County (South Central) PUMA
+1200101,12,00101,Alachua County (Central)--Gainesville City (Central) PUMA
+1203106,12,03106,Duval County (South Central)--Jacksonville City (Southeast River) PUMA
+1212701,12,12701,"Volusia County (Central & Northwest)--DeLand, DeBary Cities & Pierson Town PUMA"
+1211704,12,11704,Seminole County (East) PUMA
+1209510,12,09510,Orange County (Northeast) PUMA
+1209509,12,09509,Orange County (Southeast) PUMA
+1209702,12,09702,Osceola County (East) PUMA
+1209904,12,09904,Palm Beach County (East)--Greenacres City (North) & Palm Springs Village (North) PUMA
+1209909,12,09909,Palm Beach County (West of Boca Raton City) PUMA
+1208615,12,08615,Miami-Dade County (East Central)--Miami City (West) PUMA
+1208620,12,08620,"Miami-Dade County (East Central)--Kendall (North), Sunset & Westwood Lakes PUMA"
+1201110,12,01110,Broward County (Central)--Davie Town & Cooper City PUMA
+1211702,12,11702,Seminole County (North Central) PUMA
+1211703,12,11703,Seminole County (South Central) PUMA
+1209504,12,09504,"Orange County (South Central)--Orlando City (South Central), Conway & Pine Castle PUMA"
+1209701,12,09701,Osceola County (West) PUMA
+1210502,12,10502,Polk County (Northeast) PUMA
+1210503,12,10503,Polk County (Central) PUMA
+1205706,12,05706,Hillsborough County (Northeast) PUMA
+1211701,12,11701,Seminole County (West) PUMA
+1209505,12,09505,Orange County (Central)--Orlando City (East Downtown) & Azalea Park PUMA
+1205705,12,05705,Hillsborough County (North Central)--Tampa City (North) PUMA
+1202103,12,02103,Collier County (East) PUMA
+1202101,12,02101,Collier County (Northwest) PUMA
+1207105,12,07105,Lee County (Southeast)--Bonita Springs City & Estero (East) PUMA
+1207102,12,07102,Lee County (Northwest)--Cape Coral City PUMA
+1211503,12,11503,Sarasota County (East) PUMA
+1211501,12,11501,Sarasota County (North) PUMA
+1208103,12,08103,Manatee County (South) PUMA
+1208101,12,08101,Manatee County (North) PUMA
+1208618,12,08618,Miami-Dade County (North Central)--Tamiami Trail Region (South)--Tamiami PUMA
+1208608,12,08608,"Miami-Dade County (North Central)--Doral, Sweetwater Cities & Fontainebleau PUMA"
+1200903,12,00903,Brevard County (Southwest)--Melbourne & West Melbourne Cities PUMA
+1200904,12,00904,"Brevard County (Southeast)--Palm Bay City, Grant-Valkaria & Malabar Towns PUMA"
+1208603,12,08603,Miami-Dade County (Northeast)--Greater North Miami Beach City (West) PUMA
+1208611,12,08611,Miami-Dade County (Northeast Central)--Miami City (North) PUMA
+1208613,12,08613,Miami-Dade County (Northeast Central)--Miami City (Downtown) PUMA
+1208624,12,08624,Miami-Dade County (South)--Homestead City (North) & Florida City (North) PUMA
+1201101,12,01101,Broward County (West)--Coral Springs & Parkland Cities PUMA
+1207103,12,07103,Lee County (Northeast)--Lehigh Acres & North Fort Myers PUMA
+1205702,12,05702,Hillsborough County (Southwest)--Tampa City (South) PUMA
+1210307,12,10307,Pinellas County (Southeast)--St. Petersburg City (East) PUMA
+1210304,12,10304,Pinellas County (Central)--Greater Largo City PUMA
+1210102,12,10102,Pasco County (West Central) PUMA
+1210501,12,10501,Polk County (Northwest) PUMA
+1209501,12,09501,Orange County (Northwest) PUMA
+1209503,12,09503,Orange County (Southwest)--Disney-International Drive Region PUMA
+1209502,12,09502,"Orange County (West Central)--Winter Garden, Ocoee Cities & Oakland Town PUMA"
+1209507,12,09507,"Orange County (North Central)--Orlando (North), Winter Park & Maitland Cities PUMA"
+1209506,12,09506,Orange County (Central)--Orlando City (West Downtown) & Pine Hills (Southeast) PUMA
+1208601,12,08601,Miami-Dade County (North Central)--Greater Miami Lakes Town PUMA
+1201112,12,01112,Broward County (South Central)--Miramar (West) & Pembroke Pines (Southwest) Cities PUMA
+1201111,12,01111,"Broward County--Weston, Pembroke Pines (Northwest) Cities & Southwest Ranches Town PUMA"
+1201106,12,01106,Broward County (Central)--Plantation & Sunrise Cities PUMA
+1201105,12,01105,"Broward County (Central)--Tamarac, Oakland Park & North Lauderdale Cities PUMA"
+1209911,12,09911,Palm Beach County (West)--Glades & Western Communities PUMA
+1208301,12,08301,Marion County (North) PUMA
+1200102,12,00102,Alachua County (Outer) PUMA
+1203107,12,03107,Duval County (Southwest Central)--Jacksonville City (Southwest) PUMA
+1212704,12,12704,Volusia County (Southwest Central)--Deltona & Lake Helen Cities PUMA
+1211102,12,11102,St. Lucie County (South) PUMA
+1208605,12,08605,Miami-Dade County--North Miami City (Southwest) & Golden Glades (West) PUMA
+1208617,12,08617,"Miami-Dade County (East Central)--South Miami City, Westchester & Coral Terrace PUMA"
+1208622,12,08622,Miami-Dade County (Southwest)--South Miami Heights PUMA
+1208621,12,08621,"Miami-Dade County (Central)--The Hammocks (West), Richmond West (West) & Country Walk PUMA"
+1208619,12,08619,Miami-Dade County (Central)--Kendale Lakes (Southwest) & Kendall West (South) PUMA
+1301700,13,01700,River Valley Regional Commission (West Central)--Muscogee & Chattahoochee Counties PUMA
+1302200,13,02200,"Three Rivers Regional Commission (Southwest)--Troup, Meriwether & Heard Counties PUMA"
+1302300,13,02300,Three Rivers Regional Commission (Northwest)--Carroll County PUMA
+1302500,13,02500,"Northwest Georgia Regional Commission (Southwest)--Floyd, Polk & Haralson Counties PUMA"
+1300401,13,00401,Coastal Regional Commission (East)--Chatham County (West Central)--Savannah City PUMA
+1301200,13,01200,Heart of Georgia Altamaha Regional Commission (Southeast) PUMA
+1302100,13,02100,Three Rivers Regional Commission (North Central)--Coweta County PUMA
+1301004,13,01004,Atlanta Regional Commission (Central)--Fulton County (South)--Union & Fairburn Cities PUMA
+1304500,13,04500,Northwest Georgia Regional Commission (Southeast)--Paulding County PUMA
+1302900,13,02900,Northwest Georgia Regional Commission (East Central)--Bartow County PUMA
+1303400,13,03400,Georgia Mountains Regional Commission (South Central)--Hall County PUMA
+1303800,13,03800,Northeast Georgia Regional Commission (Northwest)--Barrow & Jackson Counties PUMA
+1301300,13,01300,Heart of Georgia Altamaha Regional Commission (North & West) PUMA
+1300900,13,00900,Southwest Georgia Regional Commission (North Central)--Dougherty & Lee Counties PUMA
+1304001,13,04001,Atlanta Regional Commission (Northeast)--Gwinnett County (West Central)--Duluth City PUMA
+1304006,13,04006,Atlanta Regional Commission (Northeast)--Gwinnett County (Southwest)--Lilburn City PUMA
+1302003,13,02003,Atlanta Regional Commission (Central)--DeKalb County (Northeast)--Tucker PUMA
+1302004,13,02004,Atlanta Regional Commission--DeKalb County (North)--Dunwoody City PUMA
+1301005,13,01005,Atlanta Regional Commission (Central)--Fulton County (Northwest)--Roswell City PUMA
+1304004,13,04004,Atlanta Regional Commission (Northeast)--Gwinnett County (East) PUMA
+1306002,13,06002,Atlanta Regional Commission (Southeast)--Henry County (North)--Stockbridge City PUMA
+1303005,13,03005,Atlanta Regional Commission (Northwest)--Cobb County (Northeast) PUMA
+1304002,13,04002,Atlanta Regional Commission (Northeast)--Gwinnett County (North)--Sugar Hill City PUMA
+1304003,13,04003,Atlanta Regional Commission--Gwinnett County (Central)--Lawrenceville City PUMA
+1301008,13,01008,Atlanta Regional Commission (Central)--DeKalb County (South) PUMA
+1301007,13,01007,Atlanta Regional Commission (Central)--Fulton County (East)--Atlanta City (Southeast) PUMA
+1303001,13,03001,Atlanta Regional Commission (Northwest)--Cobb County (Central)--Marietta City PUMA
+1304005,13,04005,Atlanta Regional Commission (Northeast)--Gwinnett County (South)--Snellville City PUMA
+1301006,13,01006,Atlanta Regional Commission (Central)--Fulton County (Central)--Atlanta City (North) PUMA
+1301002,13,01002,Atlanta Regional Commission (Central)--Fulton County (Northeast)--Johns Creek City PUMA
+1302001,13,02001,Atlanta Regional Commission (Central)--DeKalb County (East Central)--Redan PUMA
+1302002,13,02002,Atlanta Regional Commission--DeKalb County--Decatur & Avondale Estates Cities PUMA
+1301001,13,01001,Atlanta Regional Commission (Central)--Fulton County (North)--Sandy Springs City PUMA
+1301900,13,01900,Three Rivers Regional Commission (East) PUMA
+1302400,13,02400,Atlanta Regional Commission (South Central)--Fayette County PUMA
+1304400,13,04400,Atlanta Regional Commission (Southwest)--Douglas County PUMA
+1302600,13,02600,"Northwest Georgia Regional Commission--Walker, Catoosa, Chattooga & Dade Counties PUMA"
+1302700,13,02700,Northwest Georgia Regional Commission (North Central)--Whitfield County PUMA
+1302800,13,02800,Northwest Georgia Regional Commission (Northeast) PUMA
+1303102,13,03102,Atlanta Regional Commission--Cherokee County (Outside Woodstock & Canton Cities) PUMA
+1303300,13,03300,Georgia Mountains Regional Commission (Southwest)--Forsyth County PUMA
+1303600,13,03600,Northeast Georgia Regional Commission (Central)--Clarke County--Athens City PUMA
+1303900,13,03900,"Northeast Georgia Regional Commission (Southwest)--Walton, Morgan & Jasper Counties PUMA"
+1301600,13,01600,Middle Georgia Regional Commission (North & Outside Bibb County) PUMA
+1303200,13,03200,Georgia Mountains Regional Commission (North & Northwest) PUMA
+1303500,13,03500,Georgia Mountains Regional Commission (Southeast) PUMA
+1303700,13,03700,Northeast Georgia Regional Commission (East) PUMA
+1304200,13,04200,Central Savannah River Area Regional Commission (West & Outside Richmond & Columbia) PUMA
+1304100,13,04100,Central Savannah River Area Regional Commission (East Central)--Columbia County PUMA
+1304000,13,04000,Central Savannah River Area Regional Commission (East Central)--Richmond County PUMA
+1300300,13,00300,"Coastal Regional Commission (North)--Bulloch, Effingham & Screven Counties PUMA"
+1300402,13,00402,Coastal Regional Commission (East)--Chatham County (East & Outside Savannah City) PUMA
+1300200,13,00200,"Coastal Regional Commission (West)--Liberty, Bryan & Long Counties PUMA"
+1300100,13,00100,Coastal Regional Commission (South)--Glynn Camden & McIntosh Counties PUMA
+1300500,13,00500,Southern Georgia Regional Commission (East & Central) PUMA
+1300600,13,00600,Southern Georgia Regional Commission (South Central)--Lowndes County--Valdosta City PUMA
+1300700,13,00700,Southern Georgia Regional Commission (West) PUMA
+1300800,13,00800,"Southwest Georgia Regional Commission (East)--Colquitt, Thomas & Worth Counties PUMA"
+1301100,13,01100,Southwest Georgia Regional Commission (West & Central) PUMA
+1301800,13,01800,River Valley Regional Commission (Outside Muscogee & Chattahoochee Counties) PUMA
+1301003,13,01003,Atlanta Regional Commission (Central)--Fulton County (Central)--Atlanta City (South) PUMA
+1303101,13,03101,Atlanta Regional Commission--Cherokee County (Central)--Woodstock & Canton Cities PUMA
+1301500,13,01500,Middle Georgia Regional Commission (South)--Houston & Pulaski Counties PUMA
+1301400,13,01400,Middle Georgia Regional Commission (Central)--Bibb County--Macon City PUMA
+1305001,13,05001,Atlanta Regional Commission (South Central)--Clayton County (South) PUMA
+1305002,13,05002,Atlanta Regional Commission (South Central)--Clayton County (North)--Forest Park City PUMA
+1303004,13,03004,Atlanta Regional Commission (Northwest)--Cobb County (Southeast)--Smyrna City PUMA
+1303003,13,03003,Atlanta Regional Commission (Northwest)--Cobb County (Southwest)--Powder Springs City PUMA
+1303002,13,03002,Atlanta Regional Commission--Cobb County (Northwest)--Kennesaw & Acworth Cities PUMA
+1304300,13,04300,Atlanta & Northeast Georgia Regional Commissions--Newton & Rockdale Counties PUMA
+1306001,13,06001,Atlanta Regional Commission (Southeast)--Henry County (South)--McDonough City PUMA
+1304600,13,04600,Atlanta Regional Commission--Fulton County (Central)--Atlanta City (Central) PUMA
+1500301,15,00301,Honolulu County--Rural Oahu PUMA
+1500100,15,00100,"Maui, Kalawao & Kauai Counties PUMA"
+1500200,15,00200,Hawaii County PUMA
+1500307,15,00307,Honolulu County--Central Oahu PUMA
+1500302,15,00302,Honolulu County--Koolaupoko PUMA
+1500303,15,00303,Honolulu County--East Honolulu to Kapahulu PUMA
+1500304,15,00304,Honolulu County--Tantalus to Waikiki PUMA
+1500305,15,00305,Honolulu County--Nuuanu to Kalihi PUMA
+1500306,15,00306,Honolulu County--Moanalua to Pearl City PUMA
+1500308,15,00308,Honolulu County--Ewa PUMA
+1600800,16,00800,Ada County (South)--Boise (South) & Kuna Cities PUMA
+1600701,16,00701,Ada County (Central)--Meridian (Northeast) & Boise (Far West) Cities PUMA
+1600600,16,00600,Canyon (East) & Ada (West) Counties--Nampa (Central & East) & Meridian (West) Cities PUMA
+1600702,16,00702,Ada County (Northeast)--Boise (North & West) & Garden City Cities PUMA
+1600100,16,00100,"Bonner, Latah, Shoshone, Boundary, Benewah & Kootenai (Southeast) Counties PUMA"
+1600400,16,00400,"Ada (North), Payette, Canyon (North), Gem & Washington Counties--Eagle City PUMA"
+1600300,16,00300,Central Idaho--Lewiston City & Nez Perce Reservation PUMA
+1600200,16,00200,"Kootenai County (Northwest)--Coeur d'Alene, Post Falls & Hayden Cities PUMA"
+1601100,16,01100,"Bingham (Outside Fort Hall AIR), Madison, Jefferson, Fremont & Teton Counties PUMA"
+1601200,16,01200,Bonneville County--Idaho Falls City PUMA
+1601300,16,01300,"Southeast Idaho--Pocatello, Chubbuck Cities & Fort Hall Reservation PUMA"
+1600900,16,00900,Twin Falls & Cassia Counties--Twin Falls City PUMA
+1600500,16,00500,Canyon (South) & Owyhee Counties--Caldwell & Nampa (South & West) Cities PUMA
+1601000,16,01000,"Elmore, Jerome, Blaine, Minidoka, Gooding, Lincoln & Camas Counties PUMA"
+1703411,17,03411,Cook County (South Central)--Worth & Calumet Townships PUMA
+1703107,17,03107,"Will County (Northeast)--Frankfort, Homer & New Lenox (North) Townships PUMA"
+1703700,17,03700,Kendall & Grundy Counties PUMA
+1702000,17,02000,McLean County PUMA
+1701602,17,01602,"Menard, Logan, De Witt, Piatt, Moultrie, Shelby & Christian Counties PUMA"
+1702400,17,02400,LaSalle County PUMA
+1703007,17,03007,"Kane County (East)--St. Charles, Batavia (Central) & Geneva (Central) Townships PUMA"
+1702700,17,02700,Stephenson & Ogle Counties PUMA
+1702801,17,02801,Winnebago County (Southeast & West)--Rockford City PUMA
+1702901,17,02901,Winnebago (Northeast) & Boone Counties PUMA
+1703601,17,03601,"McHenry County (North, West & Central) PUMA"
+1703306,17,03306,"Lake County (Northwest)--Avon, Lake Villa, Antioch & Grant Townships PUMA"
+1703307,17,03307,"Lake County (Northeast)--Waukegan, Zion, Benton & Newport Townships PUMA"
+1703416,17,03416,Cook County (Northeast)--Northfield & New Trier Townships PUMA
+1703532,17,03532,"Chicago City (South)--South Chicago, Pullman, West Pullman, East Side & South Deering PUMA"
+1703413,17,03413,Cook County (Southeast)--Thornton Township PUMA
+1703414,17,03414,Cook County (South)--Bloom & Rich Townships PUMA
+1703108,17,03108,Will County (South) PUMA
+1702300,17,02300,Kankakee County PUMA
+1702200,17,02200,"Livingston, Ford, Iroquois & Vermilion Counties PUMA"
+1700600,17,00600,"Douglas, Edgar, Coles & Cumberland Counties PUMA"
+1700700,17,00700,"Clark, Jasper, Crawford, Lawrence, Richland, Clay & Wayne Counties PUMA"
+1700800,17,00800,South & Southeast Illinois PUMA
+1700900,17,00900,"Jackson, Williamson, Franklin & Perry Counties PUMA"
+1701001,17,01001,"Monroe, Randolph, Washington, Jefferson & Marion Counties PUMA"
+1700202,17,00202,"Henry, Mercer, Henderson, Warren, Hancock, McDonough & Fulton Counties PUMA"
+1700105,17,00105,Rock Island County PUMA
+1700104,17,00104,"Jo Daviess, Carroll, Whiteside & Lee Counties PUMA"
+1703412,17,03412,Cook County (South Central)--Bremen & Orland (East) Townships PUMA
+1701300,17,01300,Sangamon County--Springfield City PUMA
+1701900,17,01900,Tazewell County PUMA
+1703005,17,03005,Kane County (Southeast)--Aurora Township PUMA
+1703417,17,03417,Cook County (Northwest)--Hanover & Schaumburg (Northwest) Townships PUMA
+1701105,17,01105,"St. Clair County (Northwest, Southwest & Southeast) PUMA"
+1701205,17,01205,"Madison County (West)--Granite City, Alton, Wood River Cities & Godfrey Village PUMA"
+1700401,17,00401,"Cass, Morgan, Scott, Greene, Macoupin, Jersey & Calhoun Counties PUMA"
+1700300,17,00300,"Adams, Pike, Brown, Schuyler & Mason Counties PUMA"
+1703602,17,03602,"McHenry County (Southeast)--Algonquin, McHenry & Nunda Townships PUMA"
+1703309,17,03309,"Lake County (East Central)--Warren, Libertyville (North & East) & Shields Townships PUMA"
+1703310,17,03310,"Lake County--Vernon, Moraine, West Deerfield & Libertyville (Southeast) Townships PUMA"
+1703401,17,03401,Cook County (Northwest)--Palatine & Barrington Townships PUMA
+1703415,17,03415,Cook County (North)--Wheeling Township (North & East) PUMA
+1703504,17,03504,"Chicago City (Northwest)--Irving Park, Albany Park, Forest Glen & North Park PUMA"
+1703522,17,03522,"Chicago City (Northwest)--Logan Square, Avondale & Hermosa PUMA"
+1703523,17,03523,"Chicago City (West)--North & South Lawndale, Humboldt Park, East & West Garfield Park PUMA"
+1703530,17,03530,"Chicago City (South)--Ashburn, Washington Heights, Morgan Park & Beverly PUMA"
+1703410,17,03410,"Cook County (Southwest)--Orland (West & Central), Palos & Lemont Townships PUMA"
+1703102,17,03102,Will County (West Central)--Joliet & Troy Townships PUMA
+1701500,17,01500,Macon County--Decatur City PUMA
+1703208,17,03208,"DuPage County (Northwest)--Bloomingdale (South), Wayne & Winfield (North) Townships PUMA"
+1703420,17,03420,"Cook County (North)--Maine, Norwood Park Townships & Chicago City--Edison Park PUMA"
+1703105,17,03105,Will County (Northwest Central)--Plainfield & Lockport Townships PUMA
+1703106,17,03106,Will County (Northwest)--DuPage & Wheatland Townships PUMA
+1703528,17,03528,"Chicago City (South)--Chicago Lawn, Englewood/West Englewood & Greater Grand Crossing PUMA"
+1700501,17,00501,"Montgomery, Bond, Clinton, Fayette & Effingham Counties PUMA"
+1701204,17,01204,Madison County (East) PUMA
+1701701,17,01701,Peoria County--Peoria City PUMA
+1703008,17,03008,Kane County (Northeast)--Elgin (North & Central) & Dundee Townships PUMA
+1703308,17,03308,"Lake County (Southwest)--Ela, Freemont, Wauconda & Cuba Townships PUMA"
+1703503,17,03503,"Chicago City (North)--West Ridge, Lincoln Square & North Center PUMA"
+1703524,17,03524,"Chicago City (West)--West Town, Near West Side & Lower West Side PUMA"
+1703531,17,03531,"Chicago City (South)--Auburn Gresham, Roseland, Chatham, Avalon Park & Burnside PUMA"
+1703209,17,03209,DuPage County (Southwest)--Naperville & Winfield (South) Townships PUMA
+1703418,17,03418,Cook County (Northwest)--Schaumburg Township (South & Central) PUMA
+1703408,17,03408,"Cook County (Central)--Cicero, Berwyn & Oak Park Townships PUMA"
+1703527,17,03527,"Chicago City (Southwest)--Gage Park, Garfield Ridge & West Lawn PUMA"
+1703419,17,03419,Cook County (Northwest)--Elk Grove & Wheeling (Southwest) Townships PUMA
+1703520,17,03520,"Chicago City (Northwest)--Portage Park, Dunning & Jefferson Park PUMA"
+1703521,17,03521,"Chicago City (West)--Austin, Belmont Cragin & Montclare PUMA"
+1703409,17,03409,Cook County (West Central)--Lyons & Stickney Townships PUMA
+1703202,17,03202,DuPage County (Central)--Milton Township PUMA
+1703204,17,03204,DuPage County (Southeast)--Downers Grove Township PUMA
+1703203,17,03203,DuPage County (South Central)--Lisle Township PUMA
+1703207,17,03207,Dupage County (Northeast)--Addison & Bloomingdale (North) Townships PUMA
+1703422,17,03422,"Cook County (West)--Leyden, Norwood Park (South) Townships & Chicago City--O'Hare PUMA"
+1703407,17,03407,"Cook County (West Central)--Proviso, Riverside & River Forest Townships PUMA"
+1703205,17,03205,DuPage County (East Central)--York Township PUMA
+1703421,17,03421,Cook County (North)--Niles & Evanston Townships PUMA
+1703501,17,03501,"Chicago City (North)--Edgewater, Uptown & Rogers Park PUMA"
+1703502,17,03502,Chicago City (North)--Lake View & Lincoln Park PUMA
+1703525,17,03525,"Chicago City (Central)--Near North Side, Loop & Near South Side PUMA"
+1703529,17,03529,"Chicago City (South)--South Shore, Hyde Park, Woodlawn, Grand Boulevard & Douglas PUMA"
+1702100,17,02100,Champaign County--Champaign & Urbana Cities PUMA
+1701104,17,01104,St. Clair County (Central & Northeast) PUMA
+1702501,17,02501,"Knox, Stark, Bureau, Marshall & Woodford Counties PUMA"
+1702601,17,02601,DeKalb County PUMA
+1703009,17,03009,Kane County (West) PUMA
+1703526,17,03526,"Chicago City (Southwest)--Brighton Park, New City, Bridgeport & McKinley Park PUMA"
+1801400,18,01400,"Grant, Miami & Wabash Counties PUMA"
+1802000,18,02000,Delaware County--Muncie City PUMA
+1802900,18,02900,Bartholomew & Jackson Counties--Columbus City PUMA
+1802200,18,02200,Hendricks County PUMA
+1802800,18,02800,Monroe County--Bloomington City PUMA
+1801801,18,01801,Boone & Hamilton (Northwest) Counties PUMA
+1801300,18,01300,"Howard, Cass & Tipton Counties--Kokomo City PUMA"
+1801900,18,01900,Madison County--Anderson City PUMA
+1802500,18,02500,Hancock & Shelby Counties PUMA
+1802400,18,02400,Johnson County--Greenwood City PUMA
+1802304,18,02304,Marion County--Wayne & Decatur (Northwest) Townships--Indianapolis City (West) PUMA
+1802301,18,02301,Marion County--Pike & Washington (Northwest) Townships--Indianapolis City (Northwest) PUMA
+1801802,18,01802,Hamilton County (Central)--Carmel City & Fishers Town (West) PUMA
+1801803,18,01803,Hamilton County (East)--Noblesville City & Fishers Town (East) PUMA
+1802303,18,02303,Marion County--Lawrence Township--Indianapolis (Northeast) & Lawrence Cities PUMA
+1802306,18,02306,Marion County--Warren & Franklin Townships--Indianapolis City (East & Southeast) PUMA
+1802307,18,02307,Marion County--Perry & Decatur (South & East) Townships--Indianapolis City (South) PUMA
+1802302,18,02302,Marion County--Washington Township (South & East)--Indianapolis City (North) PUMA
+1802305,18,02305,Marion County--Center Township--Indianapolis City (Central) PUMA
+1803200,18,03200,"Warrick, Gibson & Posey Counties PUMA"
+1803400,18,03400,"Dubois, Knox, Spencer, Perry, Pike & Crawford Counties PUMA"
+1801600,18,01600,"Clay, Sullivan, Parke, Fountain, Vermillion & Warren Counties PUMA"
+1803300,18,03300,Vanderburgh County--Evansville City PUMA
+1801002,18,01002,Allen County (Central)--Fort Wayne City (North) PUMA
+1802700,18,02700,"Greene, Daviess, Owen, Orange & Martin Counties PUMA"
+1802100,18,02100,"Morgan, Putnam & Brown Counties PUMA"
+1801200,18,01200,Tippecanoe County--Lafayette & West Lafayette Cities PUMA
+1800800,18,00800,Kosciusko & Marshall Counties PUMA
+1801001,18,01001,Allen County (Central)--Fort Wayne City (South) PUMA
+1801700,18,01700,Vigo County--Terre Haute City PUMA
+1801100,18,01100,"Montgomery, Clinton, White, Carroll & Benton Counties PUMA"
+1800700,18,00700,"Jasper, Starke, Fulton, Newton & Pulaski Counties PUMA"
+1800104,18,00104,Lake County (South) PUMA
+1800103,18,00103,Lake County (Central) PUMA
+1800101,18,00101,Lake County (Northwest)--Hammond & East Chicago Cities PUMA
+1800102,18,00102,Lake County (Northeast)--Gary City & Griffith Town PUMA
+1800200,18,00200,Porter County PUMA
+1800300,18,00300,LaPorte County PUMA
+1800402,18,00402,St. Joseph County (Outside South Bend City)--Mishawaka City PUMA
+1800401,18,00401,St. Joseph County (North)--South Bend City PUMA
+1800500,18,00500,Elkhart County--Elkhart & Goshen Cities PUMA
+1800600,18,00600,"Noble, DeKalb, LaGrange & Steuben Counties PUMA"
+1801003,18,01003,Allen County (Outside Fort Wayne City) PUMA
+1800900,18,00900,"Huntington, Whitley, Adams & Wells Counties PUMA"
+1801500,18,01500,"Henry, Randolph, Jay & Blackford Counties PUMA"
+1802600,18,02600,"Wayne, Fayette, Rush & Union Counties PUMA"
+1803100,18,03100,"Dearborn, Franklin, Ripley, Switzerland & Ohio Counties PUMA"
+1803000,18,03000,"Jefferson, Jennings, Decatur & Scott Counties PUMA"
+1803600,18,03600,Clark County--Jeffersonville City PUMA
+1803500,18,03500,"Floyd, Harrison & Washington Counties PUMA"
+1901800,19,01800,South Central Iowa PUMA
+1902100,19,02100,Southwest Iowa--Council Bluffs City PUMA
+1901900,19,01900,"Northwest Central Iowa--Storm Lake, Denison & Cherokee Region PUMA"
+1900600,19,00600,"Webster, Hardin, Hamilton, Butler, Wright, Grundy, Franklin & Humboldt Counties PUMA"
+1901100,19,01100,Johnson County--Iowa City PUMA
+1901400,19,01400,"Warren, Jasper, Marion, Dallas (West) & Madison Counties PUMA"
+1900500,19,00500,Black Hawk County--Waterloo & Cedar Falls Cities PUMA
+1901200,19,01200,"Marshall, Benton, Poweshiek, Tama & Iowa Counties PUMA"
+1901000,19,01000,Linn County--Cedar Rapids City PUMA
+1901300,19,01300,Story & Boone Counties--Ames City PUMA
+1901600,19,01600,Polk County (East)--Ankeny & Altoona Cities PUMA
+1901500,19,01500,Polk (Southwest) & Dallas (East) Counties--West Des Moines & Urbandale Cities PUMA
+1901700,19,01700,Des Moines City PUMA
+1902000,19,02000,Woodbury & Plymouth Counties--Sioux City PUMA
+1900100,19,00100,"Sioux, Clay, Dickinson, O'Brien, Lyon, Emmet, Palo Alto & Osceola Counties PUMA"
+1900200,19,00200,"Cerro Gordo, Floyd, Kossuth, Hancock, Winnebago, Mitchell & Worth Counties PUMA"
+1900400,19,00400,"Bremer, Winneshiek, Fayette, Clayton, Allamakee, Chickasaw & Howard Counties PUMA"
+1900700,19,00700,"Dubuque, Buchanan, Jackson & Delaware Counties--Dubuque City PUMA"
+1900800,19,00800,"Clinton, Muscatine, Jones & Cedar Counties PUMA"
+1900900,19,00900,Scott County--Davenport City PUMA
+1902300,19,02300,"Des Moines, Lee, Henry & Louisa Counties PUMA"
+1902200,19,02200,"Wapello, Mahaska, Washington, Jefferson, Keokuk, Davis & Van Buren Counties PUMA"
+2000603,20,00603,"Johnson County (Southwest)--Olathe, Gardner, Spring Hill & Edgerton Cities PUMA"
+2001301,20,01301,Sedgwick (Northwest) & Harvey Counties--Wichita (Northwest) & Newton Cities PUMA
+2001000,20,01000,Central Kansas--Hutchinson City PUMA
+2000801,20,00801,Shawnee County (Central)--Topeka City PUMA
+2000700,20,00700,Douglas County--Lawrence City PUMA
+2000601,20,00601,"Johnson County (Northwest)--Shawnee, Lenexa & De Soto Cities PUMA"
+2001303,20,01303,Sedgwick County (Central)--Wichita City (Central) PUMA
+2001500,20,01500,Southeast Kansas PUMA
+2000900,20,00900,Flint Hills Region--Emporia City PUMA
+2001100,20,01100,South Central Kansas PUMA
+2001200,20,01200,"Southwest Kansas--Dodge City, Garden City & Liberal City PUMA"
+2001302,20,01302,Sedgwick (Northeast) & Butler (North & East) Counties--Wichita City (Northeast) PUMA
+2001304,20,01304,Sedgwick (South) & Butler (Southwest) Counties--Wichita (South) & Derby Cities PUMA
+2000300,20,00300,"Riley, Geary & Pottawatomie Counties--Manhattan City PUMA"
+2000100,20,00100,Northwest Kansas PUMA
+2000200,20,00200,North Central Kansas--Salina City PUMA
+2000802,20,00802,"Shawnee (Outside Topeka City), Osage, Jackson, Brown & Wabaunsee Counties PUMA"
+2000400,20,00400,Northeast Kansas PUMA
+2000500,20,00500,Wyandotte County--Kansas City PUMA
+2000602,20,00602,"Johnson County (Northeast)--Overland Park (North), Prairie Village & Merriam Cities PUMA"
+2000604,20,00604,Johnson County (Southeast)--Blue Valley Region PUMA
+2001400,20,01400,East Central Kansas PUMA
+2100100,21,00100,Purchase Area Development District PUMA
+2100200,21,00200,Pennyrile Area Development District (North) PUMA
+2101400,21,01400,Green River Area Development District (Southwest) PUMA
+2101500,21,01500,Green River Area Development District (Northeast)--Daviess & Hancock Counties PUMA
+2101300,21,01300,Lincoln Trail Area Development District (West) PUMA
+2101706,21,01706,KIPDA Area Development District (West)--Louisville/Jefferson County (Southwest) PUMA
+2101701,21,01701,KIPDA Area Development District (West)--Louisville/Jefferson County (Northwest) PUMA
+2101702,21,01702,KIPDA Area Development District (West)--Louisville/Jefferson County (North Central) PUMA
+2101703,21,01703,KIPDA Area Development District (West)--Louisville/Jefferson County (Northeast) PUMA
+2101800,21,01800,KIPDA Area Development District (Northeast) PUMA
+2102600,21,02600,Northern Kentucky Area Development District (Southeast) PUMA
+2102500,21,02500,Northern Kentucky Area Development District (Northwest)--Boone County PUMA
+2102000,21,02000,Bluegrass Area Development District (West) PUMA
+2102100,21,02100,Bluegrass Area Development District (South) PUMA
+2101902,21,01902,Bluegrass Area Development District (Central)--Lexington-Fayette County (Outer) PUMA
+2102200,21,02200,Bluegrass Area Development District (Southeast) PUMA
+2101901,21,01901,Bluegrass Area Development District (Central)--Lexington-Fayette County (Central) PUMA
+2102400,21,02400,Northern Kentucky Area Development District (North Central)--Kenton County PUMA
+2102700,21,02700,Buffalo Trace & Gateway Area Development Districts PUMA
+2102800,21,02800,FIVCO Area Development District PUMA
+2101100,21,01100,Big Sandy Area Development District PUMA
+2101000,21,01000,Kentucky River Area Development District PUMA
+2100900,21,00900,Cumberland Valley Area Development District (South) PUMA
+2100700,21,00700,Lake Cumberland Area Development District (East) PUMA
+2100600,21,00600,Lake Cumberland Area Development District (West) PUMA
+2100400,21,00400,Barren River Area Development District (Outer) PUMA
+2100300,21,00300,Pennyrile Area Development District (South) PUMA
+2101600,21,01600,KIPDA Area Development District (Southeast) PUMA
+2100500,21,00500,Barren River Area Development District (Central)--Warren County PUMA
+2102300,21,02300,Bluegrass Area Development District (Northeast) PUMA
+2100800,21,00800,Cumberland Valley Area Development District (North) PUMA
+2101200,21,01200,Lincoln Trail Area Development District (East) PUMA
+2101705,21,01705,KIPDA Area Development District (West)--Louisville/Jefferson County (South Central) PUMA
+2101704,21,01704,KIPDA Area Development District (West)--Louisville/Jefferson County (Southeast) PUMA
+2200101,22,00101,Coordinating & Development Corporation 2--Shreveport City (South) PUMA
+2200400,22,00400,North Delta Regional Planning & Development District 1--Ouachita Parish PUMA
+2202400,22,02400,Regional Planning Commission 6--New Orleans City (Northeast) PUMA
+2201000,22,01000,Acadiana Regional Development District 1--St. Landry & Evangeline Parishes PUMA
+2201502,22,01502,Capital Region Planning Commission 4--East Baton Rouge Parish (North) PUMA
+2202402,22,02402,Regional Planning Commission 8--New Orleans City (South) PUMA
+2201900,22,01900,South Central Planning & Development Commission 1--River Parishes PUMA
+2202300,22,02300,Regional Planning Commission 3--Jefferson Parish (North) PUMA
+2202401,22,02401,Regional Planning Commission 7--New Orleans City (Central) PUMA
+2202302,22,02302,Regional Planning Commission 5--Jefferson Parish (West Bank) PUMA
+2201201,22,01201,Acadiana Regional Development District 4--Lafayette Parish (South) PUMA
+2201200,22,01200,Acadiana Regional Development District 3--Lafayette Parish (North) PUMA
+2201500,22,01500,Capital Region Planning Commission 2--East Baton Rouge Parish (South) PUMA
+2201501,22,01501,Capital Region Planning Commission 3--Baton Rouge City PUMA
+2201600,22,01600,Capital Region Planning Commission 5--Ascension Parish PUMA
+2202301,22,02301,Regional Planning Commission 4--Jefferson Parish (Central) PUMA
+2202100,22,02100,South Central Planning & Development Commission 3--Terrebonne Parish PUMA
+2201300,22,01300,"Acadiana Regional Development District 5--Iberia, St. Mary & St. Martin Parishes PUMA"
+2201100,22,01100,Acadiana Regional Development District 2--Acadia & Vermilion Parishes PUMA
+2200900,22,00900,Imperial Calcasieu Regional Planning & Development District 2 (South) PUMA
+2200800,22,00800,Imperial Calcasieu Regional Planning & Development District 1 (North) PUMA
+2200700,22,00700,Kisatchie Delta Regional Planning & Development District 2--Rapides & Vernon Parishes PUMA
+2200100,22,00100,Coordinating & Development Corporation 1--Shreveport City (North) PUMA
+2200200,22,00200,Coordinating & Development Corporation 3--Bossier & Webster Parishes PUMA
+2200300,22,00300,Coordinating & Development Corporation 4--Northwest Louisiana PUMA
+2200500,22,00500,North Delta Regional Planning & Development District 2--Northeast Louisiana PUMA
+2200600,22,00600,Kisatchie Delta Regional Planning & Development District 1 PUMA
+2201400,22,01400,Capital Region Planning Commission 1--Baton Rouge Metropolitan Area (West) PUMA
+2201700,22,01700,Capital Region Planning Commission 6--Livingston & St. Helena Parishes PUMA
+2201800,22,01800,Capital Region Planning Commission 7--Tangipahoa & Washington Parishes PUMA
+2202200,22,02200,Regional Planning Commission 1--St. Tammany Parish (Northwest) PUMA
+2202201,22,02201,Regional Planning Commission 2--St. Tammany Parish (Southeast) PUMA
+2202500,22,02500,"Regional Planning Commission 9--St. Bernard, Jefferson (South) & Plaquemines Parishes PUMA"
+2202000,22,02000,South Central Planning & Development Commission 2--Lafourche & Assumption Parishes PUMA
+2300200,23,00200,"Northwest Maine--Oxford, Somerset, Franklin & Piscataquis Counties PUMA"
+2300100,23,00100,Northeast Maine--Aroostook & Washington Counties PUMA
+2300500,23,00500,"Coastal Maine Region--Hancock, Knox, Waldo & Lincoln Counties PUMA"
+2300700,23,00700,Sagadahoc & Cumberland (North) Counties--Bath City & Brunswick PUMA
+2301000,23,01000,"Cumberland County (Southeast)--Portland, South Portland & Westbrook Cities PUMA"
+2300800,23,00800,South Maine--York (West) & Cumberland (West) Counties PUMA
+2300300,23,00300,Penobscot County PUMA
+2300900,23,00900,Cumberland (Outside Portland) & York (East) Counties--Biddeford & Saco Cities PUMA
+2300400,23,00400,Kennebec County PUMA
+2300600,23,00600,Androscoggin County PUMA
+2400100,24,00100,Allegany & Garrett Counties--Cumberland City PUMA
+2400200,24,00200,Washington County--Hagerstown City PUMA
+2400301,24,00301,Frederick County (Outside Greater Frederick City) PUMA
+2400400,24,00400,Carroll County PUMA
+2400501,24,00501,Baltimore County (Outer) PUMA
+2400601,24,00601,"Harford County (North & West)--Bel Air Town, Fallston & Jarrettsville PUMA"
+2400700,24,00700,Cecil County PUMA
+2401300,24,01300,"Queen Anne's, Talbot, Caroline, Dorchester & Kent Counties PUMA"
+2401400,24,01400,"Wicomico, Worcester & Somerset Counties--Salisbury City PUMA"
+2401500,24,01500,St. Mary's & Calvert Counties PUMA
+2401600,24,01600,Charles County--La Plata Town & Waldorf PUMA
+2401106,24,01106,"Prince George's County (South)--Clinton, Fort Washington (South), Rosaryville & Croom PUMA"
+2401107,24,01107,"Prince George's County (Southwest)--Oxon Hill, Hillcrest Heights & Temple Hills PUMA"
+2401104,24,01104,"Prince George's County (Central)--Seat Pleasant City, Capitol Heights Town & Landover PUMA"
+2401103,24,01103,Prince George's County (Northwest)--New Carrollton & Hyattsville (Southeast) Cities PUMA
+2401101,24,01101,Prince George's County (Northwest)--College Park City & Langley Park PUMA
+2401007,24,01007,Montgomery County (Southeast)--Takoma Park City & Silver Spring PUMA
+2401004,24,01004,"Montgomery County (South)--Bethesda, Potomac & North Bethesda PUMA"
+2401001,24,01001,"Montgomery County (North & West)--Olney, Damascus, Clarksburg & Darnestown PUMA"
+2400602,24,00602,Harford County (South & East)--Aberdeen & Havre de Grace Cities PUMA
+2401005,24,01005,"Montgomery County (East Central)--Wheaton, Aspen Hill & Glenmont PUMA"
+2401003,24,01003,"Montgomery County (Central)--Rockville, Gaithersburg Cities & North Potomac PUMA"
+2400302,24,00302,Frederick County (Central)--Greater Frederick City PUMA
+2400503,24,00503,"Baltimore County--Pikesville (South), Lochearn, Cockeysville & Mays Chapel PUMA"
+2401204,24,01204,"Anne Arundel County (Southeast)--Annapolis City, Parole, Annapolis Neck & Edgewater PUMA"
+2401002,24,01002,Montgomery County (West Central)--Germantown & Montgomery Village PUMA
+2400502,24,00502,"Baltimore County--Randallstown (East), Owings Mills, Milford Mill & Reisterstown PUMA"
+2400504,24,00504,"Baltimore County--Towson (East & Central), Parkville & Carney PUMA"
+2400505,24,00505,"Baltimore County--Perry Hall, Middle River & Rosedale PUMA"
+2400506,24,00506,"Baltimore County--Dundalk, Essex & Edgemere PUMA"
+2400805,24,00805,"Baltimore City--Irvington, Ten Hills & Cherry Hill PUMA"
+2401202,24,01202,"Anne Arundel County (North)--Glen Burnie, Pasadena, Ferndale & Brooklyn Park PUMA"
+2401203,24,01203,"Anne Arundel County (Central)--Severna Park, Arnold & Lake Shore PUMA"
+2401105,24,01105,"Prince George's County (East)--Bowie City, Kettering, Largo, Mitchellville & Lanham PUMA"
+2400804,24,00804,"Baltimore City--Inner Harbor, Canton & Bayview PUMA"
+2401102,24,01102,"Prince George's County (North)--Laurel, Greenbelt (North & East) Cities & Beltsville PUMA"
+2401006,24,01006,"Montgomery County (East)--Fairland, Calverton, White Oak & Burtonsville PUMA"
+2400901,24,00901,Howard County (West)--Columbia (West) & Ellicott City (Northwest) PUMA
+2400507,24,00507,"Baltimore County--Catonsville, Woodlawn & Arbutus PUMA"
+2400801,24,00801,"Baltimore City--Sandtown-Winchester, Ashburton & Mount Washington PUMA"
+2400802,24,00802,"Baltimore City--Guilford, Roland Park & Druid Lake PUMA"
+2401201,24,01201,"Anne Arundel County (Northwest)--Severn, Odenton, Crofton, Maryland City & Fort Meade PUMA"
+2400902,24,00902,"Howard County (East)--Columbia (East), Ellicott City (Southeast) & Elkridge PUMA"
+2400803,24,00803,"Baltimore City--Frankford, Belair-Edison & Loch Raven PUMA"
+2501600,25,01600,Hampden (West & East) & Hampshire (South) Counties--Northampton City PUMA
+2501902,25,01902,Hampden County (East of Springfield City)--Chicopee City PUMA
+2501901,25,01901,Hampden County (West of Springfield City)--Westfield & Holyoke Cities PUMA
+2500301,25,00301,"Worcester County (Northeast)--Leominster, Fitchburg & Gardner Cities PUMA"
+2500502,25,00502,Middlesex County (Far Northeast)--Lowell City PUMA
+2501300,25,01300,"Billerica, Andover, Tewksbury & Wilmington Towns PUMA"
+2500704,25,00704,"Essex County (South)--Lynn City, Swampscott & Nahant Towns PUMA"
+2503306,25,03306,"Suffolk County (North)--Revere, Chelsea & Winthrop Town Cities PUMA"
+2503302,25,03302,"Boston City--Back Bay, Beacon Hill, Charlestown, East Boston, Central & South End PUMA"
+2503603,25,03603,Norfolk County (Northeast)--Quincy City & Milton Town PUMA
+2503900,25,03900,"Weymouth Town, Braintree Town Cities, Hingham, Hull & Cohasset Towns PUMA"
+2504700,25,04700,Barnstable County (West)--Inner Cape Cod Towns & Barnstable Town City PUMA
+2504303,25,04303,"Bristol County--Taunton City, Mansfield, Norton, Raynam, Dighton & Berkley Towns PUMA"
+2501900,25,01900,Hampden County (Central)--Springfield City PUMA
+2500302,25,00302,Worcester County (West Central) PUMA
+2501400,25,01400,Middlesex (West Central) & Worcester (East) Counties PUMA
+2502800,25,02800,"Woburn, Melrose Cities, Saugus, Wakefield & Stoneham Towns PUMA"
+2500507,25,00507,Middlesex County (East)--Somerville & Everett Cities PUMA
+2504902,25,04902,Plymouth County (Central) PUMA
+2502400,25,02400,"Middlesex (Far Southwest), Norfolk (Northwest) & Worcester (Far East) Counties PUMA"
+2500303,25,00303,Worcester County (East Central) PUMA
+2501000,25,01000,"Peabody City, Danvers, Reading, North Reading & Lynnfield Towns PUMA"
+2500508,25,00508,Middlesex County (East)--Malden & Medford Cities PUMA
+2500506,25,00506,Middlesex County (East)--Cambridge City PUMA
+2503304,25,03304,Boston City--Mattapan & Roxbury PUMA
+2504901,25,04901,Plymouth & Bristol Counties (Outside Brockton City) PUMA
+2500300,25,00300,Worcester County (Central)--Worcester City PUMA
+2503301,25,03301,"Boston City--Allston, Brighton & Fenway PUMA"
+2503305,25,03305,"Boston City--Hyde Park, Jamaica Plain, Roslindale & West Roxbury PUMA"
+2503602,25,03602,"Norfolk County (Central)--Randolph, Norwood, Dedham, Canton & Holbrook Towns PUMA"
+2504000,25,04000,"Plymouth & Norfolk Counties--Brockton City, Stoughton & Avon Towns PUMA"
+2503500,25,03500,Norfolk (Northeast) & Middlesex (Southeast) Counties (West of Boston City) PUMA
+2500503,25,00503,"Middlesex County--Waltham City, Lexington, Burlington, Bedford & Lincoln Towns PUMA"
+2500505,25,00505,"Middlesex County--Watertown Town City, Arlington, Belmont & Winchester Towns PUMA"
+2503400,25,03400,Middlesex (Southeast) & Norfolk (Northeast) Counties--Newton City & Brookline Town PUMA
+2500504,25,00504,"Middlesex County (South)--Framingham Town, Marlborough City & Natick Town PUMA"
+2500100,25,00100,Berkshire County--Pittsfield City PUMA
+2500200,25,00200,Franklin & Hampshire (North) Counties PUMA
+2500400,25,00400,"Worcester & Middlesex Counties (Outside Leominster, Fitchburg & Gardner Cities) PUMA"
+2500501,25,00501,Middlesex County (Outside Lowell City) PUMA
+2500701,25,00701,"Essex County (Northwest)--Lawrence, Haverhill & Methuen Town Cities PUMA"
+2500702,25,00702,Essex County (Central)--Amesbury Town City PUMA
+2500703,25,00703,"Essex County (East)--Salem, Beverly, Gloucester & Newburyport Cities PUMA"
+2503303,25,03303,Boston City--Dorchester & South Boston PUMA
+2504903,25,04903,"Plymouth County (East)--Plymouth, Marshfield, Scituate, Duxbury & Kingston Towns PUMA"
+2504800,25,04800,"Barnstable (East), Dukes & Nantucket Counties--Outer Cape Cod Towns PUMA"
+2504500,25,04500,Bristol County (South)--New Bedford City & Fairhaven Town PUMA
+2504301,25,04301,Bristol (Outside New Bedford City) & Plymouth (South) Counties PUMA
+2504302,25,04302,Bristol County (Central)--Fall River City & Somerset Town PUMA
+2504200,25,04200,"Attleboro City, North Attleborough, Swansea, Seekonk, Rehoboth & Plainville Towns PUMA"
+2503601,25,03601,Norfolk County (Southwest)--Greater Franklin Town City PUMA
+2500304,25,00304,Worcester County (South) PUMA
+2600100,26,00100,Western Upper Peninsula PUMA
+2603201,26,03201,Wayne County (Northwest) PUMA
+2602702,26,02702,Washtenaw County (East Central)--Ann Arbor City Area PUMA
+2602102,26,02102,Kalamazoo County (Central)--Kalamazoo & Portage Cities Area PUMA
+2601003,26,01003,Kent County (Southeast) PUMA
+2601100,26,01100,"Ionia, Montcalm, Mecosta & Osceola Counties PUMA"
+2601704,26,01704,Genesee (West) & Shiawassee Counties PUMA
+2603006,26,03006,Macomb County (Southwest)--Warren & Center Line Cities PUMA
+2603208,26,03208,Detroit City (Northwest) PUMA
+2602800,26,02800,Livingston County PUMA
+2601801,26,01801,Ingham County (South & East) PUMA
+2601900,26,01900,Eaton & Clinton Counties PUMA
+2601004,26,01004,Kent County (North) PUMA
+2601200,26,01200,"Isabella, Gratiot & Clare Counties PUMA"
+2601702,26,01702,"Genesee County (Central, Outside Flint City) PUMA"
+2602902,26,02902,Oakland County (Northeast) PUMA
+2603003,26,03003,Macomb County (Southwest)--Sterling Heights City PUMA
+2601002,26,01002,Kent County (Central)--Grand Rapids City Area PUMA
+2601703,26,01703,Genesee County (Central)--Flint City Area PUMA
+2602903,26,02903,Oakland County (East Central)--Troy & Rochester Area PUMA
+2603209,26,03209,Detroit City (North Central) PUMA
+2603204,26,03204,"Wayne County (Central)--Westland, Garden City, Inkster & Wayne Cities PUMA"
+2602901,26,02901,Oakland County (West) PUMA
+2602905,26,02905,Oakland County (Southwest) PUMA
+2603202,26,03202,Wayne County (North Central)--Livonia City & Redford Charter Township PUMA
+2602908,26,02908,Oakland County (Southeast) PUMA
+2602907,26,02907,Oakland County (South Central)--Farmington & Southfield Area PUMA
+2602904,26,02904,Oakland County (Central) PUMA
+2602906,26,02906,Oakland County (Central)--Birmingham & Bloomfield Area PUMA
+2601802,26,01802,Ingham County (Northwest) PUMA
+2600500,26,00500,Northwest Lower Peninsula (West) PUMA
+2601400,26,01400,Bay & Midland Counties PUMA
+2603001,26,03001,Macomb County (North) PUMA
+2603005,26,03005,"Macomb County (Southeast)--St. Clair Shores, Roseville & Eastpointe Area PUMA"
+2600400,26,00400,Northwest Lower Peninsula (East) PUMA
+2602701,26,02701,"Washtenaw County (West, Northeast & Southeast) PUMA"
+2602000,26,02000,Calhoun & Barry Counties PUMA
+2600802,26,00802,Ottawa County (East) PUMA
+2603002,26,03002,Macomb County (Central) PUMA
+2603203,26,03203,Wayne County (Central)--Dearborn & Dearborn Heights Cities PUMA
+2603205,26,03205,Wayne County (Southwest) PUMA
+2602703,26,02703,"Washtenaw County (East Central, Outside Ann Arbor City) PUMA"
+2602600,26,02600,Jackson County PUMA
+2602101,26,02101,Kalamazoo County (Outer) PUMA
+2601001,26,01001,Kent County (Southwest) PUMA
+2601500,26,01500,Saginaw County PUMA
+2601701,26,01701,Genesee (East) & Lapeer Counties PUMA
+2603210,26,03210,Detroit City (Northeast) PUMA
+2600200,26,00200,Eastern Upper Peninsula PUMA
+2600300,26,00300,Northeast Lower Peninsula PUMA
+2601300,26,01300,"Iosco, Gladwin, Roscommon, Ogemaw & Arenac Counties PUMA"
+2601600,26,01600,"Tuscola, Sanilac & Huron Counties PUMA"
+2603100,26,03100,St. Clair County PUMA
+2603004,26,03004,Macomb County (Southeast)--Mount Clemens & Fraser Area PUMA
+2603213,26,03213,Wayne County (Northeast)--I-94 Corridor PUMA
+2603211,26,03211,Detroit City (South Central & Southeast) PUMA
+2603212,26,03212,Detroit City (Southwest) PUMA
+2603207,26,03207,Wayne County (Southeast)--Downriver Area (North) PUMA
+2603206,26,03206,Wayne County (Southeast)--Downriver Area (South) PUMA
+2603300,26,03300,Monroe County PUMA
+2602500,26,02500,Lenawee & Hillsdale Counties PUMA
+2602200,26,02200,St. Joseph & Branch Counties PUMA
+2602300,26,02300,Van Buren & Cass Counties PUMA
+2602400,26,02400,Berrien County PUMA
+2600900,26,00900,Allegan County PUMA
+2600801,26,00801,Ottawa County (West) PUMA
+2600700,26,00700,Muskegon County PUMA
+2600600,26,00600,"Newaygo, Mason, Oceana & Lake Counties PUMA"
+2700800,27,00800,West Central Minnesota PUMA
+2702500,27,02500,Olmsted County--Rochester City PUMA
+2701101,27,01101,"Anoka County (Northwest)--Andover, Ramsey, Anoka & East Bethel Cities PUMA"
+2701103,27,01103,"Anoka County (East)--Blaine, Lino Lakes & Ham Lake Cities PUMA"
+2701301,27,01301,"Ramsey County (North)--Shoreview, White Bear Lake & New Brighton Cities PUMA"
+2701501,27,01501,"Dakota County (North)--Eagan, Inver Grove Heights & South St. Paul Cities PUMA"
+2702200,27,02200,"Blue Earth, Nicollet & Waseca Counties--Mankato City PUMA"
+2701302,27,01302,"Ramsey County (Central & Far Southeast)--Maplewood, Roseville & North St. Paul Cities PUMA"
+2701303,27,01303,Ramsey County (Southeast)--St. Paul City (East) PUMA
+2701503,27,01503,Dakota County (West)--Burnsville & Apple Valley Cities PUMA
+2701600,27,01600,"Scott County (East)--Shakopee, Savage & Prior Lake Cities PUMA"
+2701900,27,01900,"Kandiyohi, McLeod, Meeker, Renville & Sibley Counties PUMA"
+2700700,27,00700,"Crow Wing, Morrison, Todd & Wadena Counties PUMA"
+2701000,27,01000,Sherburne & Benton Counties PUMA
+2701700,27,01700,Carver & Scott (West) Counties PUMA
+2700900,27,00900,Stearns County--St. Cloud City PUMA
+2701102,27,01102,"Anoka County (Southwest)--Coon Rapids, Fridley & Columbia Heights Cities PUMA"
+2701800,27,01800,Wright County PUMA
+2701401,27,01401,"Hennepin County (West)--Champlin, Rogers Cities & Lake Minnetonka PUMA"
+2701304,27,01304,Ramsey County (Southwest)--St. Paul City (West) PUMA
+2701410,27,01410,Hennepin County--Bloomington & Richfield Cities PUMA
+2701402,27,01402,"Hennepin County--Plymouth, Maple Grove (West) & Medicine Lake Cities PUMA"
+2701403,27,01403,"Hennepin County--Brooklyn Park, Maple Grove (East) & Osseo Cities PUMA"
+2701405,27,01405,Hennepin County--Minneapolis (North) & St. Anthony Cities PUMA
+2701406,27,01406,Hennepin County--Minneapolis City (Southeast) PUMA
+2701409,27,01409,Hennepin County--Eden Prairie & Minnetonka Cities PUMA
+2701404,27,01404,"Hennepin County--Brooklyn Center, Golden Valley, New Hope & Robbinsdale Cities PUMA"
+2701407,27,01407,Hennepin County--Minneapolis City (Southwest) PUMA
+2701408,27,01408,"Hennepin County--Edina, St. Louis Park & Hopkins Cities PUMA"
+2700100,27,00100,"Clay, Polk, Roseau, Pennington, Marshall, Norman, Kittson & Red Lake Counties PUMA"
+2700200,27,00200,"Beltrami, Becker, Hubbard, Clearwater, Mahnomen & Lake of the Woods Counties PUMA"
+2700400,27,00400,"St. Louis (North), Koochiching, Lake & Cook Counties--Hibbing & Cloquet Cities PUMA"
+2700500,27,00500,"St. Louis County (Southeast)--Duluth, Hermantown & Proctor Cities PUMA"
+2700300,27,00300,"Itasca, Carlton (South), Cass & Aitkin Counties--Grand Rapids City PUMA"
+2700600,27,00600,"Chisago, Isanti, Pine, Mille Lacs & Kanabec Counties PUMA"
+2701201,27,01201,"Washington County (North)--Oakdale, Forest Lake, Stillwater & Hugo Cities PUMA"
+2701202,27,01202,Washington County (South)--Woodbury & Cottage Grove Cities PUMA
+2701502,27,01502,"Dakota County (South)--Lakeville, Hastings, Rosemount & Farmington Cities PUMA"
+2702300,27,02300,"Rice, Goodhue & Le Sueur Counties PUMA"
+2702600,27,02600,"Winona, Wabasha, Fillmore & Houston Counties--Winona City PUMA"
+2702400,27,02400,"Mower, Steele, Freeborn & Dodge Counties PUMA"
+2702100,27,02100,Southwest Minnesota PUMA
+2702000,27,02000,"Brown, Lyon, Redwood, Chippewa, Yellow Medicine, Lac qui Parle & Lincoln Counties PUMA"
+2800600,28,00600,"Golden Triangle Region--Starkville, Columbus & West Point Cities PUMA"
+2801400,28,01400,"East Central Region--Neshoba, Scott, Leake, Jasper, Smith & Kemper Counties PUMA"
+2801500,28,01500,"East Central Region--Lauderdale, Newton & Clarke Counties--Meridian City PUMA"
+2801700,28,01700,"South Region--Jones, Wayne, Covington, Greene & Jefferson Davis Counties PUMA"
+2801900,28,01900,"South Region--Pearl River, Hancock, George & Stone Counties PUMA"
+2802100,28,02100,South Region--Jackson County PUMA
+2802000,28,02000,South Region--Harrison County--Gulfport & Biloxi Cities PUMA
+2801800,28,01800,"South Region--Forrest, Lamar, Marion & Perry Counties--Hattiesburg City PUMA"
+2800900,28,00900,Central Region--Madison & Yazoo Counties PUMA
+2801000,28,01000,Central Region--Jackson (West & South) & Clinton (South & East) Cities PUMA
+2800700,28,00700,North Central Region PUMA
+2800500,28,00500,"Three Rivers Region--Lee, Pontotoc & Union Counties--Tupelo City PUMA"
+2801300,28,01300,Central Region--Rankin & Simpson Counties PUMA
+2801100,28,01100,Central Region--Jackson City (East & Central) PUMA
+2801600,28,01600,Southwest Region PUMA
+2801200,28,01200,"Central Region--Hinds (West), Warren & Copiah Counties--Vicksburg City PUMA"
+2800800,28,00800,South Delta Region PUMA
+2800300,28,00300,"North Delta Region--Panola, Tate, Coahoma, Tallahatchie, Tunica & Quitman Counties PUMA"
+2800100,28,00100,North Delta Region--DeSoto County--Southaven City PUMA
+2800200,28,00200,"Northeast Region--Marshall, Alcorn, Prentiss, Tippah, Tishomingo & Benton Counties PUMA"
+2800400,28,00400,"Three Rivers Region--Lafayette, Monroe, Itawamba, Chickasaw & Calhoun Counties PUMA"
+2902601,29,02601,"Christian, Greene (Outside Springfield City) & Webster Counties PUMA"
+2901804,29,01804,St. Louis County (West) PUMA
+2901803,29,01803,St. Louis County (Inner Ring North) PUMA
+2900800,29,00800,"Johnson, Lafayette, Ray, Clinton & Caldwell Counties PUMA"
+2901004,29,01004,Jackson County (South Central) PUMA
+2901002,29,01002,Jackson County (North Central) PUMA
+2900901,29,00901,Clay County (Northeast) PUMA
+2900700,29,00700,"Pettis, Randolph, Saline, Cooper, Howard, Carroll & Chariton Counties PUMA"
+2900500,29,00500,"Cole, Callaway, Moniteau & Osage Counties PUMA"
+2901701,29,01701,St. Charles County (South) PUMA
+2901500,29,01500,"Phelps, Crawford, Dent, Gasconade & Maries Counties PUMA"
+2901300,29,01300,"Laclede, Polk, Benton, Dallas & Hickory Counties PUMA"
+2901003,29,01003,Jackson County (East) PUMA
+2900600,29,00600,Boone County PUMA
+2901600,29,01600,Franklin County PUMA
+2901805,29,01805,St. Louis County (Central) PUMA
+2901400,29,01400,"Pulaski, Camden, Miller & Morgan Counties PUMA"
+2902602,29,02602,Greene County--Springfield City (North) PUMA
+2902603,29,02603,Greene County--Springfield City (South) PUMA
+2901806,29,01806,St. Louis County (Central West) PUMA
+2902002,29,02002,Jefferson County (South) PUMA
+2902100,29,02100,"St. Francois, Washington, Perry & Ste. Genevieve Counties PUMA"
+2902200,29,02200,"Cape Girardeau, Scott & Bollinger Counties PUMA"
+2902300,29,02300,"Dunklin, Stoddard, New Madrid, Pemiscot & Mississippi Counties PUMA"
+2902400,29,02400,"Butler, Ripley, Wayne, Madison, Iron, Reynolds & Carter Counties PUMA"
+2902500,29,02500,"Howell, Texas, Wright, Douglas, Oregon, Ozark & Shannon Counties PUMA"
+2902700,29,02700,"Taney, Barry, Stone & McDonald Counties PUMA"
+2902800,29,02800,Jasper & Newton Counties PUMA
+2901200,29,01200,"Lawrence, Henry, Vernon, Cedar, Barton, St. Clair & Dade Counties PUMA"
+2901100,29,01100,Cass & Bates Counties PUMA
+2901005,29,01005,Jackson County--Kansas City (South) PUMA
+2901001,29,01001,Jackson County--Kansas City (Central) PUMA
+2900902,29,00902,"Kansas City (North Central), Gladstone City & North Kansas City PUMA"
+2900903,29,00903,Platte County PUMA
+2900200,29,00200,"Buchanan, Andrew & DeKalb Counties PUMA"
+2901702,29,01702,St. Charles County (Northwest) PUMA
+2901802,29,01802,St. Louis County (Northwest) PUMA
+2900100,29,00100,Northwest Missouri PUMA
+2900300,29,00300,Northeast Missouri PUMA
+2900400,29,00400,"Lincoln, Warren, Audrain, Pike & Montgomery Counties PUMA"
+2901703,29,01703,St. Charles County (Northeast) PUMA
+2901801,29,01801,St. Louis County (Northeast) PUMA
+2901901,29,01901,St. Louis City (North) PUMA
+2901902,29,01902,St. Louis City (South) PUMA
+2901807,29,01807,St. Louis County (Inner Ring South) PUMA
+2901808,29,01808,St. Louis County (South) PUMA
+2902001,29,02001,Jefferson County (North) PUMA
+3000200,30,00200,West Montana--Missoula City PUMA
+3000700,30,00700,Billings City PUMA
+3000100,30,00100,Northwest Montana--Kalispell City PUMA
+3000400,30,00400,North Central Montana--Great Falls City PUMA
+3000600,30,00600,East Montana (Outside Billings City) PUMA
+3000500,30,00500,South Central Montana--Bozeman City PUMA
+3000300,30,00300,Southwest Montana--Butte-Silver Bow & Helena City PUMA
+3100100,31,00100,North Central & Northwest Nebraska PUMA
+3100200,31,00200,Northeast Nebraska PUMA
+3100701,31,00701,"Dodge, Cass, Saunders & Washington Counties PUMA"
+3100903,31,00903,Douglas County--Omaha City (Northeast) PUMA
+3100904,31,00904,Douglas County--Omaha City (Southeast) PUMA
+3100702,31,00702,Sarpy County--Bellevue City PUMA
+3100600,31,00600,Southeast Nebraska PUMA
+3100500,31,00500,South Central Nebraska PUMA
+3100400,31,00400,Southwest Nebraska PUMA
+3100901,31,00901,Douglas County--Omaha City (Northwest) PUMA
+3100802,31,00802,Lancaster County--Lincoln City (South) PUMA
+3100300,31,00300,Central Nebraska PUMA
+3100801,31,00801,Lancaster County--Lincoln City (North) PUMA
+3100902,31,00902,Douglas County--Omaha City (Southwest) PUMA
+3200404,32,00404,"Clark County (East)--Mesquite City, Sunrise Manor (North), Moapa Valley & Nellis AFB PUMA"
+3200412,32,00412,Clark County (South)--Henderson (East) & Boulder Cities PUMA
+3200200,32,00200,"Carson City, Lyon, Douglas & Storey Counties PUMA"
+3200101,32,00101,Washoe County (South Central)--Reno City PUMA
+3200402,32,00402,Clark County (North)--Las Vegas (Northeast) & North Las Vegas (Outer) Cities PUMA
+3200408,32,00408,Clark County (Central)--Spring Valley & Summerlin South PUMA
+3200407,32,00407,Clark County (West)--Las Vegas City (Southwest) PUMA
+3200403,32,00403,Clark County (Central)--Greater North Las Vegas City PUMA
+3200410,32,00410,"Clark County (Central)--Whitney, Sunrise Manor (South) & Paradise (Northeast) PUMA"
+3200411,32,00411,Clark County (Central)--Henderson City (West) PUMA
+3200413,32,00413,Clark County (Central)--Paradise (South) & Enterprise PUMA
+3200401,32,00401,Clark County (Northwest Central)--Northwest Las Vegas Valley PUMA
+3200405,32,00405,Las Vegas City (Southeast) PUMA
+3200409,32,00409,Clark County (Central)--Paradise (Northwest) & Winchester PUMA
+3200406,32,00406,Las Vegas City (South Central) PUMA
+3200102,32,00102,Washoe County (South) PUMA
+3200103,32,00103,Washoe County (North)--Sparks City PUMA
+3200300,32,00300,Rural Nevada PUMA
+3300500,33,00500,Southwestern New Hampshire--Cheshire & Sullivan Counties PUMA
+3300100,33,00100,Northern New Hampshire--Grafton & Coos Counties PUMA
+3300200,33,00200,"Lakes Region--Belknap, Carroll & Merrimack (Northern) Counties PUMA"
+3300300,33,00300,"Strafford Region--Strafford, Rockingham (Northern) & Carroll (Southeastern) Counties PUMA"
+3301000,33,01000,Seacoast Region--Rockingham County (Southern)--Portsmouth City PUMA
+3300900,33,00900,Hillsborough County (Southeastern)--Greater Nashua City PUMA
+3300600,33,00600,Hillsborough County (Western) PUMA
+3300700,33,00700,Outer Manchester City PUMA
+3300400,33,00400,Central New Hampshire--Merrimack County (Central)--Concord City PUMA
+3300800,33,00800,Manchester City PUMA
+3401203,34,01203,Ocean County (North Central) PUMA
+3400902,34,00902,Middlesex County (Southwest) PUMA
+3401003,34,01003,Somerset County (Central)--North Plainfield & Somerville Boroughs PUMA
+3400302,34,00302,"Bergen County (Southwest)--Rutherford, North Arlington & Hasbrouck Heights Boroughs PUMA"
+3401402,34,01402,Essex County (South Central)--East Orange City PUMA
+3401903,34,01903,Union County (Southwest)--Plainfield City & Westfield Town (South) PUMA
+3400903,34,00903,Middlesex County (Northwest)--South Plainfield & Middlesex Boroughs PUMA
+3400400,34,00400,Passaic County (Southeast)--Paterson City PUMA
+3400304,34,00304,"Bergen County (West Central)--Fair Lawn Borough, Garfield City & Lodi Borough PUMA"
+3401902,34,01902,Union County (Northwest)--Summit City & Westfield Town (North) PUMA
+3401504,34,01504,"Morris County (South)--Morristown Town, Madison & Florham Park Boroughs PUMA"
+3401403,34,01403,Essex County (Northwest) PUMA
+3400501,34,00501,Passaic County (South)--Passaic & Clifton (Southeast) Cities PUMA
+3401401,34,01401,Essex County (Northeast) PUMA
+3401404,34,01404,Essex County (Southwest) PUMA
+3401205,34,01205,Ocean County (Northeast)--Point Pleasant Borough PUMA
+3401202,34,01202,Ocean County (Central)--Beachwood Borough PUMA
+3400102,34,00102,Atlantic County (Outside Somers Point City)--Pleasantville City & Hammonton Town PUMA
+3402102,34,02102,Camden County (Central)--Lindenwold & Collingswood Boroughs PUMA
+3402104,34,02104,Camden County (East Central)--Haddonfield Borough PUMA
+3402002,34,02002,Burlington County (West Central) PUMA
+3401002,34,01002,Somerset County (South) PUMA
+3401001,34,01001,Somerset County (North & West) PUMA
+3401502,34,01502,Morris County (West) PUMA
+3401501,34,01501,Morris County (North)--Dover Town & Kinnelon Borough PUMA
+3400307,34,00307,"Bergen County (North Central)--Bergenfield, Paramus, Dumont & New Milford Boroughs PUMA"
+3401302,34,01302,Essex County (Southeast)--Newark City (Southwest) PUMA
+3401204,34,01204,Ocean County (Northwest) PUMA
+3401102,34,01102,Monmouth County (Southwest)--Freehold Borough PUMA
+3401503,34,01503,Morris County (East)--Lincoln Park Borough PUMA
+3400502,34,00502,Passaic County (Central)--Hawthorne Borough & Clifton City (Northwest) PUMA
+3401901,34,01901,Union County (North Central)--Roselle Park Borough PUMA
+3400906,34,00906,"Middlesex County (Central)--New Brunswick City, South River & Highland Park Boroughs PUMA"
+3401106,34,01106,Monmouth County (Central) PUMA
+3400702,34,00702,Hudson County (Northeast)--Union City & Hoboken Cities PUMA
+3400601,34,00601,Hudson County (Central)--Jersey City (North) PUMA
+3400602,34,00602,Hudson County (Central)--Jersey City (South) PUMA
+3400703,34,00703,"Hudson County (South & West)--Bayonne City, Kearney & Harrison Towns PUMA"
+3401800,34,01800,Union County (Northeast)--Elizabeth City PUMA
+3401904,34,01904,"Union County (Southeast)--Linden, Rahway Cities & Roselle Borough (South) PUMA"
+3400905,34,00905,Middlesex County (Northeast)--Carteret Borough PUMA
+3400907,34,00907,Middlesex County (East Central)--Perth Amboy City & Sayreville Borough PUMA
+3400901,34,00901,Middlesex County (Southeast) PUMA
+3401105,34,01105,Monmouth County (Northwest)--Keansburg Borough PUMA
+3401101,34,01101,Monmouth County (Southeast)--Tinton Falls Borough (South) PUMA
+3401201,34,01201,Ocean County (South) PUMA
+3400101,34,00101,Atlantic County (East)--Atlantic City & Ventnor City PUMA
+3402600,34,02600,Cape May & Atlantic (South Central) Counties--Ocean City & Somers Point City PUMA
+3402400,34,02400,Cumberland County (South)--Vineland & Millville Cities PUMA
+3402103,34,02103,Camden County (South & West)--Bellmawr & Pine Hill Boroughs PUMA
+3402003,34,02003,Burlington County (South & East) PUMA
+3400301,34,00301,Bergen County (South Central)--Hackensack & Englewood (West) Cities PUMA
+3401301,34,01301,Essex County (Southeast)--Newark City (North & East) PUMA
+3400904,34,00904,Middlesex County (North Central)--Metuchen Borough PUMA
+3401104,34,01104,Monmouth County (Northeast)--Red Bank & Tinton Falls (North) Boroughs PUMA
+3401103,34,01103,"Monmouth County (East Central)--Long Branch, Asbury Park Cities & Eatontown Borough PUMA"
+3402001,34,02001,Burlington County (North)--Burlington City PUMA
+3402303,34,02303,Mercer County (South) PUMA
+3402301,34,02301,Mercer County (West Central)--Trenton City PUMA
+3402302,34,02302,Mercer County (North)--Princeton Borough PUMA
+3400800,34,00800,Hunterdon County PUMA
+3401700,34,01700,Warren County PUMA
+3401600,34,01600,Sussex County PUMA
+3400503,34,00503,"Passaic County (North)--Ringwood, Wanaque & Pompton Lakes Boroughs PUMA"
+3400306,34,00306,"Bergen County (Northwest)--Ramsey, Oakland & Franklin Lakes Boroughs PUMA"
+3400308,34,00308,"Bergen County (Central)--Ridgewood Village, Glen Rock & Westwood Boroughs PUMA"
+3400305,34,00305,"Bergen County (East)--Tenafly, Park Ridge & Cresskill Boroughs PUMA"
+3400303,34,00303,"Bergen County (Southeast)--Fort Lee, Cliffside Park & Palisades Park Boroughs PUMA"
+3402500,34,02500,Salem & Cumberland (North) Counties--Bridgeton City PUMA
+3402202,34,02202,Gloucester County (South & West)--Glassboro Borough PUMA
+3402201,34,02201,Gloucester County (Northeast)--Woodbury City PUMA
+3402101,34,02101,Camden County (North)--Camden & Gloucester Cities PUMA
+3400701,34,00701,"Hudson County (North)--West New York, Secaucus & Guttenberg Towns PUMA"
+3500900,35,00900,Southwest New Mexico PUMA
+3500100,35,00100,Northwest New Mexico--Navajo Nation PUMA
+3500200,35,00200,"San Juan County (Northeast)--Farmington, Bloomfield & Aztec Cities PUMA"
+3500300,35,00300,North Central New Mexico PUMA
+3500400,35,00400,Eastern Plains New Mexico PUMA
+3501200,35,01200,Far Southeast New Mexico PUMA
+3501100,35,01100,Central Southeast New Mexico PUMA
+3501001,35,01001,Doña Ana County (Outer) PUMA
+3500805,35,00805,"Albuquerque City (Northwest Mesa), Paradise Hills & Navajo Nation-Tohajiilee Chapter PUMA"
+3500600,35,00600,Sandoval County PUMA
+3500700,35,00700,"Valencia, Bernalillo (East Mountains) Counties & Isleta Pueblo PUMA"
+3500806,35,00806,Albuquerque City (Southwest Mesa) & Bernalillo County (Southwest Mesa & South Valley) PUMA
+3500500,35,00500,Santa Fe County PUMA
+3501002,35,01002,"Doña Ana County (Central)--Las Cruces, Mesilla Cities & University Park PUMA"
+3500803,35,00803,Albuquerque City (Southeast Heights) PUMA
+3500804,35,00804,Albuquerque City (Central) & Bernalillo County (North Valley) PUMA
+3500801,35,00801,Albuquerque City (Far Northeast Heights) PUMA
+3500802,35,00802,Albuquerque City (Near Northeast Heights) PUMA
+3603803,36,03803,NYC-Manhattan Community District 10--Central Harlem PUMA
+3603707,36,03707,"NYC-Bronx Community District 5--Morris Heights, Fordham South & Mount Hope PUMA"
+3603201,36,03201,Nassau County (Northwest)--North Hempstead Town (North) PUMA
+3603301,36,03301,Suffolk County (Northwest)--Huntington Town (North) PUMA
+3603303,36,03303,Suffolk County (Northwest)--Smithtown Town PUMA
+3603304,36,03304,Suffolk County (North Central)--Brookhaven Town (North) PUMA
+3603306,36,03306,Suffolk County (South Central)--Brookhaven Town (South) PUMA
+3603311,36,03311,Suffolk County (Southwest)--Islip Town (South) PUMA
+3603312,36,03312,Suffolk County (Southwest)--Babylon Town (Southeast) PUMA
+3603210,36,03210,Nassau County (South Central)--Hempstead Town (Southeast) PUMA
+3603212,36,03212,Nassau County (Southwest)--Hempstead Town (Southwest) & Long Beach City PUMA
+3604018,36,04018,NYC-Brooklyn Community District 13--Brighton Beach & Coney Island PUMA
+3601207,36,01207,Erie County (South) PUMA
+3601206,36,01206,Erie County (West Central)--Buffalo City (West) PUMA
+3601201,36,01201,Erie County (Northwest) PUMA
+3601101,36,01101,Niagara County (Southwest)--Greater Niagara Falls & North Tonawanda Area PUMA
+3601102,36,01102,Niagara County (North & East) PUMA
+3601000,36,01000,Genesee & Orleans Counties PUMA
+3600905,36,00905,Monroe County (North & West) PUMA
+3600800,36,00800,Wayne & Seneca Counties PUMA
+3600704,36,00704,Cayuga & Onondaga (South) Counties PUMA
+3600500,36,00500,Jefferson & Lewis Counties PUMA
+3600100,36,00100,St. Lawrence County PUMA
+3600200,36,00200,"Clinton, Franklin, Essex & Hamilton Counties PUMA"
+3600300,36,00300,Warren & Washington Counties PUMA
+3601900,36,01900,Rensselaer County--Troy City PUMA
+3604010,36,04010,"NYC-Brooklyn Community District 17--East Flatbush, Farragut & Rugby PUMA"
+3604109,36,04109,NYC-Queens Community District 2--Sunnyside & Woodside PUMA
+3603810,36,03810,"NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA"
+3603807,36,03807,"NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA"
+3602702,36,02702,Ulster County (East) PUMA
+3604016,36,04016,"NYC-Brooklyn Community District 15--Sheepshead Bay, Gerritsen Beach & Homecrest PUMA"
+3604017,36,04017,NYC-Brooklyn Community District 11--Bensonhurst & Bath Beach PUMA
+3603703,36,03703,"NYC-Bronx Community District 10--Co-op City, Pelham Bay & Schuylerville PUMA"
+3604007,36,04007,NYC-Brooklyn Community District 16--Brownsville & Ocean Hill PUMA
+3603307,36,03307,Suffolk County (Central)--Brookhaven Town (Central) PUMA
+3603309,36,03309,Suffolk County (Central)--Islip Town (East) PUMA
+3603313,36,03313,Suffolk County (West Central)--Babylon Town (Northwest) PUMA
+3603209,36,03209,Nassau County (Central)--Hempstead Town (East Central) PUMA
+3603206,36,03206,Nassau County (Central)--Hempstead Town (North Central)--Meadowbrook Corridor PUMA
+3604009,36,04009,NYC-Brooklyn Community District 18--Canarsie & Flatlands PUMA
+3601400,36,01400,Ontario & Yates Counties PUMA
+3600703,36,00703,Onondaga County (Central)--Syracuse City (Outer) PUMA
+3600402,36,00402,Oneida County (Central)--Greater Utica & Rome Cities PUMA
+3601600,36,01600,Fulton & Montgomery Counties PUMA
+3602002,36,02002,Albany County (Outside Albany City) PUMA
+3602001,36,02001,Albany County (East Central)--Albany City PUMA
+3600906,36,00906,Monroe County (South) PUMA
+3601700,36,01700,Schenectady County--Schenectady City PUMA
+3600701,36,00701,Onondaga County (Central)--Syracuse City PUMA
+3602300,36,02300,Tompkins County PUMA
+3600702,36,00702,Onondaga County (North) PUMA
+3600401,36,00401,Herkimer (North & Central) & Oneida (Outer) Counties PUMA
+3601801,36,01801,Saratoga County (South & Central) PUMA
+3604015,36,04015,NYC-Brooklyn Community District 14--Flatbush & Midwood PUMA
+3604011,36,04011,"NYC-Brooklyn Community District 9--Crown Heights South, Prospect Lefferts & Wingate PUMA"
+3602202,36,02202,Broome (Outer West) & Tioga Counties PUMA
+3602401,36,02401,Chemung (South) & Steuben (East) Counties--Greater Elmira & Greater Corning Cities PUMA
+3602402,36,02402,"Steuben (North & West), Schuyler & Chemung (North) Counties PUMA"
+3602500,36,02500,Cattaraugus & Allegany Counties PUMA
+3602600,36,02600,Chautauqua County PUMA
+3601204,36,01204,Erie County (Central) PUMA
+3601205,36,01205,Erie County (West Central)--Buffalo City (East) PUMA
+3600904,36,00904,Monroe County (Central)--Greece & Gates Towns PUMA
+3600903,36,00903,Monroe County (Central)--Rochester City (West) PUMA
+3600902,36,00902,Monroe County (Central)--Rochester City (East) PUMA
+3600901,36,00901,Monroe County (East) PUMA
+3600600,36,00600,Oswego County PUMA
+3603102,36,03102,Westchester County (Northwest) PUMA
+3604103,36,04103,"NYC-Queens Community District 7--Flushing, Murray Hill & Whitestone PUMA"
+3603302,36,03302,Suffolk County (Northwest)--Huntington Town (South) PUMA
+3603701,36,03701,"NYC-Bronx Community District 8--Riverdale, Fieldston & Kingsbridge PUMA"
+3603106,36,03106,Westchester County (Southwest)--Yonkers City PUMA
+3603105,36,03105,Westchester County (Central)--White Plains City PUMA
+3603002,36,03002,"Rockland County (South)--Orangetown, Clarkstown (South) & Ramapo (Southeast) Towns PUMA"
+3603003,36,03003,"Rockland County (West)--Spring Valley, Suffern Villages & Monsey PUMA"
+3602903,36,02903,Orange County (Southeast) PUMA
+3602902,36,02902,Orange County (Northwest) PUMA
+3602701,36,02701,Sullivan & Ulster (West) Counties PUMA
+3602203,36,02203,"Chenango, Delaware & Broome (East) Counties PUMA"
+3603806,36,03806,NYC-Manhattan Community District 7--Upper West Side & West Side PUMA
+3603802,36,03802,"NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA"
+3603801,36,03801,"NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA"
+3604012,36,04012,NYC-Brooklyn Community District 7--Sunset Park & Windsor Terrace PUMA
+3604005,36,04005,"NYC-Brooklyn Community District 6--Park Slope, Carroll Gardens & Red Hook PUMA"
+3604101,36,04101,NYC-Queens Community District 1--Astoria & Long Island City PUMA
+3604102,36,04102,NYC-Queens Community District 3--Jackson Heights & North Corona PUMA
+3604107,36,04107,NYC-Queens Community District 4--Elmhurst & South Corona PUMA
+3603903,36,03903,"NYC-Staten Island Community District 1--Port Richmond, Stapleton & Mariner's Harbor PUMA"
+3604013,36,04013,NYC-Brooklyn Community District 10--Bay Ridge & Dyker Heights PUMA
+3604004,36,04004,NYC-Brooklyn Community District 2--Brooklyn Heights & Fort Greene PUMA
+3603001,36,03001,Rockland County (North)--New City & Congers PUMA
+3602201,36,02201,Broome County (West Central)--Greater Binghamton City & Greater Johnson City Village PUMA
+3601202,36,01202,Erie County (North Central) PUMA
+3601802,36,01802,Saratoga County (Outer) PUMA
+3602802,36,02802,Dutchess County (Southwest) PUMA
+3603107,36,03107,Westchester County (South Central)--New Rochelle & Mount Vernon Cities PUMA
+3604001,36,04001,NYC-Brooklyn Community District 1--Greenpoint & Williamsburg PUMA
+3604106,36,04106,"NYC-Queens Community District 8--Briarwood, Fresh Meadows & Hillcrest PUMA"
+3603205,36,03205,Nassau County (West Central)--Hempstead Town (Northwest) PUMA
+3604111,36,04111,NYC-Queens Community District 9--Richmond Hill & Woodhaven PUMA
+3604003,36,04003,NYC-Brooklyn Community District 3--Bedford-Stuyvesant PUMA
+3604104,36,04104,"NYC-Queens Community District 11--Bayside, Douglaston & Little Neck PUMA"
+3604108,36,04108,NYC-Queens Community District 6--Forest Hills & Rego Park PUMA
+3604002,36,04002,NYC-Brooklyn Community District 4--Bushwick PUMA
+3604110,36,04110,"NYC-Queens Community District 5--Ridgewood, Glendale & Middle Village PUMA"
+3601500,36,01500,Madison & Cortland Counties PUMA
+3601300,36,01300,Livingston & Wyoming Counties PUMA
+3601203,36,01203,Erie County (Northeast) PUMA
+3603708,36,03708,"NYC-Bronx Community District 4--Concourse, Highbridge & Mount Eden PUMA"
+3603704,36,03704,"NYC-Bronx Community District 11--Pelham Parkway, Morris Park & Laconia PUMA"
+3603204,36,03204,Nassau County (West Central)--North Hempstead Town (South) PUMA
+3603207,36,03207,Nassau County (Central)--Hempstead Town (Northeast) PUMA
+3603203,36,03203,Nassau County (East Central)--Oyster Bay Town (Central) PUMA
+3603308,36,03308,Suffolk County (Central)--Brookhaven Town (West Central) PUMA
+3603310,36,03310,Suffolk County (Central)--Islip Town (Northwest) PUMA
+3604105,36,04105,"NYC-Queens Community District 13--Queens Village, Cambria Heights & Rosedale PUMA"
+3604113,36,04113,NYC-Queens Community District 10--Howard Beach & Ozone Park PUMA
+3602100,36,02100,Columbia & Greene Counties PUMA
+3602801,36,02801,Dutchess County (North & East) PUMA
+3603101,36,03101,Putnam County PUMA
+3603103,36,03103,Westchester County (Northeast) PUMA
+3603104,36,03104,Westchester County (Southeast) PUMA
+3603202,36,03202,Nassau County (Northeast)--Oyster Bay Town (North) & Glen Cove City PUMA
+3603305,36,03305,Suffolk County (East) PUMA
+3603208,36,03208,Nassau County (Southeast)--Oyster Bay Town (South) PUMA
+3604114,36,04114,"NYC-Queens Community District 14--Far Rockaway, Breezy Point & Broad Channel PUMA"
+3603901,36,03901,"NYC-Staten Island Community District 3--Tottenville, Great Kills & Annadale PUMA"
+3603902,36,03902,NYC-Staten Island Community District 2--New Springville & South Beach PUMA
+3603809,36,03809,NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA
+3603709,36,03709,"NYC-Bronx Community District 9--Castle Hill, Clason Point & Parkchester PUMA"
+3603211,36,03211,Nassau County (West Central)--Hempstead Town (West Central) PUMA
+3604112,36,04112,"NYC-Queens Community District 12--Jamaica, Hollis & St. Albans PUMA"
+3604006,36,04006,NYC-Brooklyn Community District 8--Crown Heights North & Prospect Heights PUMA
+3603808,36,03808,"NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA"
+3603710,36,03710,"NYC-Bronx Community District 1 & 2--Hunts Point, Longwood & Melrose PUMA"
+3604008,36,04008,NYC-Brooklyn Community District 5--East New York & Starrett City PUMA
+3604014,36,04014,"NYC-Brooklyn Community District 12--Borough Park, Kensington & Ocean Parkway PUMA"
+3603706,36,03706,"NYC-Bronx Community District 7--Bedford Park, Fordham North & Norwood PUMA"
+3603702,36,03702,"NYC-Bronx Community District 12--Wakefield, Williamsbridge & Woodlawn PUMA"
+3603705,36,03705,"NYC-Bronx Community District 3 & 6--Belmont, Crotona Park East & East Tremont PUMA"
+3602901,36,02901,Orange County (Northeast)--Greater Newburgh City PUMA
+3600403,36,00403,"Otsego, Schoharie, Oneida (South) & Herkimer (South) Counties PUMA"
+3603805,36,03805,NYC-Manhattan Community District 8--Upper East Side PUMA
+3603804,36,03804,NYC-Manhattan Community District 11--East Harlem PUMA
+3701600,37,01600,Alamance County--Burlington City PUMA
+3701400,37,01400,Orange County--Chapel Hill Town PUMA
+3701302,37,01302,Durham County (North)--Durham City (North) PUMA
+3700900,37,00900,Nash & Edgecombe Counties--Rocky Mount City PUMA
+3704100,37,04100,"Lenoir, Onslow (North) & Jones Counties PUMA"
+3703700,37,03700,Moore & Montgomery Counties PUMA
+3703300,37,03300,Stanley & Cabarrus (East) Counties PUMA
+3703104,37,03104,Charlotte City (South) PUMA
+3702201,37,02201,Buncombe County (Southeast)--Asheville City PUMA
+3701900,37,01900,"Davie, Yadkin & Iredell (North) Counties PUMA"
+3701801,37,01801,Winston-Salem City (North) PUMA
+3701206,37,01206,Wake County (Northwest)--Raleigh City (Northwest) & Morrisville Town PUMA
+3701802,37,01802,Winston-Salem City (South) PUMA
+3701702,37,01702,Greensboro City (South) PUMA
+3701202,37,01202,Raleigh City (North) PUMA
+3701100,37,01100,Johnston County PUMA
+3705001,37,05001,Cumberland County (Central)--Fayetteville City (Central & East) PUMA
+3703800,37,03800,Harnett County PUMA
+3704200,37,04200,Pitt County--Greenville City PUMA
+3704300,37,04300,Craven County PUMA
+3703102,37,03102,Charlotte City (Northwest) PUMA
+3701701,37,01701,Greensboro City (North) PUMA
+3701301,37,01301,Durham County (South)--Durham City (South) PUMA
+3701203,37,01203,"Wake County (Northeast)--Raleigh City (Northeast), Wake Forest & Rolesville Towns PUMA"
+3701000,37,01000,Wilson & Greene Counties--Wilson City PUMA
+3703900,37,03900,Sampson & Duplin Counties PUMA
+3705002,37,05002,Cumberland County (East)--Hope Mills & Spring Lake Towns PUMA
+3705003,37,05003,Cumberland County (West)--Fayetteville City (West) PUMA
+3703600,37,03600,Randolph County PUMA
+3703500,37,03500,Davidson County PUMA
+3703107,37,03107,Mecklenburg County (East)--Mint Hill & Matthews (North) Towns PUMA
+3703101,37,03101,Charlotte City (Central) PUMA
+3702800,37,02800,Catawba County--Hickory City PUMA
+3705200,37,05200,"Hoke, Richmond & Scotland Counties PUMA"
+3705300,37,05300,Union (East) & Anson Counties--Monroe City PUMA
+3705400,37,05400,Union County (West)--Indian Trail & Stallings Towns PUMA
+3703108,37,03108,Mecklenburg County (South)--Matthews Town (South) PUMA
+3703002,37,03002,Gaston County (Southeast)--Gastonia & Belmont Cities PUMA
+3703001,37,03001,Gaston County (Northwest)--Mount Holly City PUMA
+3702700,37,02700,Lincoln & Cleveland (East) Counties PUMA
+3702600,37,02600,"Rutherford, Cleveland (West) & Polk Counties--Shelby City PUMA"
+3702500,37,02500,Henderson & Transylvania Counties PUMA
+3702202,37,02202,Buncombe County (Northwest) PUMA
+3703105,37,03105,Charlotte City (Southwest) PUMA
+3702100,37,02100,Burke & McDowell Counties PUMA
+3702000,37,02000,Caldwell & Alexander Counties PUMA
+3701500,37,01500,Chatham & Lee Counties PUMA
+3703400,37,03400,Rowan County PUMA
+3703106,37,03106,"Mecklenburg County (North)--Huntersville, Cornelius & Davidson Towns PUMA"
+3702900,37,02900,Iredell (South)--Mooresville Town & Statesville City PUMA
+3701704,37,01704,Guilford County (South)--High Point City PUMA
+3701204,37,01204,"Wake County (East)--Raleigh City (East), Knightdale & Garner (North) Towns PUMA"
+3704000,37,04000,Wayne County PUMA
+3703200,37,03200,"Cabarrus County (West)--Concord, Kannapolis Cities & Harrisburg Town PUMA"
+3703103,37,03103,Charlotte City (Northeast) PUMA
+3701208,37,01208,Wake County (Southwest)--Apex & Holly Springs Towns PUMA
+3701207,37,01207,Wake County (West Central)--Cary Town PUMA
+3701201,37,01201,Raleigh City (South & Central) PUMA
+3701205,37,01205,Wake County (Southeast)--Garner (South) & Fuquay-Varina Towns PUMA
+3700300,37,00300,Rockingham & Stokes Counties PUMA
+3700400,37,00400,"Granville, Person & Caswell Counties PUMA"
+3700500,37,00500,"Franklin, Vance & Warren (West) Counties PUMA"
+3700600,37,00600,"Halifax, Hertford, Northampton & Warren (East) Counties PUMA"
+3700700,37,00700,Northeast Albemarle Sound Region PUMA
+3700800,37,00800,South & West Albemarle Sound & Northern Outer Banks Regions PUMA
+3704400,37,04400,"Carteret, Beaufort & Pamlico Counties PUMA"
+3704500,37,04500,Onslow County (South)--Jacksonville City PUMA
+3704600,37,04600,Pender & New Hanover (North) Counties PUMA
+3704700,37,04700,New Hanover County (South)--Wilmington City PUMA
+3704800,37,04800,Brunswick County PUMA
+3704900,37,04900,"Columbus, Bladen & Robeson (East) Counties PUMA"
+3705100,37,05100,Robeson County (West)--Lumberton City PUMA
+3701803,37,01803,Forsyth County (Outside Winston-Salem City)--Kernersville Town & Clemmons Village PUMA
+3701703,37,01703,Guilford County (North)--Summerfield Town PUMA
+3702400,37,02400,"Jackson (South), Macon, Cherokee & Clay Counties PUMA"
+3702300,37,02300,"Haywood, Madison, Swain, Graham & Jackson (North) Counties PUMA"
+3700100,37,00100,"Boone High Country--Watauga, Ashe, Yancey, Avery & Mitchell Counties PUMA"
+3700200,37,00200,"Wilkesboro High Country--Surry, Wilkes & Alleghany Counties PUMA"
+3800400,38,00400,Northeast North Dakota--Grand Forks City PUMA
+3800500,38,00500,Cass County--Fargo City PUMA
+3800300,38,00300,South Central North Dakota--Bismarck City PUMA
+3800100,38,00100,West North Dakota--Minot City PUMA
+3800200,38,00200,East Central North Dakota--Jamestown City PUMA
+3905501,39,05501,Hamilton County (West)--Mack & Dent PUMA
+3905403,39,05403,"Butler County (North & West)--Middletown, Oxford & Trenton Cities PUMA"
+3904500,39,04500,"Darke, Shelby & Preble Counties PUMA"
+3902600,39,02600,"Auglaize, Mercer & Van Wert Counties PUMA"
+3900100,39,00100,"Defiance, Williams, Henry & Paulding Counties PUMA"
+3900200,39,00200,"Wood (South), Fulton & Lucas (Southwest) Counties--Bowling Green City PUMA"
+3900300,39,00300,"Lucas (West) & Wood (North Central) Counties--Perrysburg, Sylvania & Maumee Cities PUMA"
+3900400,39,00400,Toledo City (West) PUMA
+3900600,39,00600,"Ottawa, Wood (Northeast) & Lucas (East) Counties--Oregon City PUMA"
+3900700,39,00700,Erie & Sandusky Counties PUMA
+3900903,39,00903,"Cuyahoga County (South)--Broadview Heights, North Royalton & Strongsville Cities PUMA"
+3903200,39,03200,Stark County (Central)--Canton & North Canton Cities PUMA
+3902800,39,02800,"Marion, Knox & Morrow Counties PUMA"
+3903800,39,03800,Licking County PUMA
+3904200,39,04200,"Pickaway, Union & Madison Counties PUMA"
+3904604,39,04604,Montgomery County (Southeast)--Kettering & Centerville Cities PUMA
+3904700,39,04700,Greene County PUMA
+3901801,39,01801,"Summit County (North & Northwest)--Hudson, Twinsburg & Macedonia Cities PUMA"
+3904000,39,04000,Delaware County PUMA
+3904109,39,04109,"Franklin County (South)--Columbus (South), Grove Cities & Groveport Village PUMA"
+3904111,39,04111,Columbus (Far West) & Hilliard (South) Cities PUMA
+3904101,39,04101,"Columbus (Far Northeast), Gahanna & New Albany Cities PUMA"
+3904108,39,04108,Columbus (Southeast) & Reynoldsburg Cities PUMA
+3904103,39,04103,"Columbus (Far Northwest), Dublin & Hilliard (North) Cities PUMA"
+3904107,39,04107,"Columbus (East), Whitehall & Bexley Cities PUMA"
+3904110,39,04110,Columbus City (West) PUMA
+3904102,39,04102,"Columbus (North), Westerville & Worthington Cities PUMA"
+3904106,39,04106,Columbus City (Northeast) PUMA
+3904104,39,04104,"Columbus (Northwest), Upper Arlington & Grandview Heights Cities PUMA"
+3900909,39,00909,"Cuyahoga County (Northeast)--Euclid, Cleveland Heights & South Euclid Cities PUMA"
+3903600,39,03600,"Washington, Morgan, Noble & Monroe Counties PUMA"
+3905000,39,05000,"Athens, Gallia & Meigs Counties PUMA"
+3905100,39,05100,Scioto & Lawrence Counties PUMA
+3905200,39,05200,"Highland, Clinton & Adams Counties PUMA"
+3905700,39,05700,Clermont (East) & Brown Counties PUMA
+3905600,39,05600,Clermont County (West) PUMA
+3905507,39,05507,"Hamilton County (East)--Loveland, Montgomery Cities & Forestville PUMA"
+3905505,39,05505,Cincinnati (East) & Norwood Cities PUMA
+3905504,39,05504,Cincinnati City (Central) PUMA
+3905503,39,05503,Cincinnati City (West) PUMA
+3900500,39,00500,Toledo City (East) PUMA
+3900802,39,00802,"Lorain County (South)--Avon, Avon Lake & North Ridgeville Cities PUMA"
+3900901,39,00901,"Cuyahoga County--Olmsted Township, Bay Village, North Olmsted & Westlake Cities PUMA"
+3900902,39,00902,"Cuyahoga County (West)--Berea, Brook Park, Lakewood & Rocky River Cities PUMA"
+3900905,39,00905,Cleveland City (West) PUMA
+3900908,39,00908,Cleveland City (East) & Bratenahl Village PUMA
+3901100,39,01100,"Lake County (East)--Mentor, Painesville Cities & Madison Village PUMA"
+3901600,39,01600,Trumbull County (South Central)--Warren & Niles Cities PUMA
+3903300,39,03300,Stark County (East) & Carroll County--Alliance City PUMA
+3902900,39,02900,"Holmes, Guernsey & Coshocton Counties PUMA"
+3905402,39,05402,Butler County (South Central)--Hamilton & Fairfield Cities PUMA
+3904601,39,04601,Montgomery County (West)--Miamisburg & West Carrollton Cities PUMA
+3904400,39,04400,Miami County PUMA
+3902500,39,02500,Allen County PUMA
+3902400,39,02400,Hancock & Putnam Counties PUMA
+3902100,39,02100,Huron & Ashland Counties PUMA
+3901200,39,01200,Geauga & Lake (South) Counties PUMA
+3903000,39,03000,Tuscarawas & Harrison Counties PUMA
+3903700,39,03700,Muskingum & Perry Counties PUMA
+3904900,39,04900,"Jackson, Hocking, Pike & Vinton Counties PUMA"
+3905502,39,05502,"Hamilton County (Central)--Forest Park City, White Oak, Bridgetown & Finneytown PUMA"
+3904602,39,04602,"Montgomery County (Northeast)--Huber Heights, Trotwood, Vandalia & Englewood Cities PUMA"
+3902700,39,02700,"Logan, Champaign & Hardin Counties PUMA"
+3901700,39,01700,Portage County PUMA
+3900801,39,00801,Lorain County (North)--Elyria & Lorain Cities PUMA
+3900906,39,00906,Cleveland City (Central) PUMA
+3904300,39,04300,Clark County PUMA
+3902300,39,02300,"Seneca, Crawford & Wyandot Counties PUMA"
+3901900,39,01900,Medina County PUMA
+3900904,39,00904,"Cuyahoga County (South Central)--Brooklyn, Parma, Parma Heights & Seven Hills Cities PUMA"
+3900907,39,00907,"Cuyahoga County (Southeast)--Bedford, Garfield Heights & Maple Heights Cities PUMA"
+3900910,39,00910,"Cuyahoga County (East)--Lyndhurst, Mayfield Heights, Shaker Heights & Solon Cities PUMA"
+3903100,39,03100,Stark County (West)--Massillon City PUMA
+3903900,39,03900,Fairfield County PUMA
+3904800,39,04800,Ross & Fayette Counties PUMA
+3905301,39,05301,Warren County (East)--Lebanon & Springboro (East) Cities PUMA
+3905506,39,05506,"Hamilton County (North Central)--Sharonville, Blue Ash, Springdale & Reading Cities PUMA"
+3902200,39,02200,Richland County PUMA
+3902000,39,02000,Wayne County PUMA
+3901000,39,01000,"Lake County (West)--Eastlake, Wickliffe, Willoughby & Willowick Cities PUMA"
+3901300,39,01300,Ashtabula County PUMA
+3901400,39,01400,Trumbull (Outside Warren City) & Mahoning (Outside Youngstown City) Counties PUMA
+3901500,39,01500,"Mahoning County (Northeast)--Youngstown City, Boardman & Austintown PUMA"
+3903400,39,03400,Columbiana County PUMA
+3903500,39,03500,Belmont & Jefferson Counties PUMA
+3904105,39,04105,Columbus City (Central) PUMA
+3901802,39,01802,"Summit County (East Central)--Cuyahoga Falls (Southeast), Stow & Tallmadge Cities PUMA"
+3905401,39,05401,Butler County (Southeast)--Monroe City & Beckett Ridge PUMA
+3905302,39,05302,"Warren County (West)--Mason, Franklin & Springboro (West) Cities PUMA"
+3904603,39,04603,Montgomery County (East Central)--Dayton & Riverside Cities PUMA
+3901805,39,01805,"Summit County (South)--Barberton, Green & New Franklin Cities PUMA"
+3901803,39,01803,Summit County (Central)--Akron City (East) PUMA
+3901804,39,01804,Summit County (Central)--Akron (West) & Cuyahoga Falls (West) Cities PUMA
+4001001,40,01001,Oklahoma County (Southwest)--Oklahoma City (West Central) PUMA
+4001005,40,01005,Oklahoma County (Southeast)--Oklahoma City (East Central) PUMA
+4000602,40,00602,"Stephens, Caddo, Comanche (North), Tillman, Jefferson & Cotton Counties PUMA"
+4000400,40,00400,Southwest Oklahoma PUMA
+4000601,40,00601,Comanche County (Central)--Lawton City PUMA
+4001204,40,01204,"Tulsa (West), Creek (Northeast) & Osage (Southeast) Counties--Tulsa City (West) PUMA"
+4001203,40,01203,Tulsa County (North)--Tulsa (North) & Owasso Cities PUMA
+4001102,40,01102,"Pottawatomie (North), Logan & Lincoln Counties--Shawnee City PUMA"
+4001501,40,01501,"Payne, Seminole, Creek (Southwest), Hughes & Okfuskee Counties--Stillwater City PUMA"
+4001301,40,01301,Rogers (Central) & Wagoner (West) Counties--Claremore City PUMA
+4001302,40,01302,"Muskogee, Okmulgee, Wagoner (East) & McIntosh Counties PUMA"
+4000800,40,00800,Canadian County--Oklahoma City (West) PUMA
+4001101,40,01101,"Grady, McClain & Pottawatomie (South) Counties PUMA"
+4001002,40,01002,Oklahoma County (Northwest)--Oklahoma City (Northwest Central) & Bethany Cities PUMA
+4001003,40,01003,Oklahoma County (Northeast)--Edmond & Oklahoma City (North Central) Cities PUMA
+4001201,40,01201,Tulsa County (Central)--Tulsa City (Central) PUMA
+4001202,40,01202,Tulsa County (Southeast)--Tulsa (Southeast) & Broken Arrow (West) Cities PUMA
+4000900,40,00900,"Cleveland County--Norman, Oklahoma City (South) & Moore Cities PUMA"
+4001006,40,01006,Oklahoma County (Central)--Oklahoma City (Central) PUMA
+4001004,40,01004,"Oklahoma County (East)--Midwest, Del & Oklahoma City (Northeast) Cities PUMA"
+4000500,40,00500,Panhandle & Northwest Oklahoma PUMA
+4001400,40,01400,"Garfield, Kay & Noble Counties--Enid City PUMA"
+4001601,40,01601,"Washington, Osage (North & West), Pawnee & Creek (Northwest) Counties PUMA"
+4000100,40,00100,Northeast Oklahoma PUMA
+4000200,40,00200,"Cherokee, Sequoyah & Adair Counties PUMA"
+4000300,40,00300,Southeast Oklahoma PUMA
+4000702,40,00702,"Bryan, Pontotoc (East), Marshall, Atoka, Johnston & Coal Counties--Ada City PUMA"
+4000701,40,00701,"Carter, Garvin, Murray, Love & Pontotoc (West) Counties PUMA"
+4101324,41,01324,Washington County (Northeast)--Beaverton City (East & Central) & Cedar Mill PUMA
+4101323,41,01323,Washington County (Central)--Beaverton City (West) & Aloha PUMA
+4100704,41,00704,Lane County (East Central)--Eugene (Northeast) & Springfield Cities PUMA
+4100703,41,00703,Lane County (West Central)--Eugene City (West & South) PUMA
+4101104,41,01104,Marion County (West Central)--Salem City (South) & Four Corners PUMA
+4100800,41,00800,"Josephine, Coos & Curry Counties PUMA"
+4101000,41,01000,Douglas County PUMA
+4100705,41,00705,Lane County (Outside Eugene & Springfield Cities) PUMA
+4100500,41,00500,"Columbia, Lincoln, Clatsop & Tillamook Counties PUMA"
+4101314,41,01314,Portland City (Northwest & Southwest) PUMA
+4101301,41,01301,Portland City (North & Northeast) PUMA
+4101302,41,01302,Portland City (East) PUMA
+4101316,41,01316,Multnomah County (East)--Gresham & Troutdale Cities PUMA
+4100200,41,00200,North Central Oregon--The Dalles City PUMA
+4101318,41,01318,"Clackamas County (Northwest)--Oregon City, Milwaukie & Happy Valley Cities PUMA"
+4101319,41,01319,"Clackamas County (Northwest)--Lake Oswego, West Linn, Wilsonville & Canby Cities PUMA"
+4101103,41,01103,"Marion County (West Central)--Salem (North), Keizer Cities & Hayesville PUMA"
+4101320,41,01320,"Washington County (Southeast)--Tigard, Tualatin & Sherwood Cities PUMA"
+4101303,41,01303,Portland City (Southeast) PUMA
+4100100,41,00100,"Umatilla, Union, Baker & Wallowa Counties PUMA"
+4100300,41,00300,"Klamath, Malheur, Lake & Harney Counties PUMA"
+4100902,41,00902,Jackson County (Outside Medford & Central Point Cities)--Ashland City PUMA
+4101321,41,01321,"Washington County (West)--Forest Grove, Cornelius Cities, Bethany & Oak Hills PUMA"
+4101305,41,01305,Portland City (Central East) PUMA
+4101317,41,01317,Clackamas County (South & East)--Damascus City PUMA
+4101105,41,01105,Marion County (Outside Salem & Keizer Cities)--Woodburn & Silverton Cities PUMA
+4100400,41,00400,Deschutes County PUMA
+4100901,41,00901,Jackson County (Central)--Medford & Central Point Cities PUMA
+4100600,41,00600,Linn & Benton Counties PUMA
+4101200,41,01200,Yamhill & Polk Counties PUMA
+4101322,41,01322,Washington County (Central)--Hillsboro City PUMA
+4204002,42,04002,Washington (South) & Greene Counties PUMA
+4204001,42,04001,Washington County (North)--Washington City PUMA
+4201502,42,01502,Beaver County (South) PUMA
+4201501,42,01501,Lawrence & Beaver (North) Counties--New Castle City PUMA
+4201400,42,01400,Mercer County PUMA
+4200101,42,00101,"Erie City, Lawrence Park Township & Wesleyville Borough PUMA"
+4203207,42,03207,Philadelphia City (Central) PUMA
+4203402,42,03402,Chester County (East Central)--West Chester Borough PUMA
+4203504,42,03504,Lancaster County (Southwest)--Columbia Borough PUMA
+4201801,42,01801,Allegheny County (West) PUMA
+4201300,42,01300,"Venango, Jefferson, Clarion & Forest Counties PUMA"
+4200900,42,00900,Lycoming & Clinton Counties PUMA
+4200702,42,00702,Lackawanna (Outside Greater Scranton City) & Wyoming Counties PUMA
+4202802,42,02802,Lehigh County (South--Outside Allentown & Bethlehem Cities)--Emmaus Borough PUMA
+4203208,42,03208,Philadelphia City (West) PUMA
+4203403,42,03403,Chester County (West Central)--Coatesville City PUMA
+4203601,42,03601,York County (Central)--York City & Shiloh PUMA
+4203602,42,03602,York County (North)--Weigelstown PUMA
+4203001,42,03001,Bucks County (North) PUMA
+4203002,42,03002,Bucks County (Central) PUMA
+4203003,42,03003,Bucks County (Southeast)--Levittown PUMA
+4203004,42,03004,Bucks County (Southwest) PUMA
+4203201,42,03201,Philadelphia City (Far Northeast) PUMA
+4203203,42,03203,Philadelphia City (Near Northeast-East) PUMA
+4203205,42,03205,Philadelphia City (East) PUMA
+4203209,42,03209,Philadelphia City (Center City) PUMA
+4203211,42,03211,Philadelphia City (Southeast) PUMA
+4203210,42,03210,Philadelphia City (Southwest) PUMA
+4203303,42,03303,Delaware County (Southeast)--Chester City PUMA
+4203304,42,03304,Delaware County (West) PUMA
+4203404,42,03404,Chester County (South) PUMA
+4203503,42,03503,Lancaster County (East)--Ephrata Borough PUMA
+4203603,42,03603,York County (South) PUMA
+4203701,42,03701,Adams & Franklin (Southeast) Counties PUMA
+4203702,42,03702,Franklin County (Outside Washington Township & Waynesboro Borough) PUMA
+4203800,42,03800,"Somerset, Bedford & Fulton Counties PUMA"
+4203900,42,03900,Fayette County PUMA
+4201805,42,01805,"Allegheny County (Southeast)--West Mifflin Borough, McKeesport City & Munhall Borough PUMA"
+4201806,42,01806,Allegheny County (South Central)--Baldwin & Whitehall Boroughs PUMA
+4201702,42,01702,Pittsburgh City (South) PUMA
+4201803,42,01803,Allegheny County (North Central) PUMA
+4201802,42,01802,Allegheny County (North)--Franklin Park Borough & Allison Park PUMA
+4201000,42,01000,Northumberland & Montour Counties PUMA
+4203101,42,03101,Montgomery County (Northwest)--Pottstown Borough PUMA
+4203502,42,03502,Lancaster County (Northwest)--Elizabethtown Borough PUMA
+4201900,42,01900,Indiana & Armstrong Counties PUMA
+4202001,42,02001,Westmoreland County (Northwest)--Murrysville Municipality & New Kensington City PUMA
+4201701,42,01701,Pittsburgh City (North) PUMA
+4201804,42,01804,"Allegheny County (East)--Monroeville Municipality, Plum & Wilkinsburg Boroughs PUMA"
+4200802,42,00802,Luzerne County (South Central)--Wilkes-Barre & Hazleton Cities PUMA
+4202600,42,02600,Schuylkill County PUMA
+4203104,42,03104,Montgomery County (Central)--Norristown Borough PUMA
+4202702,42,02702,Berks County (Southwest)--Reading City PUMA
+4202402,42,02402,Dauphin County (Outer)--Hershey PUMA
+4202401,42,02401,Dauphin County (Central)--Harrisburg City & Colonial Park PUMA
+4202301,42,02301,Cumberland (West) & Perry Counties--Carlisle Borough PUMA
+4200801,42,00801,Luzerne County (East)--Kingston Borough PUMA
+4200701,42,00701,"Lackawanna County--Scranton City, Dunmore, Old Forge, Taylor & Moosic Boroughs PUMA"
+4202801,42,02801,Carbon & Lehigh (North) Counties PUMA
+4202803,42,02803,Allentown City PUMA
+4202703,42,02703,Berks County (East) PUMA
+4203102,42,03102,Montgomery County (Northeast)--Lansdale Borough PUMA
+4203105,42,03105,"Montgomery County (Southeast)--Willow Grove, Horsham & Montgomeryville PUMA"
+4203401,42,03401,Chester County (North)--Phoenixville Borough PUMA
+4202302,42,02302,Cumberland County (East) PUMA
+4202002,42,02002,Westmoreland County (Southwest)--Greensburg City PUMA
+4202200,42,02200,Blair & Huntingdon Counties--Altoona City PUMA
+4202003,42,02003,Westmoreland County (East) PUMA
+4201600,42,01600,Butler County PUMA
+4201200,42,01200,Centre County PUMA
+4200803,42,00803,Columbia & Luzerne (West) Counties--Bloomsburg Town & Berwick Borough PUMA
+4203106,42,03106,Montgomery County (South Central) PUMA
+4203202,42,03202,Philadelphia City (Near Northeast-West) PUMA
+4203204,42,03204,Philadelphia City (North) PUMA
+4203206,42,03206,Philadelphia City (Northwest) PUMA
+4203103,42,03103,Montgomery County (Southwest)--King of Prussia & Ardmore (East) PUMA
+4203302,42,03302,"Delaware County (East)--Yeadon, Darby, Lansdowne Boroughs & Drexel Hill PUMA"
+4203301,42,03301,Delaware County (North)--Broomall & Ardmore (West) PUMA
+4200102,42,00102,Erie County (Outer) PUMA
+4200200,42,00200,Crawford & Warren Counties PUMA
+4200300,42,00300,"Clearfield, McKean, Elk, Potter & Cameron Counties PUMA"
+4200400,42,00400,"Bradford, Tioga & Sullivan Counties PUMA"
+4200500,42,00500,"Pike, Wayne & Susquehanna Counties PUMA"
+4200600,42,00600,Monroe County PUMA
+4202902,42,02902,Northampton County (North) PUMA
+4202901,42,02901,Northampton (South) & Lehigh (East) Counties--Bethlehem (East) & Easton Cities PUMA
+4202701,42,02701,Berks County (Northwest)--Wyomissing Borough PUMA
+4202500,42,02500,Lebanon County PUMA
+4203501,42,03501,"Lancaster County--Lancaster City, East Lampeter, Lancaster & West Lampeter Townships PUMA"
+4201100,42,01100,"Mifflin, Union, Snyder & Juniata Counties PUMA"
+4202100,42,02100,Cambria County PUMA
+4201807,42,01807,Allegheny County (South)--Bethel Park Municipality & Jefferson Hills Borough PUMA
+4400400,44,00400,South Rhode Island--Washington County PUMA
+4400201,44,00201,Central Rhode Island--Kent County--Warwick City PUMA
+4400101,44,00101,Northwest Rhode Island--Providence County (West & Central)--Woonsocket City PUMA
+4400102,44,00102,Northeast Rhode Island--Providence County--Pawtucket & Central Falls Cities PUMA
+4400104,44,00104,Providence County (Southeast)--Cranston & East Providence Cities PUMA
+4400300,44,00300,Southeast Rhode Island--Newport & Bristol Counties--Newport City PUMA
+4400103,44,00103,Providence City PUMA
+4500101,45,00101,Pickens & Oconee Counties--Easley & Clemson Cities PUMA
+4500102,45,00102,Greenville County (North)--Greer City (North & West) & Taylors (Central & East) PUMA
+4500302,45,00302,Spartanburg County (Outside Spartanburg City)--Greer City (East) PUMA
+4500400,45,00400,"Cherokee, Newberry, Chester & Union Counties PUMA"
+4500501,45,00501,York County (West & Outside Rock Hill City) PUMA
+4500700,45,00700,"Lancaster, Chesterfield & Marlboro Counties PUMA"
+4501000,45,01000,"Georgetown, Marion & Dillon Counties PUMA"
+4501101,45,01101,Horry County (West & North)--Conway City & Red Hill PUMA
+4501102,45,01102,"Horry County (Southeast)--Myrtle Beach, North Myrtle Beach Cities & Socastee (East) PUMA"
+4501202,45,01202,Charleston (South & West) & Berkeley (South) Counties--Charleston City PUMA
+4501300,45,01300,"Orangeburg, Colleton, Barnwell, Hampton, Bamberg & Allendale Counties PUMA"
+4501400,45,01400,"Beaufort & Jasper Counties--Hilton Head Island, Bluffton Towns & Beaufort City PUMA"
+4501500,45,01500,Aiken & Edgefield Counties--Aiken & North Augusta Cities PUMA
+4501600,45,01600,"Greenwood, Abbeville & McCormick Counties PUMA"
+4500200,45,00200,Anderson County--Anderson City PUMA
+4500502,45,00502,York County (East)--Rock Hill City & Fort Mill Town PUMA
+4501203,45,01203,Charleston (Northeast) & Berkeley (North & East) Counties--Mount Pleasant Town PUMA
+4500103,45,00103,Greenville County (North Central & Outside Greenville City)--Wade Hampton & Berea PUMA
+4500301,45,00301,Spartanburg County (Central)--Spartanburg City PUMA
+4500603,45,00603,Richland (North) & Fairfield Counties--Forest Acres City & Dentsville PUMA
+4500605,45,00605,"Kershaw, Richland (South) & Calhoun Counties PUMA"
+4500900,45,00900,Florence & Darlington Counties--Florence City PUMA
+4500800,45,00800,"Sumter, Clarendon, Williamsburg & Lee Counties--Sumter City PUMA"
+4501204,45,01204,"Charleston, Berkeley & Dorchester Counties--North Charleston City PUMA"
+4500601,45,00601,Lexington (South & West) & Saluda Counties--Lexington Town & Red Bank PUMA
+4501201,45,01201,Dorchester (North & West) & Berkeley (Southwest) Counties--Summerville Town & Ladson PUMA
+4500105,45,00105,"Greenville (South) & Laurens Counties--Simpsonville, Laurens & Clinton Cities PUMA"
+4500604,45,00604,Richland County (Central)--Columbia City PUMA
+4500602,45,00602,"Lexington County (North & East)--West Columbia, Cayce Cities, Irmo Town & Seven Oaks PUMA"
+4500104,45,00104,Greenville County (Central)--Greenville & Mauldin Cities PUMA
+4600100,46,00100,West South Dakota--Rapid City PUMA
+4600200,46,00200,Lakota Region PUMA
+4600300,46,00300,Northeast South Dakota PUMA
+4600400,46,00400,Jackrabbit Region PUMA
+4600500,46,00500,Southeast South Dakota (Outside Sioux Falls City) PUMA
+4600600,46,00600,Sioux Falls City PUMA
+4701500,47,01500,Sevier & Jefferson Counties PUMA
+4701700,47,01700,Blount County PUMA
+4703208,47,03208,Memphis City (Southwest) PUMA
+4703201,47,03201,Memphis City (Central Riverside) PUMA
+4703204,47,03204,Shelby County (North)--Bartlett (North & East) & Millington Cities PUMA
+4703100,47,03100,"Tipton, Fayette & Lauderdale Counties PUMA"
+4700100,47,00100,"Northwest Tennessee--Gibson, Dyer, Obion, Crockett & Lake Counties PUMA"
+4700200,47,00200,"Land Between the Lakes--Weakley, Henry, Carroll, Humphreys, Benton & Houston Counties PUMA"
+4700300,47,00300,Montgomery & Stewart Counties--Clarksville City PUMA
+4700400,47,00400,"Robertson, Dickson, Cheatham & Hickman Counties PUMA"
+4700500,47,00500,Sumner County--Hendersonville City PUMA
+4700600,47,00600,"Warren, Macon, Smith, DeKalb, Cannon & Trousdale Counties PUMA"
+4700700,47,00700,"Putnam, Overton, Jackson, Clay & Pickett Counties PUMA"
+4700900,47,00900,"Campbell, Claiborne, Scott, Morgan & Hancock Counties PUMA"
+4701000,47,01000,Hawkins & Sullivan (Northwest) Counties--Kingsport City PUMA
+4701100,47,01100,Sullivan County (Southeast)--Bristol City PUMA
+4701200,47,01200,"Greene, Carter, Unicoi & Johnson Counties PUMA"
+4701400,47,01400,"Hamblen, Cocke & Grainger Counties PUMA"
+4701300,47,01300,Washington County--Johnson City PUMA
+4703205,47,03205,"Memphis (East), Lakeland Cities & Arlington Town (South) PUMA"
+4703207,47,03207,Memphis City (Southeast) PUMA
+4703203,47,03203,Memphis (North) & Bartlett (Southwest) Cities PUMA
+4702502,47,02502,Nashville-Davidson (North) PUMA
+4702300,47,02300,Wilson County--Lebanon & Mount Juliet Cities PUMA
+4701601,47,01601,"Anderson, Union & Knox (North) Counties--Oak Ridge (East) & Clinton Cities PUMA"
+4702700,47,02700,"Maury, Bedford & Marshall Counties PUMA"
+4703000,47,03000,Madison & Chester Counties--Jackson City PUMA
+4703202,47,03202,Memphis City (Central Midtown) PUMA
+4701800,47,01800,"Roane, Loudon & Monroe Counties--Oak Ridge City (West) PUMA"
+4701900,47,01900,"Bradley, McMinn & Polk Counties--Cleveland City PUMA"
+4702003,47,02003,Hamilton County (North)--Soddy-Daisy City PUMA
+4702001,47,02001,Chattanooga City (South & Central) PUMA
+4702002,47,02002,Hamilton County (South)--Chattanooga (North) & Red Bank Cities PUMA
+4702100,47,02100,"Rhea, Marion, Sequatchie, Grundy, Bledsoe & Meigs Counties PUMA"
+4702200,47,02200,"Coffee, Franklin, Lincoln & Moore Counties PUMA"
+4702800,47,02800,"Lawrence, Giles, Wayne, Lewis & Perry Counties PUMA"
+4702900,47,02900,"Henderson, Hardeman, McNairy, Hardin, Haywood & Decatur Counties PUMA"
+4703206,47,03206,Shelby County (Southeast)--Collierville Town & Germantown City PUMA
+4700800,47,00800,"Cumberland, White, Fentress & Van Buren Counties PUMA"
+4702600,47,02600,Williamson County--Franklin & Brentwood Cities PUMA
+4702501,47,02501,Nashville-Davidson (East) PUMA
+4702402,47,02402,Rutherford County (South)--Murfreesboro City PUMA
+4702504,47,02504,Nashville-Davidson (Southeast) PUMA
+4701603,47,01603,Knoxville City PUMA
+4701602,47,01602,Knox County (East) PUMA
+4701604,47,01604,Knox County (West)--Farragut Town PUMA
+4702505,47,02505,Nashville-Davidson (Southwest) PUMA
+4702503,47,02503,Nashville-Davidson (Central) PUMA
+4702401,47,02401,Rutherford County (North)--Smyrna Town & La Vergne City PUMA
+4803601,48,03601,Brazos Valley COG (Outside Brazos County) & Milam County PUMA
+4804501,48,04501,Houston-Galveston Area Council--Montgomery County (Northeast)--Conroe City (East) PUMA
+4804504,48,04504,Houston-Galveston Area Council--Montgomery County (Southeast) PUMA
+4804625,48,04625,"Harris County (North)--Houston (North), Humble Cities & Atascocita PUMA"
+4804602,48,04602,Houston City (East Central)--East of I-45 & Inside Loop I-610 PUMA
+4804618,48,04618,Houston City (Southeast)--West of Pasadena City & Outside Loop I-610 PUMA
+4804619,48,04619,Houston (Southeast) & South Houston Cities--Inside Beltway TX-8 PUMA
+4804901,48,04901,Fort Bend County (East)--Missouri City PUMA
+4804902,48,04902,Fort Bend County (Northeast)--Sugar Land & Stafford Cities PUMA
+4804903,48,04903,"Fort Bend County (Central)--Rosenberg City, Pecan Grove & New Territory PUMA"
+4805100,48,05100,"Capital Area COG (East)--Bastrop, Caldwell, Fayette & Lee Counties PUMA"
+4805700,48,05700,Alamo Area COG (Northeast)--Guadalupe County PUMA
+4805903,48,05903,San Antonio City (Southeast)--Inside Loop I-410 PUMA
+4805906,48,05906,San Antonio City (Southwest)--Inside Loop I-410 PUMA
+4805400,48,05400,Capital Area COG (Southwest)--Hays County PUMA
+4805309,48,05309,"Travis County (West, South & Outside Austin City) PUMA"
+4803700,48,03700,Heart of Texas COG (Outside McLennan County) & Navarro County PUMA
+4802515,48,02515,Tarrant County (West)--Fort Worth City (West) PUMA
+4803200,48,03200,Rio Grande COG & Permian Basin Regional Planning Commission (West) PUMA
+4800400,48,00400,South Plains Association of Governments (Outside Lubbock County) PUMA
+4800100,48,00100,Panhandle Regional Planning Commission (Outside Potter & Randall Counties) PUMA
+4800600,48,00600,North Texas Regional Planning Commission (Outside Wichita County) & Wise County PUMA
+4800700,48,00700,North Texas Regional Planning Commission--Wichita County--Wichita Falls City PUMA
+4800800,48,00800,"Texoma COG--Grayson, Cooke & Fannin Counties PUMA"
+4801000,48,01000,Ark-Tex COG (West) PUMA
+4801100,48,01100,Ark-Tex COG (East)--Bowie & Cass Counties PUMA
+4801200,48,01200,"East Texas COG (Northeast)--Harrison, Upshur & Marion Counties PUMA"
+4801700,48,01700,"East Texas COG (Southeast)--Rusk, Cherokee & Panola Counties PUMA"
+4804100,48,04100,Deep East Texas COG (East) PUMA
+4804200,48,04200,Orange & Hardin Counties PUMA
+4804302,48,04302,Jefferson County (Outside Beaumont City)--Port Arthur City PUMA
+4804400,48,04400,Houston-Galveston Area Council--Liberty & Chambers Counties PUMA
+4804701,48,04701,"Galveston County (Central, South & East)--Galveston, Texas City & La Marque Cities PUMA"
+4804803,48,04803,Houston-Galveston Area Council--Brazoria County (Southwest)--Lake Jackson City PUMA
+4805000,48,05000,Houston-Galveston Area Council (West) PUMA
+4803400,48,03400,"Central Texas COG (West), Burnet & Llano Counties PUMA"
+4802700,48,02700,West Central Texas COG--Taylor County--Abilene City PUMA
+4802516,48,02516,Tarrant County (Northwest)--Fort Worth (Northwest) & Saginaw Cities PUMA
+4802003,48,02003,Denton County (South Central)--Flower Mound Town & Highland Village City PUMA
+4802005,48,02005,Denton County (Central)--Denton (Central) & Corinth Cities PUMA
+4801800,48,01800,East Texas COG (Southwest)--Henderson & Anderson Counties PUMA
+4804624,48,04624,Harris County (Northeast)--Houston City (Far Northeast) PUMA
+4804606,48,04606,"Houston (East), Galena Park, Jacinto Cities & Cloverleaf PUMA"
+4804620,48,04620,Houston (Southeast) & Webster Cities PUMA
+4804801,48,04801,Houston-Galveston Area Council--Brazoria County (North)--Pearland City PUMA
+4804617,48,04617,Houston City (South)--Between Loop I-610 & Beltway TX-8 PUMA
+4805908,48,05908,San Antonio City (West)--Between Loop TX-1604 & Loop I-410 PUMA
+4805914,48,05914,Bexar County (Northwest)--San Antonio (Far Northwest) & Helotes Cities PUMA
+4805800,48,05800,Alamo Area COG (Northeast)--Comal County PUMA
+4801904,48,01904,"Collin County (South Central)--Allen, Murphy, Plano (East) & Parker Cities PUMA"
+4802301,48,02301,Dallas County (Northeast)--Rowlett & Garland (Northeast) Cities PUMA
+4801400,48,01400,Kaufman County PUMA
+4801502,48,01502,East Texas COG (Central)--Smith County (West)--Tyler City PUMA
+4806805,48,06805,Hidalgo County (Central)--McAllen City PUMA
+4803000,48,03000,Permian Basin Regional Planning Commission (Central)--Midland County--Midland City PUMA
+4800502,48,00502,South Plains Association of Governments--Lubbock County--Lubbock City (Outer) PUMA
+4802600,48,02600,West Central Texas COG (Outside Taylor County) PUMA
+4802006,48,02006,Denton County (North & West)--Denton City (Outer) PUMA
+4801907,48,01907,Collin County (East) PUMA
+4800900,48,00900,"Hunt & Rockwall Counties--Rockwall, Greenville & Dallas (Far Northeast) Cities PUMA"
+4801600,48,01600,East Texas COG (Central)--Gregg County--Longview City PUMA
+4804000,48,04000,Deep East Texas COG (Central)--Angelina & Nacogdoches Counties PUMA
+4804802,48,04802,Houston-Galveston Area Council--Brazoria County (Central)--Alvin City PUMA
+4806602,48,06602,Coastal Bend COG--Nueces County (Central)--Corpus Christi City (North Central) PUMA
+4806603,48,06603,Coastal Bend COG--Nueces County (Central)--Corpus Christi City (South Central) PUMA
+4806802,48,06802,Hidalgo County (East)--Alamo & Donna Cities PUMA
+4806804,48,06804,Hidalgo County (North Central)--Edinburg City PUMA
+4806100,48,06100,Alamo Area COG (Southwest) PUMA
+4806000,48,06000,Alamo Area COG (Northwest) & Blanco County PUMA
+4801906,48,01906,Collin County (Northwest)--Frisco City (East) & Prosper Town PUMA
+4806900,48,06900,Coastal Bend COG (Southeast) & Willacy County PUMA
+4803306,48,03306,El Paso City (Northwest) PUMA
+4803305,48,03305,El Paso City (North) PUMA
+4803301,48,03301,El Paso County (Outside El Paso City)--Socorro & Horizon Cities PUMA
+4806701,48,06701,Cameron County (East)--Brownsville City (North) PUMA
+4800501,48,00501,South Plains Association of Governments--Lubbock County--Lubbock City (Central) PUMA
+4802512,48,02512,Fort Worth City (North Central) & Haltom City (North)--Inside Loop I-820 PUMA
+4802511,48,02511,Fort Worth City (North)--East of I-35W & West of US-377 PUMA
+4802510,48,02510,Tarrant County (North)--North Richland Hills (North) & Keller Cities PUMA
+4802501,48,02501,"Tarrant County (Northeast)--Grapevine, Southlake & Colleyville Cities PUMA"
+4802002,48,02002,Denton County (Southeast)--Lewisville City PUMA
+4801902,48,01902,Collin County (Southwest)--Plano City (West) PUMA
+4801901,48,01901,"Collin County (Southwest)--Dallas (North), Plano (South) & Richardson (North) Cities PUMA"
+4802308,48,02308,Dallas County (Northeast)--Garland (Northwest) & Richardson (East) Cities PUMA
+4804502,48,04502,Houston-Galveston Area Council--Montgomery County (West)--Conroe City (West) PUMA
+4804607,48,04607,Houston City (Northeast)--Between Loop I-610 & Beltway TX-8 PUMA
+4804601,48,04601,Houston City (North Central)--North of I-10 & Inside Loop I-610 PUMA
+4805916,48,05916,"Bexar County (Northeast)--San Antonio (Northeast), Universal City & Converse Cities PUMA"
+4805913,48,05913,"San Antonio (Northeast), Kirby & Windcrest Cities PUMA"
+4805902,48,05902,San Antonio City (Northeast)--Inside Loop I-410 PUMA
+4805905,48,05905,San Antonio City (West)--Inside Loop I-410 PUMA
+4805915,48,05915,Bexar County (North)--San Antonio City (Far North) & Timberwood Park PUMA
+4805308,48,05308,"Austin City (Southwest), Lost Creek & Barton Creek PUMA"
+4805204,48,05204,Capital Area COG--Williamson County (West)--Cedar Park & Leander Cities PUMA
+4805201,48,05201,Capital Area COG--Williamson County (North)--Georgetown (East) & Taylor Cities PUMA
+4803502,48,03502,"Central Texas COG--Bell County (North, East & South)--Temple & Belton Cities PUMA"
+4802102,48,02102,Johnson County PUMA
+4802514,48,02514,Tarrant County (Southwest)--Fort Worth (Southwest) & Benbrook Cities PUMA
+4802322,48,02322,"Dallas County (Northwest)--Irving (North), Coppell & Carrollton (Southwest) Cities PUMA"
+4802001,48,02001,Denton County (Far Southeast)--Carrollton (North) & Dallas (North) Cities PUMA
+4801903,48,01903,Collin County (Southwest)--Plano City (Central) PUMA
+4802303,48,02303,Dallas County (East)--Mesquite City (Central & Southeast) PUMA
+4802304,48,02304,Dallas County (Southeast)--Dallas City (Southeast) PUMA
+4802101,48,02101,Ellis County PUMA
+4804608,48,04608,Houston City (North) & Aldine--Between Loop I-610 & Beltway TX-8 PUMA
+4804603,48,04603,"Houston City (South Central)--South of US-59, West of I-45 & Inside Loop I-610 PUMA"
+4804616,48,04616,Houston City (Southwest)--Between Loop I-610 & Beltway TX-8 PUMA
+4804904,48,04904,"Fort Bend County (North)--Mission Bend (Southwest), Cinco Ranch & Four Corners PUMA"
+4804632,48,04632,Harris County (Far Northwest)--Katy City (Northeast) PUMA
+4803602,48,03602,Brazos Valley COG--Brazos County--College Station & Bryan Cities PUMA
+4805901,48,05901,San Antonio City (Central) PUMA
+4805909,48,05909,San Antonio (Northwest) & Leon Valley Cities PUMA
+4801300,48,01300,"East Texas COG (Northwest)--Van Zandt, Wood, Camp & Rains Counties PUMA"
+4803900,48,03900,Deep East Texas COG (West) & Walker County PUMA
+4802314,48,02314,Dallas City (East Central)--South of I-30 & East of I-35E PUMA
+4802505,48,02505,Tarrant County (Southeast)--Mansfield (North) & Arlington (Southwest) Cities PUMA
+4802319,48,02319,Dallas County (West)--Grand Prairie (Central) & Dallas (Southwest) Cities PUMA
+4806703,48,06703,Cameron County (South)--Brownsville City (Central) PUMA
+4806702,48,06702,Cameron County (West)--Harlingen & San Benito Cities PUMA
+4806801,48,06801,Hidalgo County (Southeast)--Weslaco & Mercedes Cities PUMA
+4806803,48,06803,"Hidalgo County (South Central)--Pharr, San Juan & Hidalgo Cities PUMA"
+4806806,48,06806,Hidalgo County (Southwest)--Mission City PUMA
+4806807,48,06807,Hidalgo County (North & West) PUMA
+4806400,48,06400,South Texas Development Council (South) & Coastal Bend COG (West) PUMA
+4806302,48,06302,South Texas Development Council--Webb County (North & East)--Laredo City (Outer) PUMA
+4806301,48,06301,South Texas Development Council (North)--Webb County--Laredo City (Central) PUMA
+4806200,48,06200,Middle Rio Grande Development Council PUMA
+4803303,48,03303,El Paso City (Southeast) PUMA
+4803304,48,03304,El Paso City (Central) PUMA
+4803302,48,03302,El Paso City (East) PUMA
+4803100,48,03100,Permian Basin Regional Planning Commission (Central)--Ector County--Odessa City PUMA
+4802800,48,02800,Concho Valley COG & Permian Basin Regional Planning Commission (East) PUMA
+4800300,48,00300,Panhandle Regional Planning Commission--Randall County--Amarillo City (South) PUMA
+4800200,48,00200,Panhandle Regional Planning Commission--Potter County--Amarillo City (North) PUMA
+4805600,48,05600,Golden Crescent Regional Planning Commission (Southeast)--Victoria & Calhoun Counties PUMA
+4806500,48,06500,Coastal Bend COG (Northeast) PUMA
+4806601,48,06601,Coastal Bend COG--Nueces County--Corpus Christi City (Outer) PUMA
+4805910,48,05910,San Antonio City (Northwest)--Between Loop TX-1604 & Loop I-410 PUMA
+4805911,48,05911,"San Antonio City (North), Hollywood Park Town & Shavano Park City PUMA"
+4805305,48,05305,Austin City (Northwest) PUMA
+4803501,48,03501,Central Texas COG--Bell County (West)--Killeen & Harker Heights Cities PUMA
+4803802,48,03802,"Heart of Texas COG--McLennan County--Waco (Outer), Hewitt & Robinson Cities PUMA"
+4802509,48,02509,Fort Worth (Northeast) & Hurst (South) Cities--North of I-30 PUMA
+4802502,48,02502,Tarrant County (East)--Euless (South & West) & Arlington (North) Cities PUMA
+4802321,48,02321,Dallas County (Northwest)--Irving (Central) & Dallas (Northwest) Cities PUMA
+4802302,48,02302,Dallas County (Northeast)--Garland City (South) PUMA
+4804503,48,04503,Houston-Galveston Area Council--Montgomery County (South)--The Woodlands (North) PUMA
+4804637,48,04637,"Houston City (West)--Westpark Tollway, West of Beltway TX-8 PUMA"
+4802312,48,02312,"Dallas (West Central), University Park Cities & Highland Park Town PUMA"
+4802311,48,02311,Dallas City (North)--South of I-635 & West of US-75 PUMA
+4802316,48,02316,Dallas City (South Central)--North of I-20 & West of I-35E PUMA
+4802318,48,02318,Dallas County (Southwest)--Cedar Hill & Duncanville Cities PUMA
+4802315,48,02315,Dallas City (West Central)--East of Loop TX-12 & West of I-35E PUMA
+4802313,48,02313,Dallas City (Downtown)--North of I-30 PUMA
+4802504,48,02504,Tarrant County (Southeast)--Arlington (Southeast) & Grand Prairie (Southwest) Cities PUMA
+4804610,48,04610,Houston City (North)--West of Aldine & Inside Beltway TX-8 PUMA
+4804615,48,04615,Houston (Southwest) & Bellaire (Southeast) Cities--Between Loop I-610 & Beltway TX-8 PUMA
+4804634,48,04634,Harris County (West)--Houston City (West)--North of US-90 & West of TX-6 PUMA
+4804630,48,04630,Harris County (Far North)--Tomball City & The Woodlands (Southwest) PUMA
+4804629,48,04629,"Harris County (North)--North of FM-1960, West of I-45 & East of TX-249 PUMA"
+4804609,48,04609,Houston City (North)--South of Aldine & Inside Beltway TX-8 PUMA
+4804614,48,04614,"Houston City (West)--Westpark Tollway, Between Loop I-610 & Beltway TX-8 PUMA"
+4805203,48,05203,"Williamson County (South)--Austin City (Far North), Brushy Creek & Jollyville PUMA"
+4802506,48,02506,Tarrant County (South Central)--Fort Worth City (Southeast)--South of I-20 PUMA
+4802513,48,02513,Fort Worth City (South Central) & Edgecliff Village Town PUMA
+4802508,48,02508,"Fort Worth City (East Central)--South of I-30, East of I-35W & Inside Loop I-820 PUMA"
+4802320,48,02320,Dallas County (West)--Irving (South) & Grand Prairie (North) Cities PUMA
+4802305,48,02305,Dallas (East) & Mesquite (West) Cities--South of I-30 & West of I-635 PUMA
+4802317,48,02317,Dallas County (South)--DeSoto & Lancaster Cities PUMA
+4805301,48,05301,"Travis County (Northeast)--Pflugerville, Manor Cities & Wells Branch PUMA"
+4805304,48,05304,Austin City (Southeast) PUMA
+4805202,48,05202,Capital Area COG--Williamson County (Southeast)--Round Rock City PUMA
+4805303,48,05303,Austin City (Northeast) PUMA
+4805302,48,05302,Austin City (North) PUMA
+4803801,48,03801,Heart of Texas COG--McLennan County--Waco City (Central) PUMA
+4802507,48,02507,Tarrant County (East)--Arlington City (West)--South of I-30 & East of Loop I-820 PUMA
+4802503,48,02503,Tarrant County (East)--Arlington (East) & Grand Prairie (West Central) Cities PUMA
+4802310,48,02310,"Dallas (Far North), Carrollton (Southeast) Cities & Addison Town--North of I-635 PUMA"
+4802309,48,02309,Dallas (Far North) & Richardson (Southwest) Cities PUMA
+4802307,48,02307,Dallas City (Northeast)--East of US-75 PUMA
+4802306,48,02306,Dallas (Northeast) & Mesquite (North) Cities--North of I-30 & West of I-635 PUMA
+4804301,48,04301,Jefferson County (North Central)--Beaumont City PUMA
+4804623,48,04623,Harris County (East)--Baytown City PUMA
+4804622,48,04622,"Harris County (East)--Deer Park, La Porte (North) Cities & Channelview PUMA"
+4804621,48,04621,"Houston (Southeast), Pasadena (Southeast), La Porte (South) & Seabrook (East) Cities PUMA"
+4804702,48,04702,Galveston County (Northwest)--League City & Friendswood City PUMA
+4805500,48,05500,Golden Crescent Regional Planning Commission (North) & Wilson & Karnes Counties PUMA
+4802900,48,02900,Concho Valley COG--Tom Green County--San Angelo City PUMA
+4802200,48,02200,"North Central Texas COG (West)--Hood, Erath, Palo Pinto & Somervell Counties PUMA"
+4802400,48,02400,Parker County PUMA
+4802004,48,02004,"Denton County (East Central)--Frisco (West), The Colony & Little Elm Cities PUMA"
+4801905,48,01905,Collin County (Central)--McKinney City PUMA
+4801501,48,01501,East Texas COG (Central)--Smith County (Outside Tyler City) PUMA
+4804605,48,04605,Harris County (Southeast)--Pasadena City (North & Central)--Inside Beltway TX-8 PUMA
+4804905,48,04905,Fort Bend County (West & South) PUMA
+4805907,48,05907,Bexar County (South)--San Antonio City (Far South) PUMA
+4804627,48,04627,Harris County (Far North)--Spring PUMA
+4804626,48,04626,"Harris County (North)--Houston City (North)--I-45, Between Beltway TX-8 & FM-1960 PUMA"
+4804604,48,04604,Houston City (West Central)--South of I-10 & Inside Loop I-610 PUMA
+4804638,48,04638,Houston City (Southwest)--East of TX-6 & West of Beltway TX-8 PUMA
+4804635,48,04635,Houston City (West)--South of I-10 & West of TX-6 PUMA
+4805912,48,05912,San Antonio City (Northeast)--Between Loop TX-1604 & Loop I-410 PUMA
+4805904,48,05904,San Antonio City (Northwest)--Inside Loop I-410 PUMA
+4805307,48,05307,Austin City (South) PUMA
+4805306,48,05306,Austin City (Central) PUMA
+4804636,48,04636,Houston City (West)--East of TX-6 & West of Beltway TX-8 PUMA
+4804633,48,04633,Harris County (Northwest)--South of US-290 & West of TX-6 PUMA
+4804628,48,04628,Harris County (Northwest)--Jersey Village City--Between Beltway TX-8 & FM-1960 PUMA
+4804612,48,04612,Houston (West) & Spring Valley Village Cities--Between Loop I-610 & Beltway TX-8 PUMA
+4804631,48,04631,Harris County (Northwest)--North of US-290 & North of FM-1960 PUMA
+4804611,48,04611,Houston City (Northwest)--Between Loop I-610 & Beltway TX-8 PUMA
+4804613,48,04613,Houston (West) & Hunters Creek Village Cities--Between Loop I-610 & Beltway TX-8 PUMA
+4921001,49,21001,Southwest & South Central Utah (Outside Washington County)--Cedar City PUMA
+4903001,49,03001,Tooele & Box Elder Counties PUMA
+4905001,49,05001,"Cache, Summit, Morgan & Rich Counties PUMA"
+4913001,49,13001,Southeast Utah & Uintah Basin Region PUMA
+4953001,49,53001,Washington County--St. George City PUMA
+4949004,49,49004,"Utah County (East)--Spanish Fork, Springville, Lehi (Northeast) & Highland Cities PUMA"
+4949001,49,49001,"Utah County (West)--Saratoga Springs, Payson & Lehi (Southwest) Cities PUMA"
+4957001,49,57001,"Weber County (West)--Roy, North Ogden, Ogden (Northwest) & West Haven Cities PUMA"
+4957002,49,57002,Weber County (East)--Ogden (Southeast) & South Ogden Cities PUMA
+4935008,49,35008,"Salt Lake County (Southeast)--Sandy (North), Cottonwood Heights & Midvale Cities PUMA"
+4949002,49,49002,"Utah County (Central)--Orem, Pleasant Grove, American Fork & Lindon Cities PUMA"
+4949003,49,49003,Utah County (Central)--Provo City PUMA
+4935006,49,35006,"Salt Lake County--West Jordan (West), Herriman & South Jordan (West) Cities PUMA"
+4935001,49,35001,"Salt Lake County (Northwest)--Salt Lake City (West), West Valley City (West) & Magna PUMA"
+4911001,49,11001,"Davis County (North)--Layton, Clearfield, Kaysville, Syracuse & Clinton Cities PUMA"
+4911002,49,11002,"Davis County (South)--Bountiful, Farmington & North Salt Lake Cities PUMA"
+4935002,49,35002,Salt Lake County (Northeast)--Salt Lake City (East) PUMA
+4935005,49,35005,"Salt Lake County (East Central)--Murray (East), Holladay Cities & Millcreek PUMA"
+4935009,49,35009,Salt Lake County (South & East Central)--Draper (Northwest) & Sandy (South) Cities PUMA
+4935003,49,35003,"Salt Lake County--West Valley City (Central), Salt Lake City (South Central) & Kearns PUMA"
+4935007,49,35007,"Salt Lake County--West Jordan (East), South Jordan (East) & Riverton Cities PUMA"
+4935004,49,35004,"Salt Lake County--West Valley City (East), Taylorsville & Murray (West) Cities PUMA"
+5000100,50,00100,"Northwest Vermont--Chittenden, Franklin & Grand Isle Counties--Burlington City PUMA"
+5000200,50,00200,"Northeast Vermont--Washington, Caledonia, Orleans, Lamoille & Essex Counties PUMA"
+5000300,50,00300,"Southeast Vermont--Windsor, Windham & Orange Counties PUMA"
+5000400,50,00400,"Southwest Vermont--Rutland, Bennington & Addison Counties PUMA"
+5151105,51,51105,Southside Planning District Commission & Commonwealth Regional Council PUMA
+5151097,51,51097,West Piedmont Planning District Commission PUMA
+5151087,51,51087,Rappahannock-Rapidan Regional Commission PUMA
+5151244,51,51244,Prince William County (North & West)--Linton Hall & Gainesville PUMA
+5151206,51,51206,"James City, York Counties, Williamsburg & Poquoson Cities PUMA"
+5151186,51,51186,Hampton City PUMA
+5151154,51,51154,Norfolk City (Northeast) PUMA
+5155001,51,55001,Chesapeake City (Northeast) PUMA
+5151044,51,51044,"Roanoke Valley-Alleghany Regional Commission (Roanoke, Salem Cities & Vinton Town) PUMA"
+5159307,51,59307,Fairfax County (Northwest)--Reston (North) & Franklin Farm PUMA
+5159305,51,59305,"Fairfax County (North Central)--Vienna Town, Oakton & Fair Oaks (East) PUMA"
+5159306,51,59306,"Fairfax County (South Central)--Springfield (South), West Springfield & Franconia PUMA"
+5151165,51,51165,Virginia Beach City (Central) PUMA
+5151155,51,51155,Portsmouth & Norfolk (Southwest) Cities PUMA
+5151095,51,51095,"Virginia's Region 2000 (North)--Bedford, Amherst, Appomattox Counties & Bedford City PUMA"
+5151089,51,51089,Thomas Jefferson Planning District Commission (South & East) PUMA
+5151090,51,51090,Thomas Jefferson Planning District Commission (North) PUMA
+5151245,51,51245,"Manassas, Manassas Park Cities & Prince William County (Central)--Buckhall & Sudley PUMA"
+5151215,51,51215,"Hanover, Powhatan, Goochland, New Kent, King William & Charles City Counties PUMA"
+5151175,51,51175,Newport News City PUMA
+5151096,51,51096,Virginia's Region 2000 (South)--Campbell County & Lynchburg City PUMA
+5104103,51,04103,Chesterfield County (West)--Brandermill & Woodlake PUMA
+5151224,51,51224,"Henrico County (South & East)--Highland Springs, East Highland Park & Glen Allen PUMA"
+5104101,51,04101,Chesterfield County (East)--James River Region PUMA
+5104102,51,04102,Chesterfield County (Central)--Chester & Rockwood PUMA
+5151235,51,51235,Richmond City PUMA
+5151225,51,51225,"Henrico County (West)--Tuckahoe, Short Pump & Wyndham PUMA"
+5159309,51,59309,Fairfax County (West Central)--Centreville (North & West) & Chantilly (South & West) PUMA
+5159301,51,59301,"Fairfax County (East Central)--Annandale, West Falls Church & Bailey's Crossroads PUMA"
+5159303,51,59303,Fairfax County (Central) & Fairfax City--Burke PUMA
+5110703,51,10703,Loudoun County (West & South)--Leesburg Town PUMA
+5110702,51,10702,Loudoun County (East Central)--Ashburn (Southwest/Belmont Ridge) & Dulles Airport PUMA
+5110701,51,10701,Loudoun County (Northeast)--Sterling & Ashburn (Northeast/Ashburn Village) PUMA
+5159308,51,59308,Fairfax County (Northeast)--McLean & Idylwood PUMA
+5101301,51,01301,Arlington County (North) PUMA
+5101302,51,01302,Arlington County (South) PUMA
+5151255,51,51255,Alexandria City PUMA
+5159302,51,59302,"Fairfax County (Southeast)--Woodlawn, Rose Hill & Mount Vernon PUMA"
+5159304,51,59304,Fairfax County (Southwest)--Centreville (Southeast) & Lorton PUMA
+5151246,51,51246,"Prince William County (Southeast)--Dale City, Lake Ridge & Woodbridge PUMA"
+5151115,51,51115,George Washington Regional Commission (North) PUMA
+5151120,51,51120,George Washington Regional Commission (South) PUMA
+5151125,51,51125,"Middle Peninsula, Northern Neck & Accomack-Northampton Planning District Commissions PUMA"
+5151164,51,51164,Virginia Beach City (North) PUMA
+5151167,51,51167,Virginia Beach City (South) PUMA
+5155002,51,55002,Chesapeake City (South & West) PUMA
+5151145,51,51145,"Isle of Wight, Southampton Counties, Suffolk & Franklin Cities PUMA"
+5151135,51,51135,Crater Planning District Commission PUMA
+5151010,51,51010,LENOWISCO & Cumberland Plateau Planning District Commissions PUMA
+5151020,51,51020,Mount Rogers Planning District Commission PUMA
+5151040,51,51040,New River Valley Planning District Commission PUMA
+5151045,51,51045,Roanoke Valley-Alleghany Regional Commission (Outside Roanoke & Salem Cities) PUMA
+5151080,51,51080,Central Shenandoah Planning District Commission (Southwest) PUMA
+5151110,51,51110,Central Shenandoah Planning District Commission (Northeast) PUMA
+5151085,51,51085,Northern Shenandoah Valley Regional Commission (South) PUMA
+5151084,51,51084,Northern Shenandoah Valley Regional Commission (North) PUMA
+5310200,53,10200,"Skagit, Island & San Juan Counties PUMA"
+5310100,53,10100,Whatcom County--Bellingham City PUMA
+5310400,53,10400,"Stevens, Okanogan, Pend Oreille & Ferry Counties PUMA"
+5310504,53,10504,Spokane County (Outer)--Cheney City PUMA
+5310503,53,10503,Spokane County (East Central)--Greater Spokane Valley City PUMA
+5310600,53,10600,"Whitman, Asotin, Adams, Lincoln, Columbia & Garfield Counties PUMA"
+5310703,53,10703,"Walla Walla, Benton (Outer) & Franklin (Outer) Counties PUMA"
+5311000,53,11000,"Lewis, Klickitat & Skamania Counties PUMA"
+5311502,53,11502,Pierce County (Northwest)--Peninsula Region & Tacoma City (West) PUMA
+5311612,53,11612,"King County (Far Southwest)--Federal Way, Des Moines Cities & Vashon Island PUMA"
+5311701,53,11701,"Snohomish County (Southwest)--Edmonds, Lynnwood & Mountlake Terrace Cities PUMA"
+5311702,53,11702,Snohomish County (West Central)--Mukilteo & Everett (Southwest) Cities PUMA
+5311703,53,11703,Snohomish County (Central)--Everett City (Central & East) & Eastmont PUMA
+5311705,53,11705,Snohomish County (Central & Southeast)--Lake Stevens & Monroe Cities PUMA
+5311103,53,11103,"Clark County (Southeast)--Vancouver (East), Camas & Washougal Cities PUMA"
+5311101,53,11101,Clark County (Southwest)--Vancouver City (West & Central) PUMA
+5311104,53,11104,Clark County (North)--Battle Ground City & Orchards PUMA
+5311200,53,11200,"Cowlitz, Pacific & Wahkiakum Counties PUMA"
+5311300,53,11300,Grays Harbor & Mason Counties PUMA
+5311900,53,11900,Clallam & Jefferson Counties PUMA
+5310300,53,10300,Chelan & Douglas Counties PUMA
+5310502,53,10502,Spokane County (South Central)--Spokane City (South) PUMA
+5310701,53,10701,"Benton & Franklin Counties--Pasco, Richland (North) & West Richland Cities PUMA"
+5310702,53,10702,Benton County (East Central)--Kennewick & Richland (South) Cities PUMA
+5310902,53,10902,Yakima County (Outer)--Sunnyside & Grandview Cities PUMA
+5311102,53,11102,Clark County (West Central)--Salmon Creek & Hazel Dell PUMA
+5311801,53,11801,Kitsap County (North)--Bainbridge Island City & Silverdale PUMA
+5311706,53,11706,Snohomish County (North)--Marysville & Arlington Cities PUMA
+5310800,53,10800,Grant & Kittitas Counties PUMA
+5310901,53,10901,Yakima County (Central)--Greater Yakima City PUMA
+5311402,53,11402,Thurston County (Outer) PUMA
+5311802,53,11802,Kitsap County (South)--Bremerton & Port Orchard Cities PUMA
+5311616,53,11616,"King County (Northeast)--Snoqualmie City, Cottage Lake, Union Hill & Novelty Hill PUMA"
+5311507,53,11507,"Pierce County (Southeast)--Graham, Elk Plain & Prairie Ridge PUMA"
+5311505,53,11505,Pierce County (North Central)--Tacoma (Port) & Bonney Lake (Northwest) Cities PUMA
+5311611,53,11611,"King County (West Central)--Burien, SeaTac, Tukwila Cities & White Center PUMA"
+5311605,53,11605,Seattle City (West)--Duwamish & Beacon Hill PUMA
+5311603,53,11603,Seattle City (Downtown)--Queen Anne & Magnolia PUMA
+5311601,53,11601,Seattle City (Northwest) PUMA
+5311606,53,11606,"King County (Northwest)--Shoreline, Kenmore & Bothell (South) Cities PUMA"
+5311704,53,11704,"Snohomish County (South Central)--Bothell (North), Mill Creek Cities & Silver Firs PUMA"
+5311615,53,11615,"King County (Southeast)--Maple Valley, Covington & Enumclaw Cities PUMA"
+5311614,53,11614,King County (Southwest)--Auburn City & Lakeland PUMA
+5311501,53,11501,Pierce County (Central)--Tacoma City (Central) PUMA
+5311613,53,11613,King County (Southwest Central)--Kent City PUMA
+5311609,53,11609,"King County (Central)--Sammamish, Issaquah, Mercer Island & Newcastle Cities PUMA"
+5311506,53,11506,Pierce County (East Central)--Puyallup City & South Hill PUMA
+5311401,53,11401,"Thurston County (Central)--Olympia, Lacey & Tumwater Cities PUMA"
+5311503,53,11503,Pierce County (West Central)--Lakewood City & Joint Base Lewis-McChord PUMA
+5311604,53,11604,Seattle City (Southeast)--Capitol Hill PUMA
+5311602,53,11602,Seattle City (Northeast) PUMA
+5311607,53,11607,"King County (Northwest)--Redmond, Kirkland Cities, Inglewood & Finn Hill PUMA"
+5311610,53,11610,"King County (Central)--Renton City, Fairwood, Bryn Mawr & Skyway PUMA"
+5311608,53,11608,King County (Northwest Central)--Greater Bellevue City PUMA
+5311504,53,11504,"Pierce County (South Central)--Tacoma City (South), Parkland & Spanaway PUMA"
+5310501,53,10501,Spokane County (North Central)--Spokane City (North) PUMA
+5401300,54,01300,"Logan, Mingo, Wyoming & McDowell Counties PUMA"
+5400900,54,00900,"Putnam, Boone & Lincoln Counties PUMA"
+5400200,54,00200,"Harrison, Marion, Taylor & Doddridge Counties PUMA"
+5401000,54,01000,Kanawha & Clay Counties--Charleston City PUMA
+5400800,54,00800,"Cabell, Wayne & Mason Counties--Huntington City PUMA"
+5400600,54,00600,"Jackson, Wetzel, Roane, Braxton, Ritchie, Tyler, Gilmer & Calhoun Counties PUMA"
+5400700,54,00700,"Wood, Pleasants & Wirt Counties PUMA"
+5400100,54,00100,"Ohio, Marshall, Hancock & Brooke Counties PUMA"
+5400300,54,00300,Monongalia & Preston Counties--Morgantown City PUMA
+5400500,54,00500,"Randolph, Upshur, Barbour, Lewis, Hardy, Grant, Pendleton & Tucker Counties PUMA"
+5400400,54,00400,"Berkeley, Jefferson, Mineral, Hampshire & Morgan Counties PUMA"
+5401100,54,01100,"Greenbrier, Nicholas, Summers, Monroe & Pocahontas Counties PUMA"
+5401200,54,01200,"Raleigh, Mercer & Fayette Counties PUMA"
+5501001,55,01001,Dodge & Jefferson Counties PUMA
+5500103,55,00103,Dane County (West) PUMA
+5501000,55,01000,Sauk & Columbia Counties PUMA
+5555103,55,55103,Eau Claire & Chippewa (South) Counties PUMA
+5500200,55,00200,Green Bay City PUMA
+5501500,55,01500,Outagamie County PUMA
+5541003,55,41003,Milwaukee City (Central) PUMA
+5570201,55,70201,Waukesha County (East) PUMA
+5570101,55,70101,Waukesha County (West) PUMA
+5500102,55,00102,Dane County (East) PUMA
+5501600,55,01600,Marathon County PUMA
+5501501,55,01501,Winnebago County PUMA
+5541002,55,41002,Milwaukee City (North Central) PUMA
+5540701,55,40701,Milwaukee County (West) PUMA
+5570301,55,70301,Waukesha County (Central) PUMA
+5501601,55,01601,"Central Sands--Wood, Portage, Juneau & Adams Counties PUMA"
+5500101,55,00101,Madison City (Central) PUMA
+5501301,55,01301,Manitowoc & Kewaunee Counties PUMA
+5502500,55,02500,Sheboygan County PUMA
+5520000,55,20000,Washington & Ozaukee Counties PUMA
+5540301,55,40301,Milwaukee County (South) PUMA
+5530000,55,30000,Racine County PUMA
+5510000,55,10000,Kenosha County PUMA
+5550000,55,50000,Walworth County PUMA
+5502400,55,02400,Rock County PUMA
+5500800,55,00800,"Grant, Green, Iowa, Richland & Lafayette Counties PUMA"
+5500700,55,00700,West Central Wisconsin--Northern Mississippi Region PUMA
+5500900,55,00900,La Crosse County PUMA
+5555102,55,55102,St. Croix & Dunn Counties PUMA
+5555101,55,55101,"Barron, Polk, Clark & Chippewa (North) Counties PUMA"
+5540101,55,40101,Milwaukee County (Northeast) PUMA
+5541005,55,41005,Milwaukee City (South) PUMA
+5501400,55,01400,East Central Wisconsin PUMA
+5500300,55,00300,Outer Green Bay City PUMA
+5501401,55,01401,Fond du Lac & Calumet Counties PUMA
+5541001,55,41001,Milwaukee City (North) PUMA
+5541004,55,41004,Milwaukee City (South Central) PUMA
+5500100,55,00100,Northwest Wisconsin PUMA
+5500600,55,00600,"Oneida, Lincoln, Vilas, Langlade & Forest Counties PUMA"
+5501300,55,01300,"Marinette, Oconto, Door & Florence Counties PUMA"
+5600100,56,00100,"Sheridan, Park, Teton, Lincoln & Big Horn Counties PUMA"
+5600200,56,00200,"Campbell, Goshen, Platte, Johnson, Washakie, Weston, Crook & Niobrara Counties PUMA"
+5600300,56,00300,Laramie & Albany Counties PUMA
+5600400,56,00400,"Natrona, Carbon & Converse Counties PUMA"
+5600500,56,00500,"Sweetwater, Fremont, Uinta, Sublette & Hot Springs Counties--Wind River Reservation PUMA"
+7200202,72,00202,"Mayagüez, Hormigueros, Las Marías & Maricao Municipios--Carr 2 (Suroeste) PUMA"
+7200101,72,00101,"San Sebastián, Aguada, Moca, Añasco & Rincón Municipios--Carr 2-Carr 111 PUMA"
+7200102,72,00102,"Aguadilla, Isabela & Quebradillas Municipios--Carr 2 (Noroeste) PUMA"
+7200302,72,00302,"Hatillo, Camuy, Utuado & Lares Municipios--Carr 2-Carr 129 PUMA"
+7200301,72,00301,"Arecibo, Barceloneta & Florida Municipios--Carr 2 (Norte) PUMA"
+7200501,72,00501,"Vega Baja, Manatí, Morovis & Ciales Municipios--Carr 137-Carr 149 PUMA"
+7200503,72,00503,Toa Alta & Vega Alta Municipios PUMA
+7200502,72,00502,Toa Baja & Dorado Municipios PUMA
+7200804,72,00804,San Juan Municipio (Noroeste) PUMA
+7200901,72,00901,Carolina Municipio (Norte) PUMA
+7200902,72,00902,"Trujillo Alto, Canóvanas, Loíza & Carolina (Sur) Municipios--Carr 852-Carr 185 PUMA"
+7201101,72,01101,"Río Grande, Fajardo, Luquillo, Ceiba, Vieques & Culebra Municipios--Carr 3 (Noreste) PUMA"
+7201102,72,01102,"Humacao, Yabucoa & Naguabo Municipios--Carr 53 PUMA"
+7200701,72,00701,"Guayama, Salinas, Arroyo, Patillas & Maunabo Municipios--Carr 3 (Sureste) PUMA"
+7200403,72,00403,"Juana Díaz, Coamo, Villalba & Santa Isabel Municipios--Carr 52-Carr 150 PUMA"
+7200402,72,00402,Ponce & Jayuya Municipios PUMA
+7200401,72,00401,"Yauco, Peñuelas, Guayanilla, Adjuntas & Guánica Municipios--Carr 2 (Sur) PUMA"
+7200201,72,00201,"Cabo Rojo, San Germán, Lajas & Sabana Grande Municipios--Carr 2-Carr 100 PUMA"
+7200803,72,00803,Guaynabo & Cataño Municipios PUMA
+7200602,72,00602,"Cayey, Cidra, Aguas Buenas & Aibonito Municipios--Carr 14-Carr 173 PUMA"
+7200801,72,00801,Bayamón Municipio (Este) PUMA
+7200805,72,00805,San Juan Municipio (Este) PUMA
+7201002,72,01002,"Gurabo, San Lorenzo, Juncos & Las Piedras Municipios--Carr 30 PUMA"
+7200601,72,00601,"Corozal, Naranjito, Barranquitas, Orocovis & Comerío Municipios--Carr 156-Carr 164 PUMA"
+7200802,72,00802,Bayamón Municipio (OEste) PUMA
+7201001,72,01001,Caguas Municipio PUMA
+7200806,72,00806,San Juan Municipio (Sur) PUMA

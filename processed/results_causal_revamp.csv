@@ -1,0 +1,2 @@
+n_counties,ols_beta,iv_beta,iv_se_iid,iv_se_hc,iv_se_clust,iv_se_conley,iv_p_hc,iv_p_clust,iv_p_conley,fs_F_hc,fs_F_clust,wu_hausman_p,sargan_p,AR_p
+2709,-0.167,-0.233,0.11,0.125,0.167,0.187,0.0625,0.1621,0.212,22.7,6.8,0.5392,0.0659,0.0717

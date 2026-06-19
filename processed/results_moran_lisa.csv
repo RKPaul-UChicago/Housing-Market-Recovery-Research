@@ -1,0 +1,2 @@
+statistic,estimate,expected,variance,p_value,n_pumas_conus,n_hh_count,weight_style,lisa_high_high,lisa_low_low,lisa_outlier,lisa_ns
+Global Moran's I,0.7045,-4.28e-4,1.62e-4,0,2336,NA,"Queen contiguity, row-standardized (W)",409,360,14,1553

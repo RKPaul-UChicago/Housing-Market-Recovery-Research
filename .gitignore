@@ -1,1 +1,14 @@
+# Ignore everything at the repository root by default
+/*
+
+# Track only these two folders
+!/data and Replication codes/
+!/Research Report/
+
+# Keep this .gitignore tracked
+!/.gitignore
+
+# Junk files anywhere (including inside the tracked folders)
 .DS_Store
+.Rhistory
+~$*

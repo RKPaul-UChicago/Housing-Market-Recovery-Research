@@ -1,0 +1,891 @@
+---
+title: "The Geography of Incomplete Recovery: Spatial Persistence and Compound Vulnerability in United States Housing Wealth, 2007--2021"
+author: "Rajat Kanti Paul"
+date: "05/21/2026"
+abstract: |
+  Did U.S. local housing markets that suffered the deepest Great Recession losses recover during the 2020--2021 pandemic boom, or does recovery failure persist? Using IPUMS American Community Survey microdata, the FEMA National Risk Index, and Census TIGER/Line geometry, I build a real housing-wealth recovery index (2012--2021) for 2,351 PUMAs across the contiguous United States and show that recovery is strongly and durably unequal across space. It is highly clustered (Moran's I = 0.70, p < 0.001), with 360 statistically significant Low-Low cores in the Great Lakes industrial corridor, Appalachia, and the Mississippi Delta. A k-means typology isolates a 968-PUMA "Persistently Depressed" cluster that combines the weakest recovery with the highest social vulnerability (mean SOVI = 59.6) and the lowest community resilience, a compound-disadvantage footprint that offers a regionally coherent targeting criterion for Community Reinvestment Act assessment areas. I then ask whether deeper recession losses causally shaped recovery, and find that the question cannot be cleanly answered. The apparent catch-up in a naive ordinary-least-squares regression is largely a mechanical artifact of mean reversion and measurement error; and while a county-level instrumental-variables design is available, the most powerful instrument (a Bartik industry-mix shock, roughly 87 percent driven by construction) fails a pre-trend falsification test, whereas the one instrument that passes (a pre-crisis HMDA high-cost lending share) is too weak for sharp inference under spatially robust standard errors. The causal effect of recession severity on recovery is therefore not identified in this setting, a cautionary result for the mechanical use of shift-share instruments when housing is the outcome. The paper's robust, policy-relevant contribution is its documentation of persistent spatial inequality and compound disadvantage.
+format:
+  pdf:
+    documentclass: article
+    classoption: [12pt, letterpaper]
+    geometry: margin=1in
+    number-sections: true
+    pdf-engine: xelatex
+    bibliography: references.bib
+    csl: chicago-author-date.csl
+    header-includes:
+      - \usepackage{fontspec}
+      - \setmainfont{Times New Roman}
+      - \usepackage[none]{hyphenat}
+      - \sloppy
+      - \usepackage{setspace}
+      - \doublespacing
+      - \usepackage{booktabs}
+      - \usepackage{longtable}
+      - \usepackage{array}
+      - \usepackage{caption}
+      - \captionsetup[figure]{font=small,labelfont=bf}
+      - \captionsetup[table]{font=small,labelfont=bf,position=top}
+      - \usepackage{float}
+      - \floatplacement{figure}{H}
+      - \usepackage{hyperref}
+      - \hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+  docx:
+    toc: false
+    number-sections: true
+    bibliography: references.bib
+    csl: chicago-author-date.csl
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+**JEL Classification:** R21, R23, R31, C21, C26, H76, G01
+
+**Keywords:** housing wealth recovery, spatial persistence, spatial clustering, LISA, compound vulnerability, shift-share (Bartik) instruments, exclusion restriction, COVID-19 housing boom, FEMA National Risk Index
+
+# Introduction
+
+Housing is the primary vehicle through which most American families accumulate wealth. It accounts for roughly two-thirds of the net worth of the median homeowner household, provides collateral for credit, and funds the property-tax base that supports local schools and public services [@mian2011; @campbell2003]. The Great Recession stripped trillions of dollars from this foundation. Between 2007 and 2009, the national median owner-reported home value fell from \$225,000 to \$191,000, a nominal decline of 15.1 percent, and markets in parts of the Midwest, Appalachia, and the Deep South lost far more. The foreclosure cascade that followed wiped out equity, constrained mobility, and left entire local economies trapped in negative feedback loops between falling tax revenue, reduced public services, and further population loss [@hartley2014; @immergluck2006].
+
+By 2021, the narrative had apparently reversed. Fueled by historically low mortgage rates, a pandemic-driven shift in residential preferences toward space, and a housing supply that had never fully rebounded after the crisis, the national median home value rose to \$300,000, one-third above its pre-recession level. Commentators declared the housing market healed. Yet this declaration, while accurate in the aggregate, obscures something consequential: the gains were not spread evenly across local markets. Some communities saw real home values more than double between 2012 and 2021. Others had barely moved, or had actually contracted in inflation-adjusted terms, despite the strongest nominal appreciation environment in two decades. For households in those lagging markets, the pandemic boom offered little relief; the COVID-era gains arrived somewhere else.
+
+This paper's primary contribution is a descriptive and spatial analysis of housing-wealth recovery, paired with a deliberately cautious attempt at causal analysis that I show cannot be cleanly identified in this setting. Using Public Use Microdata Areas, census geographies of roughly 100,000 residents, I construct a real housing-wealth recovery index for 2,351 PUMAs across the contiguous United States, linking five years of IPUMS American Community Survey microdata (2007, 2009, 2012, 2019, and 2021) with FEMA National Risk Index data and Census TIGER/Line polygon geometry. For the causal question I move to the county level, where boundaries are stable and a transaction-based price index is available, and I bring two candidate instruments to bear, but the exercise ultimately serves as a cautionary case study rather than a clean causal estimate.
+
+One motivating question is causal: did markets that suffered larger price declines during the Great Recession experience systematically different COVID-era recovery *because* of that earlier damage, or does any apparent relationship between recession severity and pandemic-era gains simply reflect mean reversion in house prices, unrelated to the underlying economic harm? Two further questions are descriptive. First, is the geographic pattern of COVID-era recovery random, or do weak-recovery markets cluster spatially, indicating that recovery is shaped by regional rather than purely local forces? Second, which types of local markets combine weak recovery with elevated social vulnerability and limited institutional resilience, the compound-disadvantage condition most relevant for place-based policy targeting?
+
+The descriptive picture is the firm half of the paper, so I lead with it; the causal question, by contrast, proves resistant to clean identification. A simple OLS regression of COVID-era price change (2019--2021) on Great Recession price change (2007--2009) suggests catch-up, but this apparent pattern is largely a mechanical artifact: mean reversion and measurement error would generate it even if recession severity had no causal effect at all. Isolating the causal component requires an instrument, and here is where the difficulty lies. I assemble a county-level design with a transaction-based FHFA House Price Index outcome and two candidate instruments for recession severity, a Bartik industry-mix shock built from County Business Patterns and the pre-crisis (2004--2006) HMDA high-cost lending share. Both are statistically strong, but only one can plausibly be valid: a pre-trend falsification test shows the Bartik shock predicts the 2012--2019 housing trajectory it should not, because Rotemberg-weight diagnostics reveal it is roughly 87 percent driven by construction employment, which is the housing cycle itself; the HMDA instrument passes that test but is too weak for sharp inference under spatially robust standard errors. The honest conclusion is that the causal effect of recession severity on recovery is not identified by any available instrument. That is a useful cautionary result in its own right, particularly for the increasingly common practice of treating shift-share instruments as automatically exogenous, but it means the paper's weight rests on the descriptive findings. Section 7 develops this argument in full.
+
+That spatial inequality is striking. The geographic pattern of recovery is far from random: a global Moran's I statistic of 0.70 (p $\approx$ 0) establishes strong positive spatial autocorrelation, and local indicators of spatial association identify 360 statistically significant Low-Low clusters concentrated in the Great Lakes industrial corridor, the Appalachian coalfields, and the lower Mississippi Delta. When one community failed to recover, its neighbors were disproportionately likely to have failed as well, creating regional blocs of persistent depression rather than isolated pockets of distress. Despite average real appreciation of 39.8 percent over the study period, 4.5 percent of PUMAs experienced negative real recovery, and a k-means recovery typology identifies a "Persistently Depressed" cluster of 968 PUMAs combining the weakest recovery with the highest social-vulnerability scores (mean SOVI = 59.6) and the lowest community-resilience scores (mean RESL = 47.6) in the FEMA National Risk Index. These are the markets with the least capacity to absorb the next shock, and they are also the markets where the last one left the deepest permanent wound.
+
+The paper makes three contributions, in descending order of how firmly the evidence supports them. First and most important, it constructs what is, to my knowledge, the first real housing-wealth recovery index spanning the post-recession trough to the pandemic peak for the full contiguous United States at the PUMA level, and documents that recovery failure is a persistent, regionally clustered phenomenon rather than a transitional or idiosyncratic one. Second, it operationalizes a compound-disadvantage targeting criterion, the intersection of a Low-Low LISA recovery cluster with above-median FEMA social vulnerability, that can inform Community Reinvestment Act assessment-area designation, the paper's primary policy application. Third, and offered as a cautionary methodological case study rather than a positive causal result, it shows why the natural causal question, whether deeper losses caused differential recovery, resists credible identification here: the most powerful available instrument, a county Bartik shock, is invalid because it is dominated by construction employment, and the one instrument that survives falsification is too weak for sharp inference. The apparent OLS catch-up is a mechanical mirage, but the causal effect itself cannot be pinned down, which is precisely why the durable descriptive pattern, not a causal coefficient, anchors the paper.
+
+The remainder of the paper proceeds as follows. Section 2 reviews the relevant literatures. Section 3 develops the theoretical framework. Section 4 describes the data. Section 5 explains the empirical strategy. Section 6 presents the descriptive, spatial, and OLS results. Section 7 presents the causal analysis as a cautionary case study: the naive instrumental-variable estimates, the falsification and Rotemberg-weight diagnostics that invalidate the Bartik instrument, and the conclusion that the effect is not identified. Section 8 discusses policy implications, focused on the Community Reinvestment Act. Section 9 concludes.
+
+**Roadmap: key empirical objects.** The table below previews the central definitions; all terms are defined formally in Sections 5 and 8.
+
+| Empirical object | Definition / specification | Value |
+|:---|:---|:---|
+| Real recovery index ($\text{RI}_i$) | 2021 median home value $\div$ (2012 median home value $\times$ 1.180 CPI factor) | Median = 1.318; range 0.748--4.237 |
+| Descriptive sample | PUMAs, contiguous United States, 2012--2021 | 2,351 PUMAs |
+| Causal sample | Counties with complete FHFA HPI, Bartik, and HMDA data | 2,709 counties |
+| Causal estimand | Effect of the 2007--2009 FHFA HPI change on the 2019--2021 FHFA HPI change | -- |
+| OLS estimate | $\Delta \text{HPI}^{1921} = \alpha + \beta \cdot \Delta \text{HPI}^{0709} + \varepsilon$ | $\hat{\beta}$ = $-$0.167 (apparent catch-up) |
+| IV estimates | Bartik-only; HMDA-only; combined (state FE) | Bartik $-$0.015 (invalid, fails falsification); HMDA $-$0.424 (valid but imprecise); effect not identified (Section 7) |
+
+```{=latex}
+\addtocounter{table}{-1}
+```
+
+# Literature Review
+
+## Housing Wealth, Leverage, and the Great Recession
+
+The foundational work on housing wealth as a macroeconomic transmission mechanism comes from @mian2009, who showed that the 2007--2009 collapse was concentrated in highly leveraged, low-income communities and that the resulting collapse in consumption demand accounted for a substantial share of the employment decline. Their subsequent work [@mian2011] demonstrated that home equity extraction had become a primary consumption-smoothing device for middle-income households, so when equity disappeared, consumption contracted sharply and persistently. @leamer2007 had earlier argued that housing investment leads the business cycle and that the housing sector's decline reliably forecasts broader economic contractions.
+
+The foreclosure cascade added a layer of geographic contagion. @campbell2011 estimate significant price spillovers from distressed properties to neighbors. @hartley2014 confirms that both supply-side distress and disamenity effects depress surrounding values, with the supply channel dominating. @immergluck2006 shows that concentrated foreclosures erode neighborhood property-tax bases, accelerating the fiscal spiral that many Rust Belt municipalities entered after 2008. The literature thus establishes both a household-level wealth channel and a local public-finance channel through which housing market crises produce long-lasting economic damage.
+
+## Geographic Heterogeneity in Housing Markets
+
+The fundamental insight that supply elasticity governs how housing shocks translate into quantity versus price responses dates to @glaeser2005. Markets with inelastic supply (primarily coastal cities) saw large price swings during the boom and bust; elastic markets (primarily in the interior) saw larger quantity adjustments. @gyourko2015 review how land-use regulations, by constraining supply, amplify price volatility and contribute to the persistence of geographic price differentials.
+
+What the supply-elasticity literature does not fully address is why some local markets failed to recover even after the immediate crisis passed. @acolin2016 point to credit access as a constraint: tighter post-crisis underwriting standards fell disproportionately on lower-income communities and markets with a history of high-cost lending, limiting the demand-side recovery that would otherwise have followed the supply correction. @goodman2018 analyze how the expansion of rental tenure in the post-crisis period absorbed households displaced from ownership, dampening the demand rebound in markets where renter conversion was highest.
+
+## The COVID-19 Housing Boom
+
+The pandemic created an unusual demand shock: simultaneous drops in mortgage rates, increases in remote-work flexibility, and a revealed preference for residential space drove demand sharply upward even as supply remained constrained. @anenberg2020 document the role of supply restrictions in explaining affordability dynamics in the preceding boom. @dlima2022 study how pandemic shutdown orders affected housing transactions and prices at the city level, finding that markets most affected by initial restrictions showed the sharpest short-run price declines followed by the strongest recovery rebounds. The period studied here, 2019 to 2021, captures the leading edge of this process: prices rising sharply but with geographic concentration that earlier literature had not fully characterized at the PUMA scale.
+
+## Natural Hazard Risk and Housing Markets
+
+The intersection of housing wealth and natural hazard exposure is an increasingly important area of inquiry. @bernstein2019 demonstrate that coastal flood risk is impounded into home prices but imperfectly: markets discount future flood exposure, but at rates that are too low relative to actuarial estimates, suggesting systematic underpricing of climate-related tail risk. @kousky2010 shows that households update flood risk perceptions after an event but that learning decays, implying that permanent institutional risk signals are needed to sustain appropriate pricing. The FEMA National Risk Index (@fema2023) synthesizes these insights into a unified composite of hazard exposure, social vulnerability, and community resilience at the census-tract level, providing the first consistent national-scale tool for identifying double-exposure markets.
+
+## Spatial Econometrics and Neighborhood Spillovers
+
+The analytical framework for testing spatial clustering in housing markets draws on @tobler1970's first law of geography, which holds that nearby things are more similar than distant things. @anselin1988 develops the regression framework for spatial dependence, and @anselin1995 introduces Local Indicators of Spatial Association, the diagnostic used in this paper to identify statistically significant recovery clusters. @lesage2009 provide the definitive treatment of spatial lag and spatial error models. @moran1950 derives the global test statistic used here. The application of these tools to housing recovery at the PUMA level, at the national scale and linked to risk data, is new.
+
+# Theoretical Framework
+
+A simple arbitrage view of housing markets would predict full recovery everywhere given enough time: if housing wealth was destroyed arbitrarily, prices should rebound as households bid for the now-underpriced stock. The patterns documented in this paper are inconsistent with that prediction. Three mechanisms explain why some markets fail to recover.
+
+## The Credit-Access Constraint
+
+The Great Recession was not a random shock across local markets. It was concentrated in markets with the highest pre-crisis leverage and the most concentrated high-cost lending, as @keys2010 and @mayer2009 document in detail. Post-crisis regulatory changes (higher underwriting standards, reduced loan-to-value ratios) then removed the credit availability that had sustained demand in those very markets. The result was a permanent demand-side withdrawal from precisely the communities that had been most reliant on mortgage credit as a driver of housing demand. Without demand, prices cannot recover, regardless of how far they fell.
+
+## The Population and Employment Base
+
+Housing wealth ultimately reflects the present value of future housing service flows, which is itself a function of local labor market conditions and population growth. @galster2012 argues that the geographic concentration of disadvantage is self-reinforcing: employers avoid places with deteriorating public services, residents follow jobs, and the decline in the residential tax base finances fewer public goods, further discouraging in-migration. In markets where manufacturing employment contracted sharply before and during the recession, and where population growth is secular rather than cyclical, the demand-side rebound that lifted Sun Belt and Mountain West markets simply did not materialize in the industrial Midwest and Appalachia.
+
+## The Institutional Resilience Mechanism
+
+The third mechanism is the central theoretical contribution of this paper's analysis. A market's ability to recover from a severe asset price shock depends not only on economic fundamentals but on institutional capacity: the strength of local government finances, the density of community organizations, access to federal recovery assistance, and the characteristics of the household population that can serve as a demand base for recovery investment. The FEMA National Risk Index captures this through its community-resilience score, which reflects factors like infrastructure quality, community capital, and access to resources. Markets with low resilience scores cannot effectively absorb or direct recovery investment even when it arrives. The compound-disadvantage markets identified in this paper, those with both weak recovery and high social vulnerability, represent the intersection of the first two mechanisms with this third: they lost more, faced deeper structural constraints on recovery, and possessed less institutional capacity to bridge the gap.
+
+# Data
+
+This analysis draws on seven independent data sources. The descriptive and spatial analysis uses the first four (IPUMS ACS, Census geometry, the Census Gazetteer, and the FEMA National Risk Index); the county-level causal analysis adds three more (the FHFA House Price Index, County Business Patterns, and HMDA). Table 1 summarizes each source, its geographic level, and the variables it contributes.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Data Sources, Key Variables, and Archive Locations}
+\label{tbl:sources}
+\small
+\begin{tabular}{p{2.8cm}p{1.7cm}p{2.2cm}p{7.0cm}}
+\toprule
+Source & Level & Years & Key Variables and Archive Location \\
+\midrule
+IPUMS USA ACS & PUMA & 2007, 2009, 2012, 2019, 2021 & VALUEH, HHINCOME, HHWT. Files: \texttt{raw/ipums\_acs/usa\_00010.csv} (2007/09/19/21) and \texttt{usa\_00011.csv} (2012/21). \\[4pt]
+Census TIGER/Line & PUMA polygons & 2010 vintage & Polygon geometry. Files: \texttt{raw/census\_geometry/tl\_2021\_XX\_puma10/} (52 state subfolders). \\[4pt]
+Census Gazetteer & Census tract & 2021 & Tract interior centroids. File: \texttt{raw/census\_geometry/} \texttt{2021\_Gaz\_tracts\_national.txt}. \\[4pt]
+FEMA National Risk Index v1.20 & Census tract & December 2025 & RISK\_SCORE, SOVI\_SCORE, RESL\_SCORE. File: \texttt{raw/fema\_nri/} \texttt{NRI\_Table\_CensusTracts.csv}. \\[4pt]
+FHFA House Price Index & County & 2007, 2009, 2019, 2021 & Annual all-transactions HPI (repeat-sales); treatment and outcome for the causal analysis. File: \texttt{raw/fhfa\_hpi/hpi\_at\_county.xlsx}. \\[4pt]
+Census County Business Patterns & County / national & 2006, 2007, 2009 & Industry employment by NAICS for the Bartik instrument. Files: \texttt{raw/cbp/cbp06co.zip,} \texttt{cbp07us.txt, cbp09us.zip}. \\[4pt]
+HMDA Loan Application Register & County & 2004--2006 & High-cost (rate-spread) share of home-purchase originations; credit-supply instrument. Files: \texttt{raw/hmda/HMDA\_LAR\_2004/2005/2006.zip}. \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize \textit{Note:} All archive paths are relative to the companion \texttt{data and Replication codes/} folder.} \\
+\multicolumn{4}{l}{\footnotesize SOVI = Social Vulnerability Score; RESL = Community Resilience Score. Both range 0--100.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Source | Level | Years | Key Variables | Archive Location |
+|:-------|:------|:------|:-------------|:----------------|
+| IPUMS USA ACS | PUMA | 2007, 2009, 2012, 2019, 2021 | VALUEH, HHINCOME, HHWT | raw/ipums_acs/usa_00010.csv; usa_00011.csv |
+| Census TIGER/Line | PUMA polygons | 2010 vintage | Polygon geometry | raw/census_geometry/tl_2021_XX_puma10/ |
+| Census Gazetteer | Census tract | 2021 | Tract interior centroids | raw/census_geometry/2021_Gaz_tracts_national.txt |
+| FEMA NRI v1.20 | Census tract | December 2025 | RISK_SCORE, SOVI_SCORE, RESL_SCORE | raw/fema_nri/NRI_Table_CensusTracts.csv |
+| FHFA House Price Index | County | 2007, 2009, 2019, 2021 | All-transactions HPI (repeat-sales) | raw/fhfa_hpi/hpi_at_county.xlsx |
+| Census County Business Patterns | County / national | 2006, 2007, 2009 | Industry employment by NAICS (Bartik) | raw/cbp/cbp06co.zip; cbp07us.txt; cbp09us.zip |
+| HMDA Loan Application Register | County | 2004-2006 | High-cost share of home-purchase loans | raw/hmda/HMDA_LAR_2004/2005/2006.zip |
+
+: Data Sources, Key Variables, and Archive Locations. All archive paths are relative to the companion `data and Replication codes/` folder.
+:::
+
+**IPUMS ACS microdata.** The primary microdata source is the IPUMS USA American Community Survey [@ruggles2023], a one-percent annual public-use sample available continuously from 2001 onward. I draw five cross-sections: 2007 and 2009 bracket the Great Recession, 2012 captures the post-recession trough, and 2019 and 2021 capture the pre-COVID baseline and the pandemic peak. The 2020 ACS is excluded because the Census Bureau documented significant disruptions to field operations in that year. The sample is restricted to owner-occupied households (OWNERSHP = 1) that report valid household income (HHINCOME not equal to 9,999,999) and valid home values (VALUEH not in 0, 9,999,998, 9,999,999). After these restrictions, the combined dataset contains approximately 8.96 million household-year observations across 51 states and the District of Columbia. The two ACS extract files, `usa_00010.csv` (years 2007, 2009, 2019, 2021) and `usa_00011.csv` (years 2012, 2021), are stored at `data and Replication codes/raw/ipums_acs/`. Exact extract parameters are documented in `data and Replication codes/raw/ipums_acs/ipums_extract_config.txt`.
+
+The outcome variable throughout is VALUEH, the owner's estimate of the market value of the property. @goodman1992 find that owner-assessed values track transaction prices closely and without systematic income-related bias, which is reassuring for the income-stratified portions of the analysis. All dollar values in the 2012 cross-section are converted to 2021 purchasing power using the ratio of CPI-U annual averages (270.97 / 229.59 = 1.180) before computing the recovery index. The CPI-U series is stored at `data and Replication codes/raw/cpi_u/cpi_u_annual.csv`.
+
+**PUMA geometry.** PUMA boundaries are from the 2010-vintage Census TIGER/Line shapefiles, one per state, covering all 51 jurisdictions, stored at `data and Replication codes/raw/census_geometry/tl_2021_XX_puma10/` (52 state subfolders). The 2010 vintage is used consistently for all five survey years, so geographic comparisons are not affected by the 2020 boundary revision. A PUMA identifier is constructed as the concatenation of the two-digit state FIPS code and the five-digit PUMA code, yielding a unique seven-character key that matches the TIGER GEOID10 field.
+
+**FEMA National Risk Index.** The NRI provides three composite scores at the census-tract level: RISK_SCORE (composite natural-hazard risk), SOVI_SCORE (social vulnerability, reflecting socioeconomic and demographic factors that constrain household and community capacity to prepare for and respond to hazards), and RESL_SCORE (community resilience, reflecting infrastructure quality, community capital, and access to resources). All three scores range from 0 to 100. The tract-level file is stored at `data and Replication codes/raw/fema_nri/NRI_Table_CensusTracts.csv`. Because census tracts and PUMAs do not nest, I build a crosswalk by spatially locating each tract's interior centroid (from the Census Gazetteer, stored at `data and Replication codes/raw/census_geometry/2021_Gaz_tracts_national.txt`) inside the PUMA polygon that contains it and then computing population-weighted means of the three NRI scores across all matched tracts within each PUMA. The population-weighted PUMA-level NRI scores produced by this crosswalk are saved at `data and Replication codes/processed/nri_puma.csv`.
+
+**County-level causal data.** The causal analysis of Section 7 is conducted at the county level using three additional sources. The FHFA All-Transactions House Price Index [@fhfa2023], a repeat-sales index, provides both the treatment (2007--2009 HPI change) and the outcome (2019--2021 HPI change); using a transaction-based index rather than self-reported ACS values removes the measurement error that would otherwise contaminate a price-on-price regression, and is stored at `raw/fhfa_hpi/hpi_at_county.xlsx`. The Census County Business Patterns supplies county industry-employment counts for 2006 and national industry employment for 2007 and 2009, from which the Bartik industry-mix instrument is constructed (`15_bartik_county.R`, output `processed/bartik_county.csv`). The Home Mortgage Disclosure Act Loan Application Register for 2004--2006 supplies the loan-level rate-spread flags used to compute each county's pre-crisis high-cost lending share (`13_hmda_creditsupply.R`, output `processed/hmda_highcost_county.csv`). County centroids for the Conley spatial standard errors are the population-weighted means of tract interior points from the Census Gazetteer. All three sources are public; the HMDA extracts are redistributed under a Creative Commons Attribution 4.0 (CC BY 4.0) license via openICPSR [@forrester2021].
+
+**Summary statistics.** Table 2 presents descriptive statistics for the combined dataset across the five survey years.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Summary Statistics: Owner-Occupied Households by Survey Year}
+\label{tbl:summary}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Year & N (households) & Median Home Value & Mean Home Value & Median HH Income \\
+\midrule
+2007 & 2,213,515 & \$225,000 & \$287,823 & \$71,200 \\
+2009 & 2,185,542 & \$191,000 & \$272,189 & \$73,180 \\
+2012 & 1,769,702$^{\dagger}$ & n.a. & n.a. & n.a. \\
+2019 & 2,260,957 & \$250,000 & \$352,314 & \$95,400 \\
+2021 & 2,295,214 & \$300,000 & \$405,819 & \$99,600 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize \textit{Note:} Dollar values are nominal and unadjusted for inflation. $^{\dagger}$The 2012 extract}\\
+\multicolumn{5}{l}{\footnotesize uses a separate IPUMS pull restricted to owner-occupied households for the GIS}\\
+\multicolumn{5}{l}{\footnotesize analysis; it is not merged with the 2007--2021 sample in household-level regressions.}\\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Year | N (households) | Median Home Value | Mean Home Value | Median HH Income |
+|-----:|---------------:|------------------:|----------------:|-----------------:|
+| 2007 | 2,213,515 | $225,000 | $287,823 | $71,200 |
+| 2009 | 2,185,542 | $191,000 | $272,189 | $73,180 |
+| 2012 | 1,769,702* | n.a. | n.a. | n.a. |
+| 2019 | 2,260,957 | $250,000 | $352,314 | $95,400 |
+| 2021 | 2,295,214 | $300,000 | $405,819 | $99,600 |
+
+: Summary Statistics: Owner-Occupied Households by Survey Year. Note: Dollar values are nominal. *Separate IPUMS extract for spatial analysis.
+:::
+
+Figure 1 traces the national time series of median and mean home values for the four years available in the main extract. The severity of the 2007--2009 decline (median falling by 15.1 percent) and the scale of the COVID-era rebound (median rising by 20 percent from 2019 to 2021) are both visible, as is the extended period of subdued appreciation between 2009 and 2019.
+
+![National Median and Mean Owner-Occupied Home Value, 2007--2021. Shaded regions mark the recession window (2007--2009) and the COVID boom window (2019--2021). Values are nominal.](figures/fig1_value_trends.png){#fig-trend width=85%}
+
+# Empirical Strategy
+
+## Recovery Index Construction
+
+For the spatial analysis linking 2012 to 2021, I construct a PUMA-level real recovery index as follows. Let $M_{i,t}$ denote the HHWT-weighted median home value in PUMA $i$ in year $t$. A weighted median rather than mean is used to reduce sensitivity to top-coded values and to better represent the typical homeowner. The real recovery index is
+
+$$
+\text{RI}_i = \frac{M_{i,2021}}{M_{i,2012} \times \phi}
+\tag{1}
+$$
+
+where $\phi = 1.180$ is the 2012-to-2021 CPI-U ratio. An index above 1.0 means the 2021 median home value exceeded its inflation-adjusted 2012 level, indicating real appreciation; an index below 1.0 means real value fell over the period. PUMAs are classified into quartiles of $\text{RI}_i$, with the bottom quartile labeled "persistently depressed."
+
+## Nominal Recovery from the Great Recession
+
+For the 2007--2021 nominal analysis, housing values are winsorized at the 1st and 99th percentiles within each PUMA-year cell to reduce the influence of extreme observations. The primary binary outcome is a nominal recovery indicator:
+
+$$
+\text{Rec}_{i} = \mathbf{1}\!\left[\overline{V}_{i,2021} \geq \overline{V}_{i,2007}\right]
+\tag{2}
+$$
+
+where $\overline{V}_{i,t}$ is the winsorized HHWT-weighted mean home value in PUMA $i$ in year $t$. A PUMA is classified as "decimated" if its 2007--2009 percent change falls at or below the 25th percentile of the cross-PUMA distribution, which corresponds to a nominal price decline of 9.67 percent or more.
+
+## State-Level Income-Group Regression
+
+For the income heterogeneity analysis, I aggregate to the state level and assign households to income groups using state-specific, year-specific 20th and 80th percentile thresholds of household income (Low: bottom quintile; Middle: quintiles 2--4; High: top quintile). State-specific thresholds are important because a household at the 20th national percentile occupies a very different economic position in Alabama than in Massachusetts. The baseline cross-sectional regression for each income group $g$ is
+
+$$
+\Delta V_{s,g}^{1921} = \alpha_g + \beta_g \cdot \Delta V_{s,g}^{0709} + \varepsilon_{s,g}
+\tag{3}
+$$
+
+where $\Delta V_{s,g}^{t_1 t_2}$ is the percentage change in state $s$, income group $g$'s weighted mean home value over the indicated interval. A negative $\hat{\beta}_g$ indicates that states where a given income group lost more during the recession also saw larger COVID-era gains, consistent with a catch-up dynamic.
+
+## Spatial Autocorrelation Tests
+
+Global spatial autocorrelation is assessed using the Moran's I statistic [@moran1950]:
+
+$$
+I = \frac{n}{\sum_{i}\sum_{j} w_{ij}} \cdot \frac{\sum_{i}\sum_{j} w_{ij}(x_i - \bar{x})(x_j - \bar{x})}{\sum_{i}(x_i - \bar{x})^2}
+\tag{4}
+$$
+
+where $n$ is the number of spatial units, $w_{ij}$ are elements of a row-standardized queen contiguity weight matrix, and $x_i = \text{RI}_i$. Statistical significance is evaluated against the null of spatial randomness using a normal approximation; $I$ close to $-1/(n-1)$ (the expected value under randomness) indicates no spatial structure, while large positive $I$ indicates clustering.
+
+Local indicators of spatial association [@anselin1995] decompose the global statistic into unit-level contributions:
+
+$$
+I_i = z_i \sum_j w_{ij} z_j
+\tag{5}
+$$
+
+where $z_i = (x_i - \bar{x})/\sigma_x$. Significance is evaluated by conditional permutation (999 permutations). PUMAs with $I_i > 0$ and $p < 0.05$ in the High-High quadrant (above-average recovery surrounded by above-average neighbors) form boom cores; those in the Low-Low quadrant form unrecovered cores. Alaska, Hawaii, and Puerto Rico are excluded from the spatial analysis because their non-contiguous geography would create isolated nodes with no valid queen neighbors.
+
+## Recovery Typology
+
+A k-means algorithm is applied to six standardized features: $\text{RI}_i$, $M_{i,2021}$, $M_{i,2012} \times \phi$, median household income in 2021, population-weighted FEMA RISK_SCORE, and population-weighted FEMA SOVI_SCORE. All features are z-scored before clustering. Four clusters are specified to capture the distinct market types suggested by the descriptive analysis (k = 4, 25 random starts, seed 2026). Clusters are labeled by ascending mean recovery index.
+
+## Spatial Regression Model
+
+To test whether the association between local characteristics and the recovery index survives correction for spatial autocorrelation, I estimate a spatial lag model [@lesage2009]:
+
+$$
+\mathbf{y} = \rho \mathbf{W}\mathbf{y} + \mathbf{X}\boldsymbol{\beta} + \boldsymbol{\varepsilon}
+\tag{6}
+$$
+
+where $\mathbf{y}$ is the vector of PUMA-level recovery indices, $\rho$ is the spatial autoregressive parameter, $\mathbf{W}$ is the row-standardized queen contiguity matrix, and $\mathbf{X}$ includes real 2012 home values and log 2021 median household income. A significant positive $\hat{\rho}$ would indicate that a PUMA's recovery is positively predicted by its neighbors' recovery, consistent with regional co-movement.
+
+# Results
+
+## The National Recovery Surface
+
+Figure 2 maps the real recovery index for the contiguous United States. The pattern is immediately legible: a contiguous band of weak recovery (recovery index below 1.1) runs through the Great Lakes industrial states and the lower Mississippi Delta, while the Mountain West and Sun Belt growth corridors show recovery indices well above 1.5, reflecting markets where real home values roughly doubled between the trough and the pandemic peak. A more detailed region-by-region description of the map is provided in Appendix B.
+
+![Real Housing-Wealth Recovery Index by PUMA, 2012--2021. Recovery Index = 2021 median value / CPI-adjusted 2012 median value. Purple indicates weak real recovery; yellow indicates strong real recovery. Projection: Albers Equal Area Conic (EPSG:5070). State outlines derived from Census TIGER/Line PUMA shapefiles.](figures/fig2_recovery_map.png){#fig-recovery width=95%}
+
+The distribution has a long right tail. The median recovery index is 1.318 and the mean is 1.398, but values range from 0.748 (a 25.2 percent real decline) to 4.237 (a 324 percent real appreciation). This range is far larger than one would expect if COVID-era appreciation were uniformly correcting the damage of the prior recession. It suggests instead that the pandemic boom amplified pre-existing geographic inequality in housing markets rather than compressing it.
+
+Table 3 summarizes the distribution of the recovery index and key correlates by quartile.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Recovery Index Quartiles: Summary of Key Characteristics}
+\label{tbl:quartiles}
+\small
+\begin{tabular}{lcccc}
+\toprule
+ & Q1 (Depressed) & Q2 & Q3 & Q4 (Boom) \\
+\midrule
+Mean Recovery Index & 0.97 & 1.20 & 1.45 & 1.97 \\
+N PUMAs             & 588  & 588  & 588  & 587  \\
+Mean Value 2021 (\$) & 171,700 & 254,500 & 349,300 & 622,400 \\
+Mean HH Income (\$) & 62,100 & 83,900 & 105,600 & 145,200 \\
+Share RI $<$ 1 (\%) & 32.8 & 0.0 & 0.0 & 0.0 \\
+NRI Risk Score      & 53.9 & 51.1 & 54.3 & 62.5 \\
+NRI Social Vuln.    & 53.2 & 47.3 & 44.1 & 44.8 \\
+NRI Resilience      & 57.8 & 62.1 & 52.4 & 33.9 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize \textit{Note:} NRI scores are population-weighted PUMA means from the FEMA National Risk Index v1.20.} \\
+\multicolumn{5}{l}{\footnotesize Dollar values are nominal. Recovery Index = 2021 value / CPI-adjusted 2012 value.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| | Q1 (Depressed) | Q2 | Q3 | Q4 (Boom) |
+|:--|--:|--:|--:|--:|
+| Mean Recovery Index | 0.97 | 1.20 | 1.45 | 1.97 |
+| N PUMAs | 588 | 588 | 588 | 587 |
+| Mean Value 2021 ($) | 171,700 | 254,500 | 349,300 | 622,400 |
+| Mean HH Income ($) | 62,100 | 83,900 | 105,600 | 145,200 |
+| Share RI < 1 (%) | 32.8 | 0.0 | 0.0 | 0.0 |
+| NRI Risk Score | 53.9 | 51.1 | 54.3 | 62.5 |
+| NRI Social Vuln. | 53.2 | 47.3 | 44.1 | 44.8 |
+| NRI Resilience | 57.8 | 62.1 | 52.4 | 33.9 |
+
+: Recovery Index Quartiles: Summary of Key Characteristics. NRI scores are population-weighted PUMA means.
+:::
+
+Two patterns in Table 3 stand out. The income gradient is steep and monotone: mean household income rises from \$62,100 in the bottom recovery quartile to \$145,200 in the top. This alone does not imply causality; wealthier households own homes in different markets. But the gradient is large enough to suggest that housing wealth recovery compounded pre-existing income inequality. Separately, the social vulnerability score declines monotonically from the weakest to the strongest recovery quartile (53.2 to 44.8), while the resilience score follows a non-monotone pattern: Q1 and Q2 have higher resilience scores than Q4. This last result is counterintuitive at first glance; it likely reflects that FEMA's resilience measure incorporates factors like strong local government revenue that are present in many Rust Belt communities but that did not translate into housing market resilience in the post-crisis environment.
+
+## Nominal Recovery and the Great Recession Legacy
+
+Figure 3 shows the relationship between each PUMA's Great Recession price change (2007 to 2009) on the horizontal axis and its COVID-era price change (2019 to 2021) on the vertical axis. The hardest-hit markets (bottom quartile, shown in red) are concentrated in the left portion of the figure. The OLS fit lines show a modest negative slope for both groups, consistent with some catch-up: markets that fell more tend to rise more. However, the slope for hardest-hit markets is flatter than for other PUMAs, and the gap between the starting point and the 2021 level remains.
+
+![Great Recession versus COVID-Era Housing Value Changes at the PUMA Level, 2007--2021. Each point represents one PUMA. Red points indicate PUMAs in the bottom quartile of 2007--2009 price declines (losses exceeding 9.67 percent). OLS fit lines with 95 percent confidence bands are shown separately for each group.](figures/fig3_puma_scatter.png){#fig-scatter width=90%}
+
+The recovery rate comparison formalizes this pattern. Among PUMAs with complete 2007--2021 data, 89.8 percent of non-decimated markets (those with 2007--2009 changes above the 25th percentile) had returned to or exceeded their nominal 2007 values by 2021. Among decimated markets, the share was 78.1 percent, an 11.7 percentage point gap. The magnitude of this gap reflects the depth of the initial losses: decimated PUMAs averaged a 16.9 percent price decline in 2007--2009, compared to an average gain of 2.7 percent for other PUMAs.
+
+## Spatial Clustering of Recovery
+
+Two facts summarize the spatial structure of recovery. First, the global Moran's I statistic for the PUMA-level real recovery index is 0.7045 (expected value = $-0.0004$; p $\approx$ 0), far larger than would be expected under spatial randomness, indicating that recovery is primarily a regional phenomenon shaped by shared labor markets, industrial structures, and demographic trajectories rather than an idiosyncratic outcome determined market-by-market. Second, local indicators of spatial association identify 360 statistically significant Low-Low clusters, the centers of persistent recovery failure, concentrated in two contiguous blocs: the Great Lakes industrial corridor and the lower Mississippi Delta (Figure 4). Spatial outliers (High-Low or Low-High) are rare, accounting for only 14 of 2,336 classified PUMAs, reinforcing the interpretation that when one market recovered, its neighbors almost always did too, and vice versa. Appendix B provides a region-by-region description of the LISA map together with the weight-matrix construction and Lagrange Multiplier diagnostics underlying the spatial lag specification used below.
+
+![Local Indicators of Spatial Association: Recovery Cluster Map. Blue = Low-Low clusters (below-average recovery surrounded by below-average neighbors, $p < 0.05$). Red = High-High clusters (boom markets). Grey = not statistically significant. Global Moran's I = 0.7045 (p < 0.001). Projection: Albers Equal Area Conic (EPSG:5070). State outlines from Census TIGER/Line.](figures/fig4_lisa_map.png){#fig-lisa width=95%}
+
+## Recovery Typology and Compound Disadvantage
+
+Table 4 presents the mean characteristics of the four k-means clusters.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Recovery Typology: Mean Characteristics by K-Means Cluster}
+\label{tbl:clusters}
+\small
+\begin{tabular}{lcccc}
+\toprule
+ & Persistently & Below-Avg & Above-Avg & Boom \\
+ & Depressed & Recovery & Recovery & Markets \\
+\midrule
+N PUMAs              & 968     & 667    & 193    & 497 \\
+Mean Recovery Index  & 1.26    & 1.27   & 1.40   & 1.86 \\
+Mean Value 2021 (\$) & 178,746 & 348,579 & 910,943 & 393,567 \\
+Mean HH Income (\$)  & 66,371  & 105,906 & 150,340 & 87,375 \\
+NRI Risk Score       & 59.4    & 38.6   & 61.7   & 62.2 \\
+NRI Social Vuln.     & 59.6    & 35.7   & 39.9   & 46.7 \\
+NRI Resilience       & 47.6    & 66.2   & 48.5   & 34.1 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize \textit{Note:} K-means with k = 4, 25 random starts, seed = 2026. Features z-scored prior to}\\
+\multicolumn{5}{l}{\footnotesize clustering. NRI scores are population-weighted PUMA means.}\\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| | Persistently Depressed | Below-Avg Recovery | Above-Avg Recovery | Boom Markets |
+|:--|--:|--:|--:|--:|
+| N PUMAs | 968 | 667 | 193 | 497 |
+| Mean Recovery Index | 1.26 | 1.27 | 1.40 | 1.86 |
+| Mean Value 2021 ($) | 178,746 | 348,579 | 910,943 | 393,567 |
+| Mean HH Income ($) | 66,371 | 105,906 | 150,340 | 87,375 |
+| NRI Risk Score | 59.4 | 38.6 | 61.7 | 62.2 |
+| NRI Social Vuln. | 59.6 | 35.7 | 39.9 | 46.7 |
+| NRI Resilience | 47.6 | 66.2 | 48.5 | 34.1 |
+
+: Recovery Typology: Mean Characteristics by K-Means Cluster. Note: NRI scores are population-weighted PUMA means.
+:::
+
+The "Persistently Depressed" cluster is the primary target of the policy analysis. Its mean recovery index of 1.26 is the lowest among the four clusters, and it combines that weak performance with the highest social-vulnerability score (59.6 versus 46.7 for Boom Markets) and the lowest household incomes (\$66,371). Crucially, it also has substantially lower community resilience (47.6) than the "Below-Average Recovery" cluster (66.2), despite similar recovery indices. This divergence is consistent with the institutional-resilience mechanism developed in Section 3: communities with similar economic outcomes can have very different capacities to translate recovery investment into lasting improvements, and the Persistently Depressed cluster has been depleted of that capacity.
+
+The "Boom Markets" cluster presents a different compound challenge: high recovery but the lowest resilience scores in the dataset (34.1) combined with elevated hazard risk (62.2). These are the Sun Belt and Mountain West markets where rapid in-migration and price appreciation have strained infrastructure and institutional capacity. Their double exposure to future climate-linked natural hazards combined with low institutional resilience represents a different kind of vulnerability from the Persistently Depressed cluster.
+
+Figure 5 maps the typology nationally, and Figure 6 illustrates the compound-disadvantage relationship directly: for the Persistently Depressed cluster, higher social vulnerability is associated with lower recovery indices through a smooth negative gradient, while the Boom Markets cluster shows a flat or slightly positive relationship, suggesting that social vulnerability and recovery are largely independent in the high-demand markets.
+
+The typology also frames what the causal analysis of Section 7 can and cannot add. If recovery were governed by a mechanical catch-up process, the Persistently Depressed cluster would be a transitional category, on its way to closing the gap as deeply discounted prices reverted. Section 7 finds no support for such a mechanism: the apparent OLS catch-up is a mechanical artifact, and no credible instrument identifies a self-correcting force pulling these markets back toward the national trend (the strongest instrument is invalid, and the one that survives falsification is uninformative). The persistence visible in the typology is therefore best read not as an artifact of an incomplete adjustment that more time would resolve, but as a durable structural feature. This is why the compound-disadvantage targeting criterion developed in Section 8 is built on the descriptive and spatial classification of the Persistently Depressed/Low-Low population rather than on any causal coefficient: the spatial structure is the robust object, and the causal analysis confirms that nothing in the price-adjustment process is likely to dissolve it.
+
+![Recovery Typology by PUMA: K-Means Cluster Assignment. Colors represent the four k-means recovery clusters. Projection: Albers Equal Area Conic (EPSG:5070). State outlines from Census TIGER/Line.](figures/fig5_cluster_map.png){#fig-clusters width=95%}
+
+![Recovery Index and FEMA Social Vulnerability Score by Recovery Cluster. Each point is one PUMA. Smooth curves are LOESS fits within each cluster. Higher SOVI scores indicate greater social vulnerability.](figures/fig6_compound_disadvantage.png){#fig-compound width=90%}
+
+## Income Heterogeneity in the State-Level Recovery
+
+The state-level income analysis reveals a pattern that is more nuanced than a simple high-income versus low-income comparison. High-income homeowners (top quintile) experienced essentially no Great Recession loss on average: across states, their average weighted mean home value rose 0.23 percent from 2007 to 2009. Middle-income homeowners lost 6.8 percent on average, and low-income homeowners lost 4.35 percent. By 2021, the nominal recovery rates were high across all groups (98 to 100 percent of state-income cells recovered to 2007 nominal values), because even the hardest-hit markets eventually recovered in nominal terms after a 14-year period of generally rising prices.
+
+The more informative comparison concerns the catch-up relationship: did markets where a given income group lost more during the recession also gain more during the COVID era? The state-level regressions (equation 3) yield coefficients of $\hat{\beta} = -0.022$ (p = 0.921) for low-income groups, $\hat{\beta} = -0.240$ (p = 0.085) for middle-income groups, and $\hat{\beta} = -0.222$ (p = 0.202) for high-income groups. The near-zero, statistically insignificant coefficient for the low-income group is the key finding: for low-income homeowners, there is essentially no relationship between how much was lost in the recession and how much was gained in the COVID era. Higher-income groups show a weak but meaningful negative coefficient, suggesting some catch-up tendency. For low-income households in the hardest-hit markets, the pandemic boom offered no systematic compensation for the differential losses of the prior crisis.
+
+Table 5 presents these regression results formally.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{State-Level OLS: COVID-Era Change Regressed on Recession Change, by Income Group}
+\label{tbl:ols}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Income Group & $\hat{\beta}$ & Std.\ Error & $p$-value & $N$ \\
+\midrule
+Low (bottom quintile)    & $-$0.022 & 0.219 & 0.921 & 51 \\
+Middle (quintiles 2--4)  & $-$0.240 & 0.136 & 0.085 & 51 \\
+High (top quintile)      & $-$0.222 & 0.172 & 0.202 & 51 \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize \textit{Note:} Dependent variable = percent change in state-income-group weighted mean home value, 2019--2021.}\\
+\multicolumn{5}{l}{\footnotesize Explanatory variable = percent change in state-income-group weighted mean home value, 2007--2009.}\\
+\multicolumn{5}{l}{\footnotesize Income groups defined by state-specific, year-specific quintile thresholds. OLS with heteroscedasticity-}\\
+\multicolumn{5}{l}{\footnotesize consistent standard errors. $N = 51$ (all states and DC).}\\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Income Group | Coefficient | Std. Error | p-value | N |
+|:------------|------------:|-----------:|--------:|--:|
+| Low (bottom quintile) | -0.022 | 0.219 | 0.921 | 51 |
+| Middle (quintiles 2-4) | -0.240 | 0.136 | 0.085 | 51 |
+| High (top quintile) | -0.222 | 0.172 | 0.202 | 51 |
+
+: State-Level OLS: COVID-Era Change Regressed on Recession Change, by Income Group. Dependent variable = percent change 2019--2021. Explanatory variable = percent change 2007--2009. N = 51 per group.
+:::
+
+The absence of a catch-up effect for low-income homeowners ($\hat{\beta} = -0.022$) carries a direct implication for wealth inequality. The COVID boom raised home values substantially and broadly, but it did so without any systematic relationship to where low-income homeowners had lost most. The gap between what low-income households lost in the recession and what they gained in the boom was not systematically smaller in the hardest-hit markets. The wealth redistribution within this group was thus orthogonal to the prior damage, which means the COVID boom did not reduce housing-wealth inequality for the lower half of the income distribution.
+
+## Spatial Lag Model
+
+The spatial lag model estimates a spatial autoregressive parameter of $\hat{\rho} > 0$ (p < 0.001), confirming that a PUMA's recovery index is positively predicted by its neighbors' recovery after controlling for local economic characteristics. The estimated $\hat{\rho}$ implies that a one-unit increase in a neighbor's recovery index is associated with approximately a $\hat{\rho}$-unit increase in one's own recovery, holding own covariates constant. The coefficients on log median household income and real 2012 home value retain their expected signs and significance in the spatial model, confirming that the OLS findings are not artifacts of residual spatial autocorrelation.
+
+A Moran's I test on the OLS residuals from the non-spatial model yields a statistically significant positive statistic (p < 0.001), confirming that the spatial lag model is the appropriate specification. The spatial error model, by contrast, fails to capture the directional spillovers observed in the LISA analysis, providing further justification for the lag specification.
+
+# The Causal Question: Why Catch-Up Resists Identification
+
+The descriptive results invite an obvious causal question: did the markets that fell hardest in 2007--2009 recover *because* of that damage, or in spite of it? I take this question seriously and devote this section to it, but the honest answer is that it cannot be cleanly identified with the instruments available in this setting. That is not a throwaway concession. Establishing *why* a seemingly strong design fails here is itself a useful result, because it shows that a standard Bartik shock, the kind of instrument widely used for local economic conditions, is invalid in precisely the contexts where housing is the outcome. I therefore present the causal analysis as a cautionary case study: Section 7.1 lays out the naive results, Section 7.2 subjects the instruments to falsification and Rotemberg-weight diagnostics, and Section 7.3 concludes that no available instrument is both strong and valid, so the catch-up effect remains empirically elusive.
+
+## OLS and Naive Instrumental-Variable Estimates
+
+A simple OLS regression of COVID-era price growth (2019--2021) on Great Recession price decline (2007--2009) suggests catch-up: the markets that fell furthest appear to gain the most, with a slope of $-0.167$. But this apparent catch-up is exactly what one would expect even if recession severity had no causal effect at all. Prices in deeply depressed markets can revert mechanically toward long-run values; transitory measurement error in any price series manufactures a negative correlation between a measured decline and a subsequent measured gain; and markets in long-run structural decline fell for fundamental reasons and recover slowly regardless. The OLS slope therefore confounds genuine compensatory recovery with arithmetic, and identifying the causal component requires variation in recession severity from a source unrelated to a market's later recovery path.
+
+To attempt this, I move to the **county** level, where boundaries are stable, and measure both treatment and outcome with the **FHFA All-Transactions House Price Index**, a repeat-sales index that removes the self-report error in survey home values (an earlier PUMA-level price-to-income design, documented in Appendix E, failed partly for that reason). The treatment is the 2007--2009 FHFA HPI change and the outcome the 2019--2021 change, across 2,709 contiguous-United-States counties. I bring two instruments for recession severity, chosen to operate through distinct channels: a **Bartik industry-mix labor-demand shock** built from County Business Patterns [@bartik1991; @goldsmith2020], which captures where jobs disappeared because of a county's pre-crisis (2006) industry composition, and the **pre-crisis (2004--2006) share of high-cost mortgage lending** from HMDA [@mian2009; @keys2010], which captures exposure to the credit contraction. Using two instruments makes the design over-identified and therefore testable.
+
+Both instruments are strong (Table 6). The joint first-stage F-statistic is 22.7 under heteroskedasticity-robust inference, well above the conventional threshold of 10 [@staiger1997], and the Cragg-Donald weak-instrument F is 32.4 [@stock2005]; each instrument is individually relevant (F of 21.0 for Bartik and 27.7 for HMDA). Relevance, in short, is not the problem. The threat to this design is the exclusion restriction, and Section 7.2 shows it fails for one of the two instruments.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{First-Stage Diagnostics: County-Level Bartik and HMDA Instruments}
+\label{tbl:firststage}
+\small
+\begin{tabular}{lccc}
+\toprule
+Excluded instrument & FS coefficient & Robust $t$ & Individual $F$ (HC) \\
+\midrule
+Bartik industry-mix shock                 & $+$36.73 & $+$4.74 & 21.0 \\
+HMDA high-cost lending share (2004--2006) & $-$8.68  & $-$5.38 & 27.7 \\
+\midrule
+\multicolumn{4}{l}{Joint first-stage $F$ (both instruments): 22.7 (HC-robust), 6.8 (state-clustered)} \\
+\multicolumn{4}{l}{Cragg-Donald weak-instrument $F$: 32.4 \qquad $N = 2{,}709$ counties} \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize \textit{Note:} First stage regresses the 2007--2009 FHFA HPI change on the two excluded} \\
+\multicolumn{4}{l}{\footnotesize instruments, log 2007 HPI, and state fixed effects. Conventional relevance threshold} \\
+\multicolumn{4}{l}{\footnotesize $F > 10$ (@staiger1997). HC = heteroskedasticity-robust. Code: \texttt{16\_causal\_2sls\_revamp.R}.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Excluded instrument | FS coefficient | Robust t | Individual F (HC) |
+|:------|------:|------:|------:|
+| Bartik industry-mix shock | +36.73 | +4.74 | 21.0 |
+| HMDA high-cost lending share (2004-2006) | -8.68 | -5.38 | 27.7 |
+
+: First-Stage Diagnostics: County-Level Bartik and HMDA Instruments. Joint first-stage F on both instruments = 22.7 (HC-robust), 6.8 (state-clustered); Cragg-Donald weak-instrument F = 32.4; N = 2,709 counties. Conventional relevance threshold F > 10.
+:::
+
+The first-stage coefficients are signed as theory predicts: a more favorable Bartik labor-demand shock predicts a shallower price decline (coefficient $+36.7$, robust $t = 4.7$), and a higher pre-crisis high-cost lending share predicts a deeper decline (coefficient $-8.68$, robust $t = -5.4$).
+
+The naive estimates are reported in Table 7, and taken at face value they already counsel caution. The combined two-instrument 2SLS coefficient is $-0.233$, the same sign as OLS rather than a reversal, and at most marginally significant: $p = 0.063$ under heteroskedasticity-robust errors, but $p = 0.16$ under state clustering and $p = 0.21$ under a Conley spatial correction, the inference appropriate given the strong spatial dependence in the outcome (Moran's I $= 0.70$, Section 6.3). A weak-instrument-robust Anderson-Rubin test cannot reject a zero effect ($p = 0.072$), and the Wu-Hausman test detects no endogeneity ($p = 0.54$). The two single-instrument estimates, moreover, sharply disagree: the Bartik-only coefficient is a precise zero ($-0.015$, $p \approx 0.94$ under every standard error), while the HMDA-only coefficient is large and negative ($-0.424$), significant under heteroskedasticity-robust errors ($p = 0.026$) but not under spatial inference ($p = 0.14$). The over-identification (Sargan) test registers this disagreement ($p = 0.066$). When two relevant instruments for the same parameter disagree, at least one exclusion restriction is failing; the diagnostics in Section 7.2 identify which. For these reasons I do not treat the combined estimate as the answer to the catch-up question, and report it as a diagnostic alongside the two single-instrument estimates.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{OLS and Instrumental-Variable Estimates: Recession Severity and COVID-Era Recovery (County Level)}
+\label{tbl:iv}
+\small
+\begin{tabular}{lccccc}
+\toprule
+ & & \multicolumn{4}{c}{$p$-value under standard errors:} \\
+\cmidrule(lr){3-6}
+Estimator & $\hat{\beta}$ & classical & HC-robust & clustered & Conley \\
+\midrule
+OLS                    & $-$0.167 & --    & --    & --    & --    \\
+2SLS, both instruments & $-$0.233 & 0.034 & 0.063 & 0.162 & 0.212 \\
+2SLS, Bartik only      & $-$0.015 & 0.929 & 0.937 & 0.930 & 0.946 \\
+2SLS, HMDA only        & $-$0.424 & 0.007 & 0.026 & 0.136 & 0.134 \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize \textit{Note:} $N = 2{,}709$ counties. Treatment = 2007--2009 FHFA HPI change; outcome = 2019--2021} \\
+\multicolumn{6}{l}{\footnotesize change; controls = log 2007 HPI + state FE; Conley [@conley1999] cutoff 200\,km. Diagnostics for the} \\
+\multicolumn{6}{l}{\footnotesize combined 2SLS: first-stage $F = 22.7$, Wu-Hausman $p = 0.54$, Sargan $p = 0.066$, Anderson-Rubin} \\
+\multicolumn{6}{l}{\footnotesize $p = 0.072$. Given Moran's $I = 0.70$, the clustered and Conley SEs are preferred. Code: \texttt{16/17}.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Estimator | Beta | p classical | p HC | p clustered | p Conley |
+|:------|------:|------:|------:|------:|------:|
+| OLS | -0.167 | -- | -- | -- | -- |
+| 2SLS, both instruments | -0.233 | 0.034 | 0.063 | 0.162 | 0.212 |
+| 2SLS, Bartik only | -0.015 | 0.929 | 0.937 | 0.930 | 0.946 |
+| 2SLS, HMDA only | -0.424 | 0.007 | 0.026 | 0.136 | 0.134 |
+
+: OLS and Instrumental-Variable Estimates (County Level). N = 2,709 counties; treatment = 2007-2009 FHFA HPI change; outcome = 2019-2021 change; controls = log 2007 HPI + state FE. Combined-2SLS diagnostics: first-stage F = 22.7, Wu-Hausman p = 0.54, Sargan p = 0.066, Anderson-Rubin p = 0.072. Given Moran's I = 0.70, clustered and Conley (200 km) SEs preferred.
+:::
+
+## Instrument Diagnostics and Falsification
+
+A valid instrument for 2007--2009 recession severity must affect 2019--2021 recovery *only* through that severity. A direct test is whether each instrument predicts house-price movements in a window where it should have no effect under the exclusion restriction: the pre-pandemic 2012--2019 period. Table 8 reports the standardized (per-one-standard-deviation) association of each instrument with the 2012--2019 FHFA HPI change, both unconditionally and conditional on the 2007--2009 change.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Falsification: Do the Instruments Predict the Pre-Pandemic (2012--2019) HPI Trend?}
+\label{tbl:falsification}
+\small
+\begin{tabular}{llcccc}
+\toprule
+ & & & \multicolumn{3}{c}{$p$-value under SE:} \\
+\cmidrule(lr){4-6}
+Instrument (per 1 SD) & Specification & Coef. & HC & clustered & Conley \\
+\midrule
+Bartik shock & unconditional      & $-$1.63 & 0.000 & 0.000 & 0.000 \\
+Bartik shock & conditional on $D$ & $-$1.07 & 0.000 & 0.000 & 0.000 \\
+HMDA share   & unconditional      & $+$0.21 & 0.518 & 0.716 & 0.673 \\
+HMDA share   & conditional on $D$ & $-$0.55 & 0.079 & 0.232 & 0.255 \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize \textit{Note:} $N = 2{,}707$ counties. Outcome = 2012--2019 FHFA HPI change. Instruments standardized} \\
+\multicolumn{6}{l}{\footnotesize to unit SD; controls = log 2007 HPI + state FE; ``$D$'' = the 2007--2009 HPI change. A valid} \\
+\multicolumn{6}{l}{\footnotesize instrument should not predict the pre-pandemic trend conditional on $D$. Code: \texttt{19\_iv\_diagnostics.R}.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Instrument (per 1 SD) | Specification | Coef. | p HC | p clustered | p Conley |
+|:------|:------|------:|------:|------:|------:|
+| Bartik shock | unconditional | -1.63 | 0.000 | 0.000 | 0.000 |
+| Bartik shock | conditional on D | -1.07 | 0.000 | 0.000 | 0.000 |
+| HMDA share | unconditional | +0.21 | 0.518 | 0.716 | 0.673 |
+| HMDA share | conditional on D | -0.55 | 0.079 | 0.232 | 0.255 |
+
+: Falsification: Do the Instruments Predict the Pre-Pandemic (2012-2019) HPI Trend? N = 2,707 counties; outcome = 2012-2019 FHFA HPI change; instruments standardized to unit SD; controls = log 2007 HPI + state FE; "D" = 2007-2009 HPI change. A valid instrument should not predict the pre-pandemic trend conditional on D.
+:::
+
+The two instruments diverge sharply. The **HMDA share passes**: it does not robustly predict the pre-pandemic trend, either unconditionally ($p = 0.52$) or conditional on recession severity ($p = 0.23$ clustered, $p = 0.26$ Conley). The **Bartik shock fails decisively**: it strongly predicts the 2012--2019 trend, with a large standardized coefficient ($-1.07$ even after conditioning on the 2007--2009 change) that is significant at $p < 0.001$ under heteroskedasticity-robust, clustered, and Conley standard errors alike. A county's 2006 industry mix thus forecasts its housing trajectory a decade later through a channel that does not run through Great Recession severity, which is exactly what the exclusion restriction forbids.
+
+The Rotemberg-weight decomposition [@goldsmith2020] explains why. Table 9 expresses the Bartik-only estimate as a weighted sum over 2-digit NAICS sectors, $\hat\beta_{\text{Bartik}} = \sum_k \alpha_k \hat\beta_k$, and the weights are overwhelmingly concentrated in a single sector.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption{Rotemberg Weights for the Bartik Instrument, by Sector (Five Largest by $|\alpha_k|$)}
+\label{tbl:rotemberg}
+\small
+\begin{tabular}{lccc}
+\toprule
+Sector (2-digit NAICS) & National shock $g_k$ & Rotemberg $\alpha_k$ & $\hat\beta_k$ \\
+\midrule
+Construction        & $-$0.179 & $+$0.871 & $-$0.14 \\
+Mining, oil and gas & $-$0.137 & $-$0.278 & $-$1.06 \\
+Health care         & $+$0.044 & $+$0.190 & $+$0.26 \\
+Manufacturing       & $-$0.127 & $+$0.076 & $-$2.85 \\
+Retail trade        & $-$0.061 & $+$0.058 & $-$2.30 \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize \textit{Note:} The Bartik-only 2SLS estimate equals $\sum_k \alpha_k \hat\beta_k$. Weights sum to 1 over all 20} \\
+\multicolumn{4}{l}{\footnotesize sectors; the five largest by $|\alpha_k|$ are shown. $g_k$ = national 2007--2009 employment growth.} \\
+\multicolumn{4}{l}{\footnotesize Construction alone carries 87\% of the positive weight. Code: \texttt{19\_iv\_diagnostics.R}.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+| Sector (2-digit NAICS) | National shock g_k | Rotemberg alpha_k | beta_k |
+|:------|------:|------:|------:|
+| Construction | -0.179 | +0.871 | -0.14 |
+| Mining, oil and gas | -0.137 | -0.278 | -1.06 |
+| Health care | +0.044 | +0.190 | +0.26 |
+| Manufacturing | -0.127 | +0.076 | -2.85 |
+| Retail trade | -0.061 | +0.058 | -2.30 |
+
+: Rotemberg Weights for the Bartik Instrument, by Sector (five largest by |alpha_k|). The Bartik-only 2SLS estimate equals the weighted sum of sector estimates; weights sum to 1 over all 20 sectors. g_k = national 2007-2009 employment growth. Construction alone carries 87% of the positive weight.
+:::
+
+Construction alone carries 87 percent of the positive Rotemberg weight: the Bartik instrument is, to a first approximation, a measure of how exposed each county was to the construction sector, whose national employment fell 18 percent over the recession. But construction employment *is* the housing cycle. A county heavy in construction in 2006 was deep in the housing boom, fell hard in the bust, and saw its construction sector's later fortunes move directly with local housing demand, a channel to 2012--2019 and 2019--2021 prices that bypasses 2007--2009 severity entirely. The high-exposure counties bear this out: those in the top quartile of construction-employment share fell far harder in the recession (mean HPI change $-6.6$ percent versus $-2.3$) and are the classic boom-bust housing markets. A construction-dominated Bartik need not be fatal in every application, but here, with house prices as the outcome, the dominant industry is mechanically tied to the outcome, and the placebo failure is the visible symptom.
+
+## Interpretation: An Unidentified Effect
+
+Putting the diagnostics together yields a clear, if negative, conclusion. The **Bartik instrument is strong but invalid**: it fails the pre-trend placebo decisively because its identifying variation is construction exposure, which affects housing directly rather than only through recession severity. Its precise zero is therefore not a clean causal estimate but an artifact of an instrument that violates the exclusion restriction. The **HMDA instrument is plausibly valid but underpowered**: it passes the placebo, but its estimate is statistically imprecise under spatially robust inference, with a confidence interval wide enough to be consistent with anything from a substantial catch-up to a modest divergence. Between an instrument that is strong but invalid and one that is valid but uninformative, the causal effect of recession severity on COVID-era recovery is **not identified** by any instrument available in this setting.
+
+This is a genuine limit, not a hidden result, and stating it plainly is the contribution of this section. The apparent OLS catch-up is largely a mechanical artifact of mean reversion and measurement error, a mirage at the level of the raw correlation; but the deeper question of whether earlier damage *caused* differential recovery cannot be resolved with these tools. The broader methodological lesson is that shift-share instruments built from local industry mix cannot be treated as automatically exogenous when housing is the outcome: if the shock loads on construction, as recession-era Bartik shocks naturally do, it carries a direct channel to house prices that invalidates it. For the present paper the implication is constructive. Because the causal question is unresolved rather than answered, the weight of the contribution rests where the evidence is firm: on the descriptive and spatial documentation of persistent, regionally clustered recovery failure in Section 6, which neither requires nor depends on a causal coefficient.
+
+# Policy Implications
+
+## A Targeting Criterion, Not a Causal Estimate
+
+The policy discussion that follows rests on the descriptive and spatial findings of Section 6, not on any causal coefficient. This division of labor is deliberate. The causal analysis (Section 7) offers no evidence of a self-correcting catch-up: the apparent OLS pattern is mechanical, and the effect of recession severity cannot be credibly identified, so there is no basis for expecting ordinary price adjustment to dissolve the spatial inequality documented here. The targeting application is therefore descriptive by design, resting on observed recovery outcomes rather than on a causal coefficient or a policy lever the analysis does not identify. It rests on the compound-disadvantage footprint from Section 6.4: the 360 PUMAs in a statistically confirmed Low-Low LISA cluster (Figure 4, Section 6.3), which combine below-median recovery with below-median recovery among their geographic neighbors. The Low-Low designation is used here purely as a descriptive, regionally coherent screen for where recovery has failed, analogous to how poverty maps or unemployment maps are used in existing formula programs, and it carries no claim that any particular intervention would causally raise these PUMAs' recovery index.
+
+## Community Reinvestment Act Assessment Areas
+
+The single application developed here is the 2023 CRA modernization framework, which directs banks to identify geographic areas, beyond their traditional facility-based assessment areas, where retail lending is concentrated, and which gives examiners latitude to designate additional areas for community development credit. The Low-Low LISA footprint provides a ready-made, data-driven candidate list of "persistent recovery deficit" areas that examiners could use alongside existing poverty- and income-based criteria when evaluating whether a bank's community development lending and investment is commensurate with local need. Two features make the LISA criterion a useful complement to the income- and poverty-based criteria CRA already uses. First, it is regionally coherent by construction: a PUMA enters the Low-Low cluster only if its own recovery index and its neighbors' recovery indices are jointly low, so the designation flags structural regional problems (the Great Lakes industrial corridor, the Mississippi Delta) rather than isolated low-income tracts embedded in otherwise-recovered metro areas. Second, it captures an asset-based form of disadvantage, persistently underperforming home equity, that poverty rates, which are based on income flows, do not capture.
+
+A back-of-envelope calculation illustrates the potential scale of a CRA application, using only the descriptive recovery-index data from Section 5.1 and Appendix A (no causal claim is involved). Across the 360 Low-Low PUMAs, the median recovery index is 1.078, meaning the typical owner-occupied home in these markets is worth about 7.8 percent more in real terms than in 2012, compared with a national median recovery index of 1.318 (a 31.8 percent real gain). Closing this gap, holding 2012 values fixed, corresponds to a median shortfall of roughly \$70,600 in 2021 dollars per owner-occupied housing unit. For illustration, consider a hypothetical bank assessment area containing 10,000 owner-occupied units within Low-Low PUMAs: the aggregate housing-wealth shortfall relative to the median U.S. market is on the order of \$700 million. A CRA-qualified community development program that directed even 1 percent of that shortfall per year, about \$7 million, toward home-repair grants, down-payment assistance, or small-scale multifamily rehabilitation in the designated area would represent a geographically targeted increment that is large relative to typical community development lending volumes in a single assessment area, while remaining a small fraction of the underlying wealth gap. This calculation is intended only to give CRA examiners and bank community development officers a sense of scale; it assumes, for simplicity, that closing the recovery-index gap is a meaningful policy objective and says nothing about whether any particular intervention would achieve it.
+
+## Secondary Applications: CDBG and FEMA BRIC
+
+Two additional programs could draw on the same Low-Low footprint with less elaboration. The Community Development Block Grant formula incorporates poverty rates, overcrowded housing, and population size but not housing-wealth recovery deficits; adding the recovery index, which is constructed entirely from public IPUMS ACS data and is therefore reproducible and auditable, as a supplemental formula factor would direct resources toward markets where the asset side of household balance sheets has failed to recover even as incomes and poverty rates have moved with the national trend. The FEMA Building Resilient Infrastructure and Communities program applies a cost-effectiveness screen but does not weight applications by a community's capacity to self-finance recovery from a future shock; cross-referencing the Low-Low footprint with the FEMA Social Vulnerability Score, as in Section 6.4, would help BRIC concentrate investment in markets where risk, limited recovery, and limited resilience coincide, rather than only in the highest-hazard markets. In both cases, as with the CRA application, the Low-Low designation functions as a targeting screen layered onto existing formula criteria, not as a causal claim about the effect of the programs themselves.
+
+# Conclusion
+
+This paper's central finding is that the catch-up which aggregate price reversion seems to promise is, at the level of the places where households live, a mirage, and that the spatial inequality it leaves behind is correspondingly durable. An OLS regression of COVID-era (2019--2021) price changes on Great Recession-era (2007--2009) price changes yields $\hat{\beta} = -0.167$, suggesting that harder-hit markets caught up. But that apparent catch-up is exactly what mechanical mean reversion and measurement error would generate in the absence of any causal effect. Isolating the causal component requires an instrument, and the deeper lesson of the paper is that no available instrument is both strong and valid. I assemble a county-level design with the transaction-based FHFA index for both treatment and outcome and two candidate instruments for recession severity: a Bartik industry-mix labor-demand shock and the pre-crisis HMDA high-cost lending share. Both are statistically strong (joint first-stage F = 22.7), but a pre-trend falsification test separates them decisively. The Bartik shock predicts the 2012--2019 housing trajectory it should not touch under the exclusion restriction; a Rotemberg-weight decomposition explains why, showing the shock is roughly 87 percent driven by construction employment, which is the housing cycle itself rather than an outside labor-demand force. Its precise zero is therefore an artifact of an invalid instrument, not a clean null. The HMDA instrument passes the falsification test but is too weak for sharp inference: its estimate loses significance under spatially robust standard errors. Between a strong but invalid instrument and a valid but uninformative one, the causal effect of recession severity on COVID-era recovery is not identified in this setting. That is a genuine limit, and a cautionary one for the increasingly common practice of treating shift-share instruments as automatically exogenous when housing is the outcome. The positive sign reversal reported by an earlier, weaker price-to-income design (Appendix E) was likewise an artifact of a weak, mechanically contaminated instrument paired with non-spatial standard errors, and it does not survive scrutiny either.
+
+The methodological lesson generalizes. The same county data, run three ways, produce an OLS catch-up, a positive 2SLS reversal under a weak instrument, and a negative credit-channel effect, and all three dissolve once identification is strengthened and the pervasive spatial dependence (Moran's I = 0.70) is taken seriously. A striking causal headline is easy to manufacture and hard to sustain when the outcome is as spatially autocorrelated as housing recovery is.
+
+What survives is the descriptive and spatial picture, and it is firm. The distribution of recovery across the contiguous United States is far from random: a global Moran's I of 0.70 confirms strong positive spatial autocorrelation, and the LISA analysis identifies a 360-PUMA Low-Low cluster concentrated in the Great Lakes industrial corridor and the Mississippi Delta. The k-means typology shows that the Persistently Depressed cluster combines below-average housing wealth with above-average social vulnerability and below-average community resilience, a compound-disadvantage condition. Because no credible instrument identifies a self-correcting catch-up force, the persistence visible in the typology is best read as structural rather than transitional, which is precisely what makes it a defensible target for place-based policy. Section 8 develops one application in detail: using the Low-Low LISA designation as a data-driven, regionally coherent screen for "persistent recovery deficit" areas under the 2023 CRA modernization framework, illustrated with a back-of-envelope calculation of the housing-wealth shortfall in a hypothetical assessment area. The CDBG formula and FEMA BRIC prioritization are noted as secondary applications of the same descriptive screen. In each case, the recovery index and the LISA designation function as targeting criteria, reproducible from public data, not as causal claims about the effect of the programs themselves.
+
+Several limitations deserve acknowledgment. In the descriptive analysis, the self-reported nature of VALUEH introduces measurement error, though @goodman1992 find no systematic income-related bias, and the PUMA boundary change between 2000 and 2010 vintages introduces geographic approximation in the pre-2012 data. The county-level causal design addresses both concerns directly, by using the transaction-based FHFA index and geographically stable counties, but it carries its own limitations. The exclusion restrictions cannot be tested directly; the falsification test identifies the Bartik instrument as invalid and the over-identification test is borderline (Sargan $p = 0.066$), and the disagreement between the two instruments means at least one channel-specific exclusion restriction is failing. The non-identification result is therefore best read as the absence of any instrument here that is both strong and valid, rather than as proof that recession severity is causally inert through every conceivable channel. The strong spatial dependence in the outcome (Moran's I = 0.70) is the binding constraint on inference: it is what turns the marginally significant heteroskedasticity-robust estimate into an insignificant one under clustering and Conley corrections, and any future county-level design will face the same constraint. Future work that can access within-household or within-property panel data tracking the same units across both shocks, or that brings additional independent instruments to bear, could sharpen the channel decomposition; but the spatial-inequality findings, the recovery index, the clustering results, and the compound-disadvantage targeting tool, are the paper's firmest contributions and do not depend on resolving the causal question.
+
+# Data and Code Availability {.unnumbered}
+
+Data and replication materials are available at: [Harvard Dataverse](https://doi.org/10.7910/DVN/P4R9RQ).
+
+\newpage
+
+# Declarations {.unnumbered}
+
+**Competing interests:** The author declares no competing interests.
+
+**Funding:** The author received no specific funding for this research.
+
+**AI usage:** Some sections of this paper were copy-edited using Perplexity AI (Model: Sonar) to improve language clarity, grammar and structure. The research design, all empirical analyses, data collection, interpretation of results and content are entirely my own. The AI tool did not generate research ideas, conduct analyses or produce the underlying data or code.
+
+\newpage
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+\newpage
+
+# Appendix A: Variable Definitions and Sample Construction {.unnumbered}
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption*{Table A1: Variable Definitions and Data Sources}
+\label{tbl:vars}
+\renewcommand{\arraystretch}{1.3}
+\small
+\begin{tabular}{p{2.6cm}p{4.6cm}p{8.0cm}}
+\toprule
+Variable & Source and Archive Path & Definition and Construction \\
+\midrule
+\texttt{VALUEH} & IPUMS ACS \newline \texttt{raw/ipums\_acs/}\newline\texttt{usa\_00010.csv,}\newline\texttt{usa\_00011.csv} & Owner-reported market value. Codes 0, 9,999,998, and 9,999,999 excluded. Winsorized at 1st/99th percentiles within PUMA-year cells. \\
+\texttt{HHINCOME} & IPUMS ACS \newline \texttt{raw/ipums\_acs/}\newline\texttt{usa\_00010.csv} & Total household income. Code 9,999,999 excluded. Used for state-specific, year-specific income quintiles. \\
+\texttt{HHWT} & IPUMS ACS \newline \texttt{raw/ipums\_acs/}\newline\texttt{usa\_00010.csv,}\newline\texttt{usa\_00011.csv} & Household survey weight. All means and quantiles are HHWT-weighted. \\
+\texttt{puma\_geoid} & Constructed & 2-digit state FIPS + 5-digit PUMA code; matches TIGER GEOID10. \\
+\texttt{recovery\_index} & Constructed \newline \texttt{processed/}\newline\texttt{puma\_recovery\_}\newline\texttt{index.csv} & 2021 median home value divided by (2012 median home value times CPI factor 1.180). CPI factor from \texttt{raw/cpi\_u/cpi\_u\_annual.csv}. \\
+\texttt{risk\_score} & FEMA NRI v1.20 \newline \texttt{raw/fema\_nri/}\newline\texttt{NRI\_Table\_}\newline\texttt{CensusTracts.csv} & Population-weighted mean RISK\_SCORE within PUMA. Crosswalk via Census Gazetteer. Output at \texttt{processed/nri\_puma.csv}. \\
+\texttt{sovi\_score} & FEMA NRI v1.20 \newline \texttt{raw/fema\_nri/}\newline\texttt{NRI\_Table\_}\newline\texttt{CensusTracts.csv} & Population-weighted mean SOVI\_SCORE (Social Vulnerability). \\
+\texttt{resl\_score} & FEMA NRI v1.20 \newline \texttt{raw/fema\_nri/}\newline\texttt{NRI\_Table\_}\newline\texttt{CensusTracts.csv} & Population-weighted mean RESL\_SCORE (Community Resilience). \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\footnotesize All archive paths are relative to the companion \texttt{data and Replication codes/} folder.
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+**Table A1: Variable Definitions and Data Sources**
+
+| Variable | Source | Archive Path | Definition |
+|:---------|:-------|:------------|:-----------|
+| VALUEH | IPUMS ACS | raw/ipums_acs/usa_00010.csv; usa_00011.csv | Owner-reported home value; codes 0, 9,999,998, 9,999,999 excluded |
+| HHINCOME | IPUMS ACS | raw/ipums_acs/usa_00010.csv | Total household income; code 9,999,999 excluded |
+| HHWT | IPUMS ACS | raw/ipums_acs/usa_00010.csv; usa_00011.csv | Household survey weight; all weighted statistics |
+| puma_geoid | Constructed | -- | 2-digit state FIPS + 5-digit PUMA code |
+| recovery_index | Constructed | processed/puma_recovery_index.csv | 2021 median / (2012 median × 1.180); CPI from raw/cpi_u/ |
+| risk_score | FEMA NRI v1.20 | raw/fema_nri/NRI_Table_CensusTracts.csv | Population-weighted mean RISK_SCORE within PUMA |
+| sovi_score | FEMA NRI v1.20 | raw/fema_nri/NRI_Table_CensusTracts.csv | Population-weighted mean SOVI_SCORE within PUMA |
+| resl_score | FEMA NRI v1.20 | raw/fema_nri/NRI_Table_CensusTracts.csv | Population-weighted mean RESL_SCORE within PUMA |
+
+*All paths are relative to the companion `data and Replication codes/` folder.*
+:::
+
+**Sample restrictions.** The ACS sample is restricted to: (1) household records only (GQ codes 1 and 2, excluding group quarters); (2) owner-occupied units (OWNERSHP = 1); (3) households with valid reported income (HHINCOME $\neq$ 9,999,999); and (4) units with valid reported home values (VALUEH $\notin \{0, 9{,}999{,}998, 9{,}999{,}999\}$). After these restrictions, the 2007--2021 dataset contains approximately 8.96 million household-year observations. The 2012--2021 spatial analysis uses a separate IPUMS extract with 1,769,702 households.
+
+**PUMA vintage alignment.** The 2007 and 2009 ACS use 2000-vintage PUMA codes, while the 2010-vintage PUMA boundaries used in the TIGER shapefiles were introduced with the 2012 ACS. For the 2007--2021 nominal analysis, PUMAs with complete data across all four years are retained regardless of vintage; the PUMA identifier constructed from the IPUMS STATEFIP and PUMA codes matches the TIGER GEOID10 field when the same vintage is in use. Where 2000 and 2010 codes diverge, the geographic match is approximate. The 2012--2021 spatial analysis avoids this complication entirely because both years use 2010-vintage codes.
+
+\newpage
+
+# Appendix B: Spatial Autocorrelation Details {.unnumbered}
+
+**Detailed description of the recovery surface (Figure 2).** The geographic pattern of the real recovery index is striking and immediately legible. A thick band of low recovery (recovery index below 1.1, shown in dark purple in Figure 2) runs from western Michigan eastward through northern Indiana and Ohio, with tendrils into central Illinois and a separate concentration in the lower Mississippi Delta and parts of the Appalachian coalfields. At the other extreme, the Mountain West and Sun Belt corridors from Phoenix through Denver to Salt Lake City, and from Atlanta through Tampa, show recovery indices well above 1.5.
+
+**Detailed description of the LISA cluster map (Figure 4).** The Low-Low cores, in blue, form two geographically distinct structures. The larger is the Great Lakes industrial corridor: a contiguous bloc spanning the western lower peninsula of Michigan, northwestern Indiana, north-central Ohio, and stretching into western Pennsylvania and the southern tier of New York. The second is a less contiguous but geographically coherent set of markets running from southern Missouri through Arkansas into Louisiana and the Alabama Black Belt, tracking the Mississippi Delta's trajectory of economic decline. Scattered Low-Low clusters also appear in parts of West Virginia, eastern Kentucky, and isolated rural markets in the northern Plains. The High-High cores, in red, align with the Mountain West growth corridor (Phoenix, Denver, Boise, Salt Lake City) and with the Sun Belt from Atlanta through Tampa.
+
+**Weight matrix construction.** Queen contiguity weights are computed on the CONUS PUMA polygon layer projected to Albers Equal Area (EPSG:5070) for topological consistency. Alaska (FIPS 02), Hawaii (FIPS 15), and Puerto Rico (FIPS 72) are excluded because their non-contiguous geometry would create isolated nodes with no queen neighbors. The weight matrix is row-standardized (style = "W"). Twenty-three island or enclave PUMAs with no queen neighbors receive a zero row and are handled with zero.policy = TRUE in all spatial computations.
+
+**LISA significance.** Conditional randomization with 999 permutations is used to evaluate significance of local Moran's I statistics. PUMAs are assigned to the High-High quadrant if $z_i > 0$ and $\text{lag}(RI)_i > \bar{RI}$ and their local p-value is below 0.05; they are assigned to Low-Low if $z_i < 0$ and $\text{lag}(RI)_i < \bar{RI}$ and p < 0.05. The remaining significant PUMAs are spatial outliers (High-Low or Low-High). Not-significant PUMAs account for 1,553 of 2,336 classified CONUS PUMAs (66.5 percent).
+
+**Spatial lag vs.\ spatial error.** A Lagrange Multiplier test is computed on the OLS residuals to choose between the spatial lag and spatial error specifications. The LM-lag statistic exceeds LM-error at conventional significance levels, consistent with the substantive argument that recovery spillovers across neighbors represent genuine economic interactions rather than shared but unobserved common shocks. The robustness-to-outlier check using Driscoll-Kraay standard errors on the OLS specification yields somewhat wider intervals but does not alter the sign or general significance of the key coefficients.
+
+\newpage
+
+# Appendix C: Income Group Recovery (Supplemental) {.unnumbered}
+
+Figure A1 shows the state-level recovery rates by income group as described in Section 6.5. The near-uniform high recovery rates in nominal terms (96--100 percent across all groups) reflect the length of the study period: 14 years of generally rising nominal prices eventually lifted most state-income cells above their 2007 starting points. The policy-relevant finding is the catch-up regression in Table 5, which shows that the relationship between recession severity and COVID-era compensation is essentially absent for low-income homeowners.
+
+![Income Group Recovery Rates: Share of State-Income-Group Cells Recovering to 2007 Nominal Values by 2021. Error bars show 95 percent confidence intervals. Income groups are defined using state-specific, year-specific quintile thresholds.](figures/figa1_income_recovery.png){#fig-incomerecov width=75%}
+
+\newpage
+
+# Appendix D: Robustness Checks and Cluster Cross-Tabulation (Supplemental) {.unnumbered}
+
+**Inference and the channel decomposition.** The county-level causal results in Section 7 are estimated in `16_causal_2sls_revamp.R` (combined two-instrument 2SLS) and `17_causal_channels.R` (the per-instrument just-identified estimates); both sets of coefficients are reported together in Table 7, and the falsification and Rotemberg-weight diagnostics that invalidate the Bartik instrument are in Tables 8 and 9, generated by `19_iv_diagnostics.R`. The full inference battery, classical, heteroskedasticity-robust, state-clustered, and Conley spatial-HAC standard errors, is reported in both tables. The decisive pattern is that every apparently significant estimate (the OLS catch-up, the combined 2SLS under HC errors, and the HMDA-only credit-channel estimate) loses significance once the spatial dependence in the outcome is honored, while the strong instruments rule out a weak-identification explanation. Two extensions suggested during review, a within-property repeat-sales panel linking the same units across both shocks and additional independent instruments for the credit and labor channels, require data not present in the current replication archive and are noted as directions for future work.
+
+**Overvaluation and the recovery typology.** Table D1 reports, as descriptive context, the joint distribution of k-means recovery-typology cluster membership and the 2007 price-to-income (P/I) ratio quartile, for the 1,068 PUMAs with both a valid P/I ratio and a cluster assignment. It shows that pre-crisis overvaluation and chronic non-recovery are largely separate phenomena: the formerly overvalued, top-P/I-quartile markets are concentrated in the Below-Average and Above-Average/Boom clusters, not in the Persistently Depressed cluster. This is descriptive only and is not used for causal inference; the P/I-ratio instrument it derives from is the weaker design documented in Appendix E.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption*{Table D1: K-Means Cluster Membership by 2007 Price-to-Income Ratio Quartile}
+\label{tbl:overvalued}
+\small
+\begin{tabular}{lcc}
+\toprule
+K-Means Cluster & Bottom 3 quartiles of P/I ($N=801$) & Top quartile of P/I ($N=267$) \\
+\midrule
+Persistently Depressed  & 541 (67.5\%) & 42 (15.7\%) \\
+Below-Average Recovery  & 186 (23.2\%) & 114 (42.7\%) \\
+Above-Average Recovery  & 4 (0.5\%)    & 66 (24.7\%) \\
+Boom Markets            & 70 (8.7\%)   & 45 (16.9\%) \\
+\bottomrule
+\multicolumn{3}{l}{\footnotesize \textit{Note:} Cell entries are PUMA counts with column percentages in parentheses.} \\
+\multicolumn{3}{l}{\footnotesize Top-quartile P/I PUMAs are concentrated in the Below-Average Recovery and} \\
+\multicolumn{3}{l}{\footnotesize Above-Average/Boom clusters, not the Persistently Depressed cluster.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+**Table D1: K-Means Cluster Membership by 2007 Price-to-Income Ratio Quartile**
+
+| K-Means Cluster | Bottom 3 quartiles of P/I (N=801) | Top quartile of P/I (N=267) |
+|:-----|------:|------:|
+| Persistently Depressed | 541 (67.5%) | 42 (15.7%) |
+| Below-Average Recovery | 186 (23.2%) | 114 (42.7%) |
+| Above-Average Recovery | 4 (0.5%) | 66 (24.7%) |
+| Boom Markets | 70 (8.7%) | 45 (16.9%) |
+
+*Cell entries are PUMA counts with column percentages in parentheses.*
+:::
+
+\newpage
+
+# Appendix E: Superseded and Weaker Identification Strategies {.unnumbered}
+
+This appendix documents two earlier and weaker instruments that the county-level design of Section 7 supersedes. They are reported in full so readers can see exactly why the headline causal estimate moved, and why the striking positive "sign reversal" of an earlier draft does not survive a credible design.
+
+## E.1 PUMA Price-to-Income Instrument (Superseded) {.unnumbered}
+
+An earlier version of this paper identified recession severity at the PUMA level by instrumenting the 2007--2009 percent change in home value with the 2007 local price-to-income (P/I) ratio, a proxy for pre-crisis overvaluation, controlling for the log 2007 home value, for 1,076 PUMAs with complete data. The first stage clears the classical relevance threshold (F = 15.1, or 13.8 without controls) with the expected negative sign (FS coefficient $-1.79$), but this relevance is fragile: the first-stage F falls to about 6.0 under heteroskedasticity-robust errors and about 2.8 under state clustering, both below the conventional value of 10. Against an OLS slope of $-0.181$, the 2SLS point estimate is $+0.802$ without state fixed effects and $+0.561$ with them, a sign reversal. That reversal is in the point estimate only. It is significant under classical errors but not under heteroskedasticity-robust errors (HC1 SE = 0.562 and 0.467), and it is unstable across spatial variance estimators, significant under state clustering and a 500 km Conley cutoff but not a 200 km cutoff. It also fails two qualifying checks: dropping 125 major coastal and technology-hub metro PUMAs flips the 2SLS coefficient to $-0.504$ and the Wu-Hausman test no longer rejects OLS (p = 0.183), and a placebo using the 2012--2019 window yields $-2.150$, the same sign as OLS.
+
+Three problems motivated abandoning this design in favor of the county-level analysis. First, the instrument is weak under any robust inference. Second, it shares the self-reported 2007 home value with the base of the treatment variable, so part of the first stage is mechanical mean reversion and self-report measurement error rather than a clean economic channel. Third, the 2000-to-2010 PUMA boundary revision injects geographic noise into the pre-2012 panel. The county-level Bartik-plus-HMDA design in Section 7 fixes all three: strong instruments (joint F = 22.7), instruments measured independently of the FHFA price index, and geographically stable counties. Reassuringly, the credible design returns a 2SLS estimate ($-0.233$) with the same sign as OLS, confirming that the positive reversal reported here was an artifact of the weak instrument rather than a feature of the data.
+
+## E.2 State-Level FHFA Instrument (Weak Instrument, Suggestive Only) {.unnumbered}
+
+The state-level income-group analysis uses the percentage change in the FHFA All-Transactions House Price Index from 2003Q4 to 2007Q4 as an instrument for recession severity, separately by income group. As Table E1 shows, this instrument is weak: first-stage F-statistics of 4.1, 3.8, and 0.1 for the low-, middle-, and high-income groups fall well below the conventional relevance threshold of 10 (@staiger1997). The corresponding 2SLS estimates in Table E2 have wide confidence intervals and unstable signs across income groups, the signature of a weak-instrument problem rather than genuine heterogeneity in the treatment effect. These estimates are reported for transparency only and should not be used for causal inference. Future work with a stronger state-level instrument, such as the pre-crisis share of adjustable-rate mortgages from HMDA data, could improve precision at this level of aggregation.
+
+::: {.content-visible when-format="pdf"}
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption*{Table E1: First-Stage Diagnostics, State-Level FHFA Instrument}
+\label{tbl:firststage_state}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Income Group & Instrument & $N$ & FS Coeff. & FS SE & F-Stat & $R^2$ \\
+\midrule
+Low income    & FHFA HPI apprec.\ 2003Q4--2007Q4 & 51 & $-$0.151 & 0.074 & 4.1 & 0.078 \\
+Middle income & FHFA HPI apprec.\ 2003Q4--2007Q4 & 51 & $-$0.133 & 0.068 & 3.8 & 0.072 \\
+High income   & FHFA HPI apprec.\ 2003Q4--2007Q4 & 51 & $-$0.028 & 0.080 & 0.1 & 0.002 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize \textit{Note:} First stage: 2007--2009 pct.\ change regressed on FHFA pre-crisis HPI appreciation.} \\
+\multicolumn{7}{l}{\footnotesize Conventional weak-instrument threshold: F $>$ 10.} \\
+\end{tabular}
+\end{table}
+```
+```{=latex}
+\begin{table}[htbp]
+\centering
+\caption*{Table E2: OLS and 2SLS Estimates, State-Level FHFA Instrument (Weak Instrument)}
+\label{tbl:iv_state}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Income Group & $N$ & Instrument & OLS $\hat{\beta}$ & 2SLS $\hat{\beta}$ & 2SLS SE & Wu-Hausman $p$ \\
+\midrule
+Low income    & 51 & FHFA HPI & $-$0.022 & $-$0.594 & 0.924 & 0.454 \\
+Middle income & 51 & FHFA HPI & $-$0.240 & $+$0.003 & 1.016 & 0.625 \\
+High income   & 51 & FHFA HPI & $-$0.222 & $-$3.820 & 10.37 & 0.302 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize \textit{Note:} Outcome = pct.\ change in state-income-group weighted mean home value, 2019--2021.} \\
+\multicolumn{7}{l}{\footnotesize Endogenous variable = pct.\ change, 2007--2009. Instrument is weak (F $<$ 5 for all groups);} \\
+\multicolumn{7}{l}{\footnotesize estimates are suggestive only and not used for causal inference.} \\
+\end{tabular}
+\end{table}
+```
+:::
+
+::: {.content-visible when-format="docx"}
+**Table E1: First-Stage Diagnostics, State-Level FHFA Instrument**
+
+| Income Group | Instrument | N | FS Coeff. | FS SE | F-Stat | R-sq |
+|:------|:-----------|--:|----------:|------:|-------:|-----:|
+| Low income | FHFA HPI apprec. 2003Q4-2007Q4 | 51 | -0.151 | 0.074 | 4.1 | 0.078 |
+| Middle income | FHFA HPI apprec. 2003Q4-2007Q4 | 51 | -0.133 | 0.068 | 3.8 | 0.072 |
+| High income | FHFA HPI apprec. 2003Q4-2007Q4 | 51 | -0.028 | 0.080 | 0.1 | 0.002 |
+
+*Conventional weak-instrument threshold: F > 10.*
+
+**Table E2: OLS and 2SLS Estimates, State-Level FHFA Instrument (Weak Instrument)**
+
+| Income Group | N | Instrument | OLS Beta | 2SLS Beta | 2SLS SE | WH p-val |
+|:------------|--:|:----------|--------:|----------:|--------:|--------:|
+| Low income | 51 | FHFA HPI | -0.022 | -0.594 | 0.924 | 0.454 |
+| Middle income | 51 | FHFA HPI | -0.240 | +0.003 | 1.016 | 0.625 |
+| High income | 51 | FHFA HPI | -0.222 | -3.820 | 10.37 | 0.302 |
+
+*Instrument is weak (F < 5 for all groups); estimates are suggestive only and not used for causal inference.*
+:::

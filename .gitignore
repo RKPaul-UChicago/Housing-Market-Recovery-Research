@@ -5,8 +5,9 @@
 !/data and Replication codes/
 !/Research Report/
 
-# Keep this .gitignore tracked
+# Keep this .gitignore and the homepage README tracked
 !/.gitignore
+!/README.md
 
 # Junk files anywhere (including inside the tracked folders)
 .DS_Store
